@@ -68,9 +68,9 @@ body {
     /* margin: 0 auto; */
     /* background: #fff; */
     display: flex;
-  justify-content: flex-start;
-  flex-wrap: nowrap;
-};
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
   /* flex-wrap: nowrap; */
   justify-content: flex-start;
 }
@@ -244,4 +244,134 @@ nav.nav-shift ul li.active a {
   color: #fff;
   margin: 0 4px;
   font-size: 20px;
+}
+/* =======banner color========= */
+section.banner-part {
+  position: relative;
+  height: 80%;
+}
+.carousel-item.banner-element img {
+  height: 50rem;
+  object-fit: cover;
+  background-color: hwb(0 0% 100% / 0.4);
+}
+
+.carousel-item.banner-element::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hwb(213.71deg 10.59% 48.24% / 49%);
+}
+/* =========text slider flip========== */
+.text-flip {
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 25rem;
+  right: 25rem;
+  z-index: 1;
+  color: #fff;
+}
+.changebox {
+  margin: 0 5px;
+  color: #ff5722;
+  overflow: hidden;
+  transition: 0.5s;
+  white-space: nowrap;
+}
+/* ========company services css start========= */
+.services-img i {
+  font-size: 3rem;
+  color: #fff;
+}
+.company-services-box {
+  display: flex;
+  position: relative;
+  margin: 2rem;
+  margin-left: 14px;
+}
+.service-info span {
+  color: #e5b759;
+  font-size: 26px;
+  font-weight: 500;
+}
+.service-info {
+  margin-left: 30px;
+  text-align: justify;
+}
+.service-info::before {
+  content: '';
+  height: 8rem;
+  border-left: 4px solid #deaa6d;
+  margin: 12px;
+  display: inline-flex;
+  position: absolute;
+  left: 58px;
+}
+
+.services-box-wrapper {
+  background: #1a5096;
+}
+section.company-services {
+  /* background: #1a5096; */
+  height: 20rem;
+  position: absolute;
+  top: 58rem;
+  z-index: 1;
+  right: 7rem;
+}
+.service-info p {
+  color: #fff;
+}
+section.about-good-men-moving {
+  margin-top: 14rem;
+}
+.img-good-men-moving img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.img-good-men-moving img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hwb(213.71deg 10.59% 48.24% / 49%);
+}
+
+.about-gmm-info span {
+  color: #83bfed;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 4;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.about-gmm-info h2 {
+  color: #0c3e65;
+  font-family: poppins, sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.1em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.about-gmm-info {
+  margin-left: 1rem;
+}
+
+.about-gmm-info p {
+  color: #222222bd;
 }
