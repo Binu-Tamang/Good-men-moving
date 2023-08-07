@@ -316,7 +316,6 @@ section.banner-part {
   position: absolute;
   left: 58px;
 }
-
 .services-box-wrapper {
   background: #1a5096;
 }
@@ -338,7 +337,6 @@ section.about-good-men-moving {
   width: 100%;
   object-fit: cover;
 }
-
 .img-good-men-moving img::before {
   content: "";
   position: absolute;
@@ -348,8 +346,7 @@ section.about-good-men-moving {
   height: 100%;
   background-color: hwb(213.71deg 10.59% 48.24% / 49%);
 }
-
-.about-gmm-info span {
+span.good-men-moving {
   color: #83bfed;
   font-size: 18px;
   font-weight: 500;
@@ -357,8 +354,7 @@ section.about-good-men-moving {
   letter-spacing: 2px;
   word-spacing: 2px;
 }
-
-.about-gmm-info h2 {
+h2.good-men-h2 {
   color: #0c3e65;
   font-family: poppins, sans-serif;
   font-size: 4rem;
@@ -367,11 +363,195 @@ section.about-good-men-moving {
   letter-spacing: 1px;
   word-spacing: 2px;
 }
-
 .about-gmm-info {
   margin-left: 1rem;
 }
-
 .about-gmm-info p {
   color: #222222bd;
+}
+/* ================= */
+.about-box {
+  display: inline-flex;
+  margin: 14px 30px 14px 0;
+}
+.about-box i {
+  font-size: 30px;
+  margin-right: 8px;
+  color: #83bfed;
+}
+.about-icon {
+  margin-top: 16px;
+}
+.about-box h3 {
+  font-family: poppins, sans-serif;
+  color: #0c3e65;
+  font-weight: 700;
+}
+.about-gmm-info ul li {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 2;
+  word-spacing: 1.1px;
+  letter-spacing: 1px;
+}
+.about-gmm-info ul li::before {
+  content: '\2713\0020';
+  margin-right: 6px;
+  font-weight: 600;
+  color: #83bfed;
+}
+.about-gmm-info ul {
+  margin: 0;
+  padding: 0;
+}
+button.about-btn {
+  font-family: "poppins", Sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2;
+  letter-spacing: 1.1px;
+  word-spacing: 1.1px;
+  background: #0c3e65;
+  color: #fff;
+  padding: 7px 25px;
+  border: 2px solid #0c3e65;
+  margin-top: 3rem;
+  transition: 0.3s ease;
+}
+button.about-btn:hover {
+  background: transparent;
+  color: #0c3e65;
+  transition: 0.3s ease;
+}
+/* =========why choose good men moving css========= */
+p.good-man-moving-p {
+  line-height: 2;
+  letter-spacing: 1.1px;
+  font-weight: 500;
+  color: #222222bd;
+  /* margin-top: 74px; */
+}
+section.choosen-part {
+  margin-top: 5rem;
+  background-position: bottom;
+  animation: 4s linear 0s infinite bp;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='69.141' height='40' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M69.212 40H46.118L34.57 20 46.118 0h23.094l11.547 20zM57.665 60H34.57L23.023 40 34.57 20h23.095l11.547 20zm0-40H34.57L23.023 0 34.57-20h23.095L69.212 0zM34.57 60H11.476L-.07 40l11.547-20h23.095l11.547 20zm0-40H11.476L-.07 0l11.547-20h23.095L46.118 0zM23.023 40H-.07l-11.547-20L-.07 0h23.094L34.57 20z'  stroke-width='1' stroke='hsla(0, 0%, 95%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-92,-128)' fill='url(%23a)'/></svg>");
+}
+@keyframes bp {
+from {
+  background-position:  198px 0;
+}
+to {
+  background-position:  0 198px;
+}
+}
+section.choosen-part img {
+  width: 90px;
+}
+.choose-3-boxes h3 {
+  color: #1c3c66;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1em;
+  letter-spacing: 1.1px;
+  word-spacing: 1.1px;
+  margin: 1rem 0;
+}
+.choose-up-right p {
+  margin-top: 74px;
+}
+.call-us-now {
+  color: #fff;
+  background: #1c3c66;
+  height: 250px;
+  border-radius: 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.call-us-now h4 {
+  font-size: 33px;
+  padding: 24px;
+  font-weight: 700;
+  line-height: 1.1em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  padding-top: 60px;
+}
+
+.call-us-now a {
+  text-decoration: none;
+  color: #83bfed;
+  font-size: 25px;
+  padding: 24px;
+  font-weight: 700;
+  line-height: 1.1em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.choose-3-boxes {
+  margin-top: 2rem;
+}
+.call-us-now::after {
+  content: '';
+  border: 5px solid #1c3c66;
+  height: 250px;
+  width: 248px;
+  position: absolute;
+  top: 18px;
+  right: -19px;
+  border-radius: 12px;
+  z-index: -1;
+}
+/* =========our services css starts========== */
+.our-services-boxes img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  padding: 12px;
+}
+.our-services-boxes {
+  background: #1c3c66;
+  color: #83bfed;
+}
+.our-services-boxes h5 {
+  font-size: 24px;
+  text-align: center;
+  padding: 0 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 1.1em;
+  letter-spacing: 1.1px;
+  word-spacing: 1.1px;
+  margin: 1rem 0;
+}
+.our-services-boxes p {
+  color: #fff;
+  text-align: center;
+  padding: 0 14px;
+}
+.our-services-boxes a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 2;
+  letter-spacing: 1.1px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+.our-services-boxes {
+  text-align: center;
+}
+.our-services-boxes a i {
+  background: #fff;
+  color: #1c3c66;
+  padding: 2px;
+  border-radius: 10px;
+  font-size: 14px;
 }

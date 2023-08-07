@@ -46,7 +46,7 @@
       </div>
     </div>
     <div class="text-flip">
-      <p class="">
+      <p>
         We are</p>
       <div class="changebox">
         <span>best</span><br>
@@ -116,40 +116,125 @@
         </div>
         <div class="col-md-6">
           <div class="about-gmm-info">
-            <span>About Good Men Moving</span>
-            <h2>We're Your Moving Partner</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum libero sit amet tellus lacinia, id
-              hendrerit mi lobortis. Maecenas in mi ex. </p>
+            <span class="good-men-moving">About Good Men Moving</span>
+            <h2 class="good-men-h2">We're Your Moving Partner</h2>
+            <p class="good-man-moving-p">Good Men Moving Company is a Family-Owned Moving Company in Edmonton serving
+              Edmonton from last over 25
+              Years. </p>
             <div class="about-icon">
-              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">
-              <i class="fa-solid fa-users"></i>
-                  </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
-              <i class="fa-solid fa-truck"></i>
-                  </button>
-                </li>
-              </ul>
-              <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                  ...</div>
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...
-                </div>
-                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...
-                </div>
+              <div class="about-box">
+                <i class="fa-solid fa-users"></i>
+                <h3>Local Moves</h3>
+              </div>
+              <div class="about-box">
+                <i class="fa-solid fa-truck"></i>
+                <h3>Office Moves</h3>
               </div>
             </div>
             <ul>
               <li>Bringing solutions to moving problems</li>
-              <li>Enter the list of the 10 Best Moving Service Companies</li>
-              <li>Our company has 350 professionals</li>
+              <li>Packing and unpacking</li>
+              <li>No minimum charge & affordable rates</li>
+              <li>Professional Edmonton Movers</li>
+              <li>Cross-Town Moving, Long Distance Moving</li>
             </ul>
             <button class="about-btn">Read More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="choosen-part">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="choose-up-left">
+            <span class="good-men-moving">Why Good Men Moving</span>
+            <h2 class="good-men-h2">We’re Chosen by Professionals</h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="choose-up-right">
+            <p class="good-man-moving-p">Good Men Moving Company Your Trusted Family-Owned Edmonton Movers for Over 25
+              Years At Good Men Moving
+              Company, we take pride in being a family-owned Edmonton moving company that has been serving the community
+              for over 25 years.
+              <br>
+              When you choose us, you can trust that you are in capable hands. Our crews consist of highly trained and
+              experienced professional Edmonton movers who are committed to delivering exceptional service.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="choose-3-boxes">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="assets/img/003-discount-label-interface-commercial-symbol-with-percentage-sign.png"
+              alt="discount tag">
+            <h3>DISCOUNTED PACKING SUPPLIES</h3>
+            <p class="good-man-moving-p">We are thrilled to introduce an exciting new offering that will make your
+              moving and loading experiences
+              even more convenient and cost-effective our range of Discounted Packing Supplies.</p>
+          </div>
+          <div class="col-md-3">
+            <img src="assets/img/002-insurance-agent.png" alt="insurrance people">
+            <h3>INSURANCE AND SERVICE CONTRACTS</h3>
+            <p class="good-man-moving-p">We prioritize the security of your belongings, which is why we offer
+              comprehensive Insurance and Service
+              Contracts to provide you with peace of mind during the moving process.</p>
+          </div>
+          <div class="col-md-3">
+            <img src="assets/img/007-placeholder-with-check-mark.png" alt="">
+            <h3>CROSS-TOWN MOVING, LONG DISTANCE MOVING</h3>
+            <p class="good-man-moving-p">Our commitment to excellence and customer satisfaction remains unwavering as we
+              introduce our specialized
+              services for Cross-Town Moving and Long-Distance Moving.</p>
+          </div>
+          <div class="col-md-3">
+            <div class="call-us-now">
+              <h4>Call Us Now!</h4>
+              <a href="tel:780-937-6666"><i class="fa-solid fa-phone"></i> 780-937-6666</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="goodmen-our-services">
+    <span class="good-men-moving">Good Men Moving</span>
+    <h4>Our Services</h4>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="our-services-boxes">
+            <img src="assets/img/residential_moving.jpg" alt="residential moving">
+            <h5>Local Moves</h5>
+            <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+            <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3">
+        <div class="our-services-boxes">
+            <img src="assets/img/uship-investment-tracker.jpg" alt="truck carrying loads">
+            <h5>Long Distance Moves</h5>
+            <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+            <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3">
+        <div class="our-services-boxes">
+            <img src="assets/img/corporate.jpg" alt="office building">
+            <h5>Offices Moves</h5>
+            <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+            <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3">
+        <div class="our-services-boxes">
+            <img src="assets/img/img4.jpg" alt="residential moving">
+            <h5>Commercial Moves</h5>
+            <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+            <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
