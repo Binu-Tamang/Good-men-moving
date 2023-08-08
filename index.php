@@ -205,38 +205,50 @@
     <h4>Our Services</h4>
     <div class="container">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="our-services-boxes">
             <img src="assets/img/residential_moving.jpg" alt="residential moving">
             <h5>Local Moves</h5>
-            <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+            <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
+              nec.</p>
             <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
-        <div class="col-md-3">
-        <div class="our-services-boxes">
+        <div class="col-md-4">
+          <div class="our-services-boxes">
             <img src="assets/img/uship-investment-tracker.jpg" alt="truck carrying loads">
             <h5>Long Distance Moves</h5>
-            <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+            <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
+              nec.</p>
             <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
-        <div class="col-md-3">
-        <div class="our-services-boxes">
+        <div class="col-md-4">
+          <div class="our-services-boxes">
             <img src="assets/img/corporate.jpg" alt="office building">
             <h5>Offices Moves</h5>
-            <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+            <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
+              nec.</p>
             <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
-        <div class="col-md-3">
-        <div class="our-services-boxes">
-            <img src="assets/img/img4.jpg" alt="residential moving">
-            <h5>Commercial Moves</h5>
-            <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
-            <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-          </div>
-        </div>
+      </div>
+      <div class="our-services-btn">
+        <button>View More <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </section>
+  <section class="good-men-testimonials">
+    <div class="conttainer">
+      <div class="review-box">
+        <span class="good-men-moving">TESTIMONIAL</span>
+        <ul class="testimonials-rating">
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+        </ul>
+        <h5>Our Reviews</h5>
       </div>
     </div>
   </section>

@@ -12,6 +12,7 @@ $(document).ready(function(){
     ChangeSize(0);
     setInterval(Next,2000);
     
+    
     function Next(){
        if( typeof Next.i == 'undefined' ) {
          Next.i = 0;
