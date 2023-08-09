@@ -11,6 +11,9 @@
 <script src="assets/js/magnific-popup.js"></script>
 <!-- Aos script -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- Owl js -->
+<script src="assets/plugins/owl/js/owl.carousel.min.js"></script>
+
 <!-- custom js -->
 <script src="assets/js/custom.js"></script>
 

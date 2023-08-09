@@ -239,16 +239,116 @@
     </div>
   </section>
   <section class="good-men-testimonials">
-    <div class="conttainer">
+    <div class="container">
       <div class="review-box">
         <span class="good-men-moving">TESTIMONIAL</span>
-        <ul class="testimonials-rating">
-          <li><i class="fa-solid fa-star"></i></li>
-          <li><i class="fa-solid fa-star"></i></li>
-          <li><i class="fa-solid fa-star"></i></li>
-          <li><i class="fa-solid fa-star"></i></li>
-        </ul>
         <h5>Our Reviews</h5>
+      </div>
+      <div class="review-slider">
+        <div class="owl-carousel owl-theme">
+          <div class="item review-info">
+            <h6>Mona Ismaeil</h6>
+            <p>John and his guys did a great job! They were very professional, very pleasant, worked very quickly and
+              efficiently. They also took such good care of our things.</p>
+            <ul class="testimonials-rating">
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="item review-info">
+            <h6>Darren Anderson</h6>
+            <p>2 weeks agoNEW
+              Fantastic to deal with. They had our entire place loaded, moved, and unpacked in under 5 hours. They were
+              very respectful of our things, and took apart/rebuilt our kitchen table and shelving units to take up less
+              space in the truck. </p>
+            <ul class="testimonials-rating">
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="item review-info">
+            <h6>MITCHELL COUTURE</h6>
+            <p>Positive: Professionalism, Quality, Responsiveness, Value
+              These guys were great!! I had a special request to move a vary large and fragile fish tank system and they
+              were able to accommodate. Extremely professional and helped with the whole process, prepping doors and
+              railing for the move and installation of them when they were done. </p>
+            <ul class="testimonials-rating">
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="item review-info">
+            <h6>Nadeem Ashraf</h6>
+            <p>Positive: Professionalism, Quality, Responsiveness, Value
+              Professional, honest and hardworking guys. They came exactly on time and got the job done in few hours.
+              Definitely would recommend if you are looking for a reliable movers.</p>
+            <ul class="testimonials-rating">
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="item review-info">
+            <h6>Kathryn Jones</h6>
+            <p>Unfortunate experince but good movers. They didnt take mastercard. They cost as much as my move from
+              Innisfail to Sherwood Park and they didnt even travel far. Price was extremely disappointing for being in
+              town. </p>
+            <ul class="testimonials-rating">
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="item review-info">
+            <h6>Lejon Brames</h6>
+            <p>We called this guy late afternoon on a Sunday and he was at our door 45 minutes later with bells on. We
+              were in a tight spot and he rounded up his own family to help us. He had us fully moved out of a 5000
+              square foot house in under.</p>
+            <ul class="testimonials-rating">
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="item review-info">
+            <h6>Jesseca Van Wert</h6>
+            <p>Looking for a fantastic set of movers? Look no further!</p>
+            <ul class="testimonials-rating">
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="item review-info">
+            <h6>Adrienne Paul</h6>
+            <p>Amazing company hands down. Do recommend. 5 stars just isn't enough. Nice guys with great attitudes! Hard
+              to find that anywhere else</p>
+            <ul class="testimonials-rating">
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </section>
