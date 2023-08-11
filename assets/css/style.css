@@ -288,50 +288,47 @@ section.banner-part {
   white-space: nowrap;
 }
 /* ========company services css start========= */
-.services-img i {
-  font-size: 3rem;
-  color: #fff;
-}
+
 .company-services-box {
-  display: flex;
-  position: relative;
-  margin: 2rem;
-  margin-left: 14px;
+  text-align: center;
 }
+
+.services-box-wrapper {
+  box-shadow: 0px 0px 10px rgba(0 0 0 / 15%);
+  background: #fff;
+  justify-content: end;
+}
+
+
+section.company-services {height: 20rem;position: absolute;top: 58rem;z-index: 1;right: 7rem;/* background: #fff; *//* box-shadow: 0px 0px 10px rgba(0 0 0 / 15%); */}
+
+.services-img i {
+  font-size: 2rem;
+  padding: 10px 0;
+}
+
 .service-info span {
   color: #e5b759;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  line-height: 0;
 }
-.service-info {
-  margin-left: 30px;
-  text-align: justify;
-}
-.service-info::before {
-  content: "";
-  height: 8rem;
-  border-left: 4px solid #deaa6d;
-  margin: 12px;
-  display: inline-flex;
-  position: absolute;
-  left: 58px;
-}
-.services-box-wrapper {
-  background: #1a5096;
-}
-section.company-services {
-  /* background: #1a5096; */
-  height: 20rem;
-  position: absolute;
-  top: 58rem;
-  z-index: 1;
-  right: 7rem;
-}
+
 .service-info p {
-  color: #fff;
+  /* line-height: 2; */
+  letter-spacing: 1.1px;
+  font-weight: 500;
+  color: #222222bd;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+/* ======about good men moving css starts==== */
 section.about-good-men-moving {
-  margin-top: 14rem;
+  margin: 14rem 0 5rem 0;
 }
 .img-good-men-moving img {
   width: 100%;
@@ -434,7 +431,7 @@ p.good-man-moving-p {
   /* margin-top: 74px; */
 }
 section.choosen-part {
-  margin-top: 5rem;
+  padding: 3rem 0 5rem 0;
   background-position: bottom;
   animation: 4s linear 0s infinite bp;
   display: flex;
@@ -564,7 +561,7 @@ section.goodmen-our-services {
     url(../img/umzug-per-spedition.jpg);
   padding: 5rem 0;
   text-align: center;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
 }
 section.goodmen-our-services span {
   font-size: 22px;
@@ -593,7 +590,7 @@ section.goodmen-our-services h4 {
   color: #fff;
   padding: 7px 25px;
   border: 2px solid #e5b759;
-  margin-top: 3rem;
+  margin-top: 2rem;
   transition: ease 0.3s;
 }
 .our-services-btn button:hover {
@@ -602,10 +599,12 @@ section.goodmen-our-services h4 {
 /* =======testimonials css starts======= */
 section.good-men-testimonials {
   text-align: center;
-  margin-top: 4rem;
+  padding: 4rem 0;
+  animation: bp 4s linear infinite;
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='69.141' height='40' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M69.212 40H46.118L34.57 20 46.118 0h23.094l11.547 20zM57.665 60H34.57L23.023 40 34.57 20h23.095l11.547 20zm0-40H34.57L23.023 0 34.57-20h23.095L69.212 0zM34.57 60H11.476L-.07 40l11.547-20h23.095l11.547 20zm0-40H11.476L-.07 0l11.547-20h23.095L46.118 0zM23.023 40H-.07l-11.547-20L-.07 0h23.094L34.57 20z'  stroke-width='1' stroke='hsla(0, 0%, 95%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-92,-128)' fill='url(%23a)'/></svg>");
 }
 .review-box h5 {
-  color: #26559f;
+  color: #0c3e65;
   font-size: 4rem;
   font-family: 'Poppins',sans-serif;
   letter-spacing: 3px;
@@ -616,16 +615,49 @@ section.good-men-testimonials {
 ul.testimonials-rating li {
   display: inline-flex;
   list-style: none;
-  color: orange;
+  color: #E4B248;
   margin: 0;
   padding: 0;
 }
 ul.testimonials-rating {
   text-align: center;
-  margin: 0;
+  margin: 10px;
   padding: 0;
 }
 .review-box {
   position: relative;
 }
 /* =======review card slider css starts ===== */
+.item.review-info p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  padding: 0 10px;
+  line-height: 1.55;
+  /* text-align: left; */
+  max-width: 32em;
+  margin: auto;
+}
+.item.review-info {
+  padding: 10px;
+  /* border: 2px solid #e5b759; */
+  border-radius: 10px;
+  height: 250px;
+  margin-top: 10px;
+  color: #fff;
+  background: #26559f;
+}
+.item.review-info h6 {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+.item.review-info i.fa-solid.fa-quote-right {
+  font-size: 50px;
+  color: #fff;
+  padding: 4px 18px;
+}

@@ -16,5 +16,6 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!-- owl css -->
 <link rel="stylesheet" href="assets/plugins/owl/css/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/plugins/owl/css/owl.theme.default.min.css">
 <!-- style css -->
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
