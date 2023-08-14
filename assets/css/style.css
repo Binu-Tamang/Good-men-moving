@@ -282,7 +282,7 @@ section.banner-part {
 }
 .changebox {
   margin: 0 5px;
-  color: #ff5722;
+  color: #e5b759;
   overflow: hidden;
   transition: 0.5s;
   white-space: nowrap;
@@ -306,10 +306,11 @@ section.company-services {height: 20rem;position: absolute;top: 58rem;z-index: 1
 .services-img i {
   font-size: 2rem;
   padding: 10px 0;
+  color: #0c3e65;
 }
 
 .service-info span {
-  color: #e5b759;
+  color: #0c3e65;
   font-size: 22px;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
@@ -333,7 +334,41 @@ section.about-good-men-moving {
 }
 .img-good-men-moving img {
   width: 100%;
+}
+.about-img-right {
+  width: 100%;
+  position: relative;
+}
+.about-img-right img {
+  position: absolute;
+  top: -149px;
+  right: -17rem;
+  height: 25rem;
+  width: 95%;
   object-fit: cover;
+}
+.abou-img-left {
+  position: relative;
+}
+.abou-img-left img {
+  height: 25rem;
+  width: 95%;
+  object-fit: cover;
+}
+.abou-img-left::before {
+  /* background: #0c3e65; */
+  content: "";
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 10rem;
+  right: 0;
+  bottom: 0;
+  left: 8rem;
+  z-index: -1;
+  /* border-radius: 4px; */
+  border: 20px solid #0c3e65;
 }
 .img-good-men-moving img::before {
   content: "";
@@ -355,11 +390,12 @@ span.good-men-moving {
 h2.good-men-h2 {
   color: #0c3e65;
   font-family: poppins, sans-serif;
-  font-size: 4rem;
+  font-size: 48px;
   font-weight: 700;
   line-height: 1.1em;
   letter-spacing: 1px;
   word-spacing: 2px;
+  padding-right: 8rem;
 }
 .about-gmm-info {
   margin-left: 1rem;
@@ -384,6 +420,7 @@ h2.good-men-h2 {
   font-family: poppins, sans-serif;
   color: #0c3e65;
   font-weight: 700;
+  font-size: 24px;
 }
 .about-gmm-info ul li {
   list-style: none;
@@ -454,7 +491,7 @@ section.choosen-part img {
 .choose-3-boxes h3 {
   color: #1c3c66;
   font-family: "Poppins", sans-serif;
-  font-size: 2rem;
+  font-size: 24px;
   font-weight: 600;
   line-height: 1.1em;
   letter-spacing: 1.1px;
@@ -522,7 +559,7 @@ section.choosen-part img {
   margin-top: 1rem;
   padding-bottom: 1rem;
   text-align: center;
-  transition: linear 0.3s;
+  cursor: pointer;
 }
 .our-services-boxes h5 {
   font-size: 24px;
@@ -569,7 +606,7 @@ section.goodmen-our-services span {
 }
 section.goodmen-our-services h4 {
   color: #fff;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: 'Poppins',sans-serif;
   letter-spacing: 3px;
   font-weight: 700;
@@ -661,4 +698,8 @@ ul.testimonials-rating {
   font-size: 50px;
   color: #fff;
   padding: 4px 18px;
+}
+/* ====about review dots==== */
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #26559f;   
 }

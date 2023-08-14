@@ -139,7 +139,7 @@
             </div>
           </div>
           <div class="col-md-1">
-            
+
           </div>
         </div>
       </div>
@@ -153,7 +153,16 @@
       <div class="row">
         <div class="col-md-6">
           <div class="img-good-men-moving">
-            <img src="assets/img/slider/3men.jpg" alt="3 men">
+            <div class="col-md-6">
+              <div class="abou-img-left">
+                <img src="assets/img/shutterstock_295477172.jpg" alt="3 men">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="about-img-right">
+                <img src="assets/img/slider/sv8.jpg" alt="3 men">
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-md-6">
@@ -298,7 +307,7 @@
       <div class="review-slider">
         <div class="owl-carousel owl-theme">
           <div class="item review-info">
-          <i class="fa-solid fa-quote-right"></i>
+            <i class="fa-solid fa-quote-right"></i>
             <h6>Mona Ismaeil</h6>
             <p>John and his guys did a great job! They were very professional, very pleasant, worked very quickly and
               efficiently. They also took such good care of our things.</p>
@@ -311,7 +320,7 @@
             </ul>
           </div>
           <div class="item review-info">
-          <i class="fa-solid fa-quote-right"></i>
+            <i class="fa-solid fa-quote-right"></i>
             <h6>Darren Anderson</h6>
             <p>2 weeks agoNEW
               Fantastic to deal with. They had our entire place loaded, moved, and unpacked in under 5 hours. They were
@@ -326,7 +335,7 @@
             </ul>
           </div>
           <div class="item review-info">
-          <i class="fa-solid fa-quote-right"></i>
+            <i class="fa-solid fa-quote-right"></i>
             <h6>MITCHELL COUTURE</h6>
             <p>Positive: Professionalism, Quality, Responsiveness, Value
               These guys were great!! I had a special request to move a vary large and fragile fish tank system and they
@@ -341,7 +350,7 @@
             </ul>
           </div>
           <div class="item review-info">
-          <i class="fa-solid fa-quote-right"></i>
+            <i class="fa-solid fa-quote-right"></i>
             <h6>Nadeem Ashraf</h6>
             <p>Positive: Professionalism, Quality, Responsiveness, Value
               Professional, honest and hardworking guys. They came exactly on time and got the job done in few hours.
@@ -355,7 +364,7 @@
             </ul>
           </div>
           <div class="item review-info">
-          <i class="fa-solid fa-quote-right"></i>
+            <i class="fa-solid fa-quote-right"></i>
             <h6>Kathryn Jones</h6>
             <p>Unfortunate experince but good movers. They didnt take mastercard. They cost as much as my move from
               Innisfail to Sherwood Park and they didnt even travel far. Price was extremely disappointing for being in
@@ -369,7 +378,7 @@
             </ul>
           </div>
           <div class="item review-info">
-          <i class="fa-solid fa-quote-right"></i>
+            <i class="fa-solid fa-quote-right"></i>
             <h6>Lejon Brames</h6>
             <p>We called this guy late afternoon on a Sunday and he was at our door 45 minutes later with bells on. We
               were in a tight spot and he rounded up his own family to help us. He had us fully moved out of a 5000
@@ -383,7 +392,7 @@
             </ul>
           </div>
           <div class="item review-info">
-          <i class="fa-solid fa-quote-right"></i>
+            <i class="fa-solid fa-quote-right"></i>
             <h6>Jesseca Van Wert</h6>
             <p>Looking for a fantastic set of movers? Look no further!</p>
             <ul class="testimonials-rating">
@@ -395,7 +404,7 @@
             </ul>
           </div>
           <div class="item review-info">
-          <i class="fa-solid fa-quote-right"></i>
+            <i class="fa-solid fa-quote-right"></i>
             <h6>Adrienne Paul</h6>
             <p>Amazing company hands down. Do recommend. 5 stars just isn't enough. Nice guys with great attitudes! Hard
               to find that anywhere else</p>
