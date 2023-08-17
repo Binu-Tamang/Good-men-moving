@@ -69,6 +69,8 @@
   <section class="company-services">
     <div class="container">
       <div class="services-box-wrapper">
+        <span class="good-men-moving">Good Men Moving</span>
+        <h2 class="good-men-h2 p-0">"The Professional Muscular Edmonton Movers"</h2>
         <div class="row">
           <div class="col-md-1">
 
@@ -76,65 +78,65 @@
           <div class="col-md-2">
             <div class="company-services-box">
               <div class="services-img">
+                <i class="fa-solid fa-earth-americas"></i>
+              </div>
+              <div class="service-info">
+                <span class="heading-span">Residential Moving</span>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                  mattis.
+                </p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="company-services-box">
+              <div class="services-img">
+                <i class="fa-solid fa-building"></i>
+              </div>
+              <div class="service-info">
+                <span class="heading-span">Commercial Moving</span>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                  mattis.
+                </p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="company-services-box">
+              <div class="services-img">
+                <i class="fa-solid fa-boxes-packing"></i>
+              </div>
+              <div class="service-info">
+                <span class="heading-span">Packing Services</span>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                  mattis.
+                </p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="company-services-box">
+              <div class="services-img">
+                <i class="fa-solid fa-people-carry-box"></i>
+              </div>
+              <div class="service-info">
+                <span class="heading-span">Moving Supplies</span>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                  mattis.
+                </p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="company-services-box">
+              <div class="services-img">
                 <i class="fa-solid fa-truck-fast"></i>
               </div>
               <div class="service-info">
-                <span>We Make it Faster</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                <span class="heading-span">We Make it Faster</span>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
                   mattis.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="company-services-box">
-              <div class="services-img">
-                <i class="fa-solid fa-house-lock"></i>
-              </div>
-              <div class="service-info">
-                <span>We Make it Faster</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                  mattis.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="company-services-box">
-              <div class="services-img">
-                <i class="fa-solid fa-business-time"></i>
-              </div>
-              <div class="service-info">
-                <span>We Make it Faster</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                  mattis.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="company-services-box">
-              <div class="services-img">
-                <i class="fa-solid fa-truck-fast"></i>
-              </div>
-              <div class="service-info">
-                <span>We Make it Faster</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                  mattis.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="company-services-box">
-              <div class="services-img">
-                <i class="fa-solid fa-house-lock"></i>
-              </div>
-              <div class="service-info">
-                <span>We Make it Faster</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                  mattis.
-                </p>
+                </p> -->
               </div>
             </div>
           </div>
@@ -155,12 +157,12 @@
           <div class="img-good-men-moving">
             <div class="col-md-6">
               <div class="abou-img-left">
-                <img src="assets/img/shutterstock_295477172.jpg" alt="3 men">
+                <img src="assets/img/umzug-per-spedition.jpg" alt="3 men">
               </div>
             </div>
             <div class="col-md-6">
               <div class="about-img-right">
-                <img src="assets/img/slider/sv8.jpg" alt="3 men">
+                <img src="assets/img/packing-moving-box.jpg" alt="3 men">
               </div>
             </div>
           </div>
@@ -421,7 +423,65 @@
     </div>
   </section>
   <!-- testimonials ends -->
+  <!-- ======================= -->
+  <section class="contact-form">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-right">
+            <div class="container-form">
+              <h5>Contact Form</h5>
+              <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="our-info-form">
+            <span>Appointment</span>
+            <h5>Make An Appointment</h5>
+            <p>Fill in the form below to send us a message or to ask about any queries you might have.</p>
+          </div>
+          <div class="details-form">
+            <i class="fa-regular fa-comments"></i>
+            <p>
+            <h6>Customer Service</h6><a href="tel:780-937-6666">780-937-6666</a>
+            </p>
+          </div>
+          <div class="details-form">
+            <i class="fa-regular fa-comments"></i>
+            <p>
+            <h6>Our Address</h6><a href="#">6825 106 St, Edmonton, AB T6H 2W1</a>
+            </p>
+          </div>
+          <div class="details-form">
+            <i class="fa-regular fa-comments"></i>
+            <p>
+            <h6>Opening Hours</h6><a href="#">24 hours 7 days a Week</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======================= -->
   <!-- js link -->
   <?php
   include('inc/js.php')

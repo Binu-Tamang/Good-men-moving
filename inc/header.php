@@ -1,6 +1,11 @@
 <header class="main-heading">
     <div class="heading-1">
         <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    
+                </div>
+            </div>
             <ul>
                 <li class="li-h-1"><a href="https://www.facebook.com/profile.php?id=100089283152732"><i
                             class="fa-brands fa-facebook-f"></i></a>

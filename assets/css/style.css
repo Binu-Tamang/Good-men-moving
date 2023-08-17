@@ -298,22 +298,37 @@ section.banner-part {
   background: #fff;
   border-radius: 10px;
   padding: 18px 0;
+  text-align: center;
 }
 
-
-section.company-services {height: 20rem;position: absolute;top: 58rem;z-index: 1;right: 7rem;/* background: #fff; *//* box-shadow: 0px 0px 10px rgba(0 0 0 / 15%); */}
+section.company-services {
+  height: 20rem;
+  position: absolute;
+  top: 50rem;
+  z-index: 1;
+  right: 7rem; /* background: #fff; */ /* box-shadow: 0px 0px 10px rgba(0 0 0 / 15%); */
+}
 
 .services-img i {
   font-size: 2rem;
   padding: 10px 0;
-  color: #0c3e65;
+  color: #e5b759;
+  font-size: 4rem;
+  margin: 1rem;
+}
+.services-box-wrapper h2 {
+  padding: 0;
+  font-size: 38px;
 }
 
+section.company-services span {
+  line-height: 2;
+}
 .service-info span {
   color: #0c3e65;
   font-size: 22px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 0;
 }
 
@@ -328,9 +343,24 @@ section.company-services {height: 20rem;position: absolute;top: 58rem;z-index: 1
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.services-box-wrapper .good-men-h2 {
+  padding: 0;
+  font-size: 36px;
+}
+
+.services-box-wrapper .heading-span {
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+.services-box-wrapper span {
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
 /* ======about good men moving css starts==== */
 section.about-good-men-moving {
-  margin: 14rem 0 5rem 0;
+  margin: 10rem 0 5rem 0;
 }
 .img-good-men-moving img {
   width: 100%;
@@ -341,9 +371,9 @@ section.about-good-men-moving {
 }
 .about-img-right img {
   position: absolute;
-  top: -149px;
+  top: -94px;
   right: -17rem;
-  height: 25rem;
+  height: 22rem;
   width: 95%;
   object-fit: cover;
 }
@@ -351,7 +381,7 @@ section.about-good-men-moving {
   position: relative;
 }
 .abou-img-left img {
-  height: 25rem;
+  height: 22rem;
   width: 95%;
   object-fit: cover;
 }
@@ -586,7 +616,9 @@ section.choosen-part img {
   font-family: "Poppins", sans-serif;
   transition: ease 0.3s;
 }
-.our-services-boxes:hover {background: #1c3c66;}
+.our-services-boxes:hover {
+  background: #1c3c66;
+}
 .our-services-boxes a i {
   background: #fff;
   color: #1c3c66;
@@ -595,7 +627,7 @@ section.choosen-part img {
   font-size: 14px;
 }
 section.goodmen-our-services {
-  background-image: linear-gradient(rgb(31 45 48 / 61%), rgb(31 45 48 / 60%)), 
+  background-image: linear-gradient(rgb(31 45 48 / 61%), rgb(31 45 48 / 60%)),
     url(../img/umzug-per-spedition.jpg);
   padding: 5rem 0;
   text-align: center;
@@ -607,7 +639,7 @@ section.goodmen-our-services span {
 section.goodmen-our-services h4 {
   color: #fff;
   font-size: 3rem;
-  font-family: 'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 3px;
   font-weight: 700;
   line-height: 1.1em;
@@ -644,7 +676,7 @@ section.good-men-testimonials {
 .review-box h5 {
   color: #0c3e65;
   font-size: 4rem;
-  font-family: 'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 3px;
   font-weight: 700;
   line-height: 1.1em;
@@ -653,7 +685,7 @@ section.good-men-testimonials {
 ul.testimonials-rating li {
   display: inline-flex;
   list-style: none;
-  color: #E4B248;
+  color: #e4b248;
   margin: 0;
   padding: 0;
 }
@@ -692,7 +724,7 @@ ul.testimonials-rating {
   font-size: 20px;
   margin: 10px 0;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .item.review-info i.fa-solid.fa-quote-right {
   font-size: 50px;
@@ -700,6 +732,37 @@ ul.testimonials-rating {
   padding: 4px 18px;
 }
 /* ====about review dots==== */
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: #26559f;   
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #26559f;
+}
+/* ==========contact form======= */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
