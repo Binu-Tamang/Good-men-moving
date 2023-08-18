@@ -737,32 +737,114 @@ ul.testimonials-rating {
   background: #26559f;
 }
 /* ==========contact form======= */
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container-form {
-  border-radius: 5px;
-  background-color: #f2f2f2;
+.form-container {
+  /* max-width: 400px; */
+  /* margin: auto; */
   padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #0c3e65;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #e5b759;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 50%;
+}
+.contact-form button:hover {
+  background-color: #d39a25;
+  color: #000;
+}
+/* ==========all over view form============ */
+.form-right {
+  padding: 50px 0;
+}
+.our-info-form span {
+  color: #e5b759;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 1rem;
+  letter-spacing: 4px;
+  font-family: "Radley", serif;
+}
+.contact-h {
+  color: #0c3e65;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 700;
+  line-height: 2.1em;
+  word-spacing: 6.1px;
+}
+.details-form {
+  display: flex;
+  color: #0c3e65;
+}
+.details-form i {
+  /* padding: 10px 0; */
+  color: #e5b759;
+  font-size: 3rem;
+  margin: 1rem;
+}
+.details-form p {
+  padding: 10px;
+  margin: 0;
+  display: grid;
+  font-size: 22px;
+  letter-spacing: 4px;
+}
+.details-form a {
+  text-decoration: none;
+  color: #0c3e65;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+input#firstName {
+  margin-right: 5px;
+}
+.form-right:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 10rem;
+  border: 8px solid #0c3e65;
+  position: absolute;
+  top: 25rem;
+  right: 0;
+  border-top: none;
+  border-left: none;
+}
+
+.form-right:before {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 10rem;
+  border: 8px solid #0c3e65;
+  position: absolute;
+  top: 23rem;
+  right: 2rem;
+  border-top: none;
+  border-left: none;
 }

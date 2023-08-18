@@ -51,3 +51,20 @@ $('.owl-carousel').owlCarousel({
        }
    }
 })
+// js for form
+const form = document.getElementById("moveForm");
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      const formData = new FormData(form);
+      const formDataObject = {};
+
+      formData.forEach((value, key) => {
+        formDataObject[key] = value;
+      });
+
+      console.log(formDataObject);
+
+      // You can perform further actions with the form data, such as sending it to a server using fetch or XMLHttpRequest.
+    });

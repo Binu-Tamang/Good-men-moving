@@ -423,62 +423,97 @@
     </div>
   </section>
   <!-- testimonials ends -->
-  <!-- ======================= -->
+  <!-- ===========contact us form============ -->
   <section class="contact-form">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <div class="form-right">
+          <div class="form-left">
             <div class="container-form">
-              <h5>Contact Form</h5>
-              <form action="/action_page.php">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-                <label for="country">Country</label>
-                <select id="country" name="country">
-                  <option value="australia">Australia</option>
-                  <option value="canada">Canada</option>
-                  <option value="usa">USA</option>
-                </select>
-
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-                <input type="submit" value="Submit">
+              <h5 class="contact-h">Contact Form</h5>
+              <div class="form-container">
+                <form id="moveForm">
+                  <div class="form-group">
+                    <label for="movingFrom">Moving From:</label>
+                    <input type="text" id="movingFrom" name="movingFrom" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="movingTo">Moving To:</label>
+                    <input type="text" id="movingTo" name="movingTo" required>
+                  </div>
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="class-form">
+                          <label for="firstName">First Name:</label>
+                          <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="class-form">
+                          <label for="lastName">Last Name:</label>
+                          <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="date">Date :</label>
+                    <input type="text" id="date" name="date" required>
+                  </div>
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="class-form">
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="email" required>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <div class="class-form">
+                            <label for="phoneNumber">Phone Number:</label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              <button type="submit">Submit</button>
               </form>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+      </div>
+      <div class="col-md-6">
+        <div class="form-right">
           <div class="our-info-form">
             <span>Appointment</span>
-            <h5>Make An Appointment</h5>
-            <p>Fill in the form below to send us a message or to ask about any queries you might have.</p>
+            <h5 class="contact-h">Make An Appointment</h5>
+            <p class="good-man-moving-p">Fill in the form below to send us a message or to ask about any queries you
+              might have.</p>
           </div>
           <div class="details-form">
             <i class="fa-regular fa-comments"></i>
             <p>
-            <h6>Customer Service</h6><a href="tel:780-937-6666">780-937-6666</a>
+              <b>Customer Service</b><a href="tel:780-937-6666">780-937-6666</a>
             </p>
           </div>
           <div class="details-form">
-            <i class="fa-regular fa-comments"></i>
+            <i class="fa-solid fa-map-location-dot"></i>
             <p>
-            <h6>Our Address</h6><a href="#">6825 106 St, Edmonton, AB T6H 2W1</a>
+              <b>Our Address</b><a href="#">6825 106 St, Edmonton, AB T6H 2W1</a>
             </p>
           </div>
           <div class="details-form">
-            <i class="fa-regular fa-comments"></i>
+            <i class="fa-regular fa-clock"></i>
             <p>
-            <h6>Opening Hours</h6><a href="#">24 hours 7 days a Week</a>
+              <b>Opening Hours</b><a href="#">24 hours 7 days a Week</a>
             </p>
           </div>
         </div>
       </div>
+    </div>
     </div>
   </section>
   <!-- ======================= -->
