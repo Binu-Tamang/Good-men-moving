@@ -52,19 +52,81 @@ $('.owl-carousel').owlCarousel({
    }
 })
 // js for form
+
+
 const form = document.getElementById("moveForm");
 
-    form.addEventListener("submit", function (event) {
-      event.preventDefault();
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
 
-      const formData = new FormData(form);
-      const formDataObject = {};
+  const formData = new FormData(form);
+  const formDataObject = {};
 
-      formData.forEach((value, key) => {
-        formDataObject[key] = value;
-      });
+  formData.forEach((value, key) => {
+    formDataObject[key] = value;
+  });
 
-      console.log(formDataObject);
+  // Perform validation
+  const errors = validateForm(formDataObject);
 
-      // You can perform further actions with the form data, such as sending it to a server using fetch or XMLHttpRequest.
-    });
+  if (Object.keys(errors).length === 0) {
+    // No errors, submit the form or perform further actions
+    console.log("Form data is valid:", formDataObject);
+    // You can submit the form using fetch, XMLHttpRequest, etc.
+  } else {
+    // Display error messages
+    displayErrors(errors);
+  }
+});
+
+function validateForm(formData) {
+  const errors = {};
+
+  if (!formData.firstName) {
+    errors.firstName = "First name is required.";
+  }
+
+  if (!formData.lastName) {
+    errors.lastName = "Last name is required.";
+  }
+
+  if (!formData.email) {
+    errors.email = "Email is required.";
+  } else if (!isValidEmail(formData.email)) {
+    errors.email = "Invalid email format.";
+  }
+
+  if (!formData.phoneNumber) {
+    errors.phoneNumber = "Phone number is required.";
+  } else if (!isValidPhoneNumber(formData.phoneNumber)) {
+    errors.phoneNumber = "Invalid phone number format.";
+  }
+
+  // Add more validation rules as needed
+
+  return errors;
+}
+
+function isValidEmail(email) {
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailPattern.test(email);
+}
+
+function isValidPhoneNumber(phoneNumber) {
+  const phonePattern = /^\d{3}-\d{2}-\d{3}$/;
+  return phonePattern.test(phoneNumber);
+}
+
+function displayErrors(errors) {
+  // Clear previous error messages
+  const errorContainer = document.getElementById("errorContainer");
+  errorContainer.innerHTML = "";
+
+  // Display error messages
+  for (const field in errors) {
+    const errorElement = document.createElement("p");
+    errorElement.className = "error-message";
+    errorElement.textContent = errors[field];
+    errorContainer.appendChild(errorElement);
+  }
+}

@@ -53,10 +53,7 @@
     <div class="heading-2">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
-                    <img src="assets/img/logo-2.png" alt="logo of moving company">
-                </div>
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <nav class="nav-shift">
                         <ul>
                             <li class="active"><a href="#">Home</a></li>
@@ -67,12 +64,6 @@
                             <li><a href="#">FAQs</a></li>
                         </ul>
                     </nav>
-                </div>
-                <div class="col-md-3">
-                    <div class="searchbar">
-                        <input type="text" placeholder="Search">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
                 </div>
             </div>
         </div>

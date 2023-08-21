@@ -82,9 +82,6 @@
               </div>
               <div class="service-info">
                 <span class="heading-span">Residential Moving</span>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                  mattis.
-                </p> -->
               </div>
             </div>
           </div>
@@ -95,9 +92,6 @@
               </div>
               <div class="service-info">
                 <span class="heading-span">Commercial Moving</span>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                  mattis.
-                </p> -->
               </div>
             </div>
           </div>
@@ -108,9 +102,6 @@
               </div>
               <div class="service-info">
                 <span class="heading-span">Packing Services</span>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                  mattis.
-                </p> -->
               </div>
             </div>
           </div>
@@ -121,9 +112,6 @@
               </div>
               <div class="service-info">
                 <span class="heading-span">Moving Supplies</span>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                  mattis.
-                </p> -->
               </div>
             </div>
           </div>
@@ -134,9 +122,6 @@
               </div>
               <div class="service-info">
                 <span class="heading-span">We Make it Faster</span>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                  mattis.
-                </p> -->
               </div>
             </div>
           </div>
@@ -206,7 +191,7 @@
         <div class="col-md-6">
           <div class="choose-up-left">
             <span class="good-men-moving">Why Good Men Moving</span>
-            <h2 class="good-men-h2">We’re Chosen by Professionals</h2>
+            <h2 class="good-men-h2">The Top Choice for Your Service Needs</h2>
           </div>
         </div>
         <div class="col-md-6">
@@ -459,64 +444,73 @@
                   </div>
                   <div class="form-group">
                     <label for="date">Date :</label>
-                    <input type="text" id="date" name="date" required>
+                    <input type="date" id="date" name="date" required>
                   </div>
                   <div class="form-group">
                     <div class="row">
                       <div class="col-md-6">
                         <div class="class-form">
                           <label for="email">Email:</label>
-                          <input type="email" id="email" name="email" required>
+                          <input type="email" id="email" name="email" placeholder="goodmenmovingco@gmail.com" required>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
                           <div class="class-form">
                             <label for="phoneNumber">Phone Number:</label>
-                            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="123-45-678" required>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-              <button type="submit">Submit</button>
-              </form>
+                  <div id="errorContainer">
+
+                  </div>
+                  <button type="submit">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-right">
+            <div class="our-info-form">
+              <span>Appointment</span>
+              <h5 class="contact-h">Make An Appointment</h5>
+              <p class="good-man-moving-p">Fill in the form below to send us a message or to ask about any queries you
+                might have.</p>
+            </div>
+            <div class="details-form">
+              <i class="fa-regular fa-comments"></i>
+              <p>
+                <b>Customer Service</b><a href="tel:780-937-6666">780-937-6666</a>
+              </p>
+            </div>
+            <div class="details-form">
+              <i class="fa-solid fa-map-location-dot"></i>
+              <p>
+                <b>Our Address</b><a href="#">6825 106 St, Edmonton, AB T6H 2W1</a>
+              </p>
+            </div>
+            <div class="details-form">
+              <i class="fa-regular fa-clock"></i>
+              <p>
+                <b>Opening Hours</b><a href="#">24 hours 7 days a Week</a>
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-6">
-        <div class="form-right">
-          <div class="our-info-form">
-            <span>Appointment</span>
-            <h5 class="contact-h">Make An Appointment</h5>
-            <p class="good-man-moving-p">Fill in the form below to send us a message or to ask about any queries you
-              might have.</p>
-          </div>
-          <div class="details-form">
-            <i class="fa-regular fa-comments"></i>
-            <p>
-              <b>Customer Service</b><a href="tel:780-937-6666">780-937-6666</a>
-            </p>
-          </div>
-          <div class="details-form">
-            <i class="fa-solid fa-map-location-dot"></i>
-            <p>
-              <b>Our Address</b><a href="#">6825 106 St, Edmonton, AB T6H 2W1</a>
-            </p>
-          </div>
-          <div class="details-form">
-            <i class="fa-regular fa-clock"></i>
-            <p>
-              <b>Opening Hours</b><a href="#">24 hours 7 days a Week</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
     </div>
   </section>
   <!-- ======================= -->
+  <!-- ---------------------------footer starts--------------------- -->
+	<?php
+	include('inc/footer.php');
+	include('inc/js.php')
+		?>
+	<!-- ---------------------------footer ends--------------------- -->
   <!-- js link -->
   <?php
   include('inc/js.php')

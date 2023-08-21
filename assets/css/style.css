@@ -50,6 +50,7 @@ body {
   height: 5rem;
   background-color: #3e67af;
   background-image: linear-gradient(to right, #1368d2, #2c508f);
+  text-align: center;
 }
 
 .heading-2 img {
@@ -68,11 +69,13 @@ body {
     /* margin: 0 auto; */
     /* background: #fff; */
     display: flex;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
   }
   /* flex-wrap: nowrap; */
-  justify-content: flex-start;
+;
+  text-align: center;
+  justify-content: space-evenly;
 }
 
 .heading-2 li a {
@@ -80,7 +83,7 @@ body {
   display: block;
   color: #fff;
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 25px;
   font-size: 18px;
   font-style: initial;
   text-transform: uppercase;
@@ -93,7 +96,8 @@ body {
 .heading-2 li {
   display: flex;
   list-style: none;
-  margin: 0 2px;
+  margin: 0 12px;
+  /* width: 100%; */
 }
 
 .heading-2 li a:hover {
@@ -104,10 +108,11 @@ nav.nav-shift {
   /* width: 80%; */
   /* margin: 0 auto; */
   /* background: #fff; */
-  display: flex;
+  /* display: flex; */
   /* justify-content: flex-start; */
   flex-wrap: nowrap;
   flex-direction: row;
+  text-align: center;
 }
 nav.nav-shift ul li a:after {
   display: block;
@@ -226,7 +231,7 @@ nav.nav-shift ul li.active a {
 }
 .searchbar {
   text-align: end;
-  margin-top: 34px;
+  margin-top: 25px;
 }
 
 .searchbar input {
@@ -243,7 +248,15 @@ nav.nav-shift ul li.active a {
 .searchbar i {
   color: #fff;
   margin: 0 4px;
-  font-size: 20px;
+  font-size: 18px;
+}
+.searchbar input[type="text"] {
+  width: 50%;
+  padding: 6px;
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 0;
+  font-size: 15px;
 }
 /* =======banner color========= */
 section.banner-part {
@@ -351,7 +364,7 @@ section.company-services span {
 .services-box-wrapper .heading-span {
   margin: 0;
   padding: 0;
-  line-height: 2;
+  line-height: 1;
 }
 .services-box-wrapper span {
   margin: 0;
@@ -425,7 +438,7 @@ h2.good-men-h2 {
   line-height: 1.1em;
   letter-spacing: 1px;
   word-spacing: 2px;
-  padding-right: 8rem;
+  padding-right: 4rem;
 }
 .about-gmm-info {
   margin-left: 1rem;
@@ -675,7 +688,7 @@ section.good-men-testimonials {
 }
 .review-box h5 {
   color: #0c3e65;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: "Poppins", sans-serif;
   letter-spacing: 3px;
   font-weight: 700;
@@ -738,8 +751,6 @@ ul.testimonials-rating {
 }
 /* ==========contact form======= */
 .form-container {
-  /* max-width: 400px; */
-  /* margin: auto; */
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -761,6 +772,11 @@ input[type="tel"] {
   border: 1px solid #ccc;
   border-radius: 3px;
 }
+input#date {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
 .contact-form button {
   padding: 10px 20px;
   background-color: #e5b759;
@@ -777,6 +793,7 @@ input[type="tel"] {
 /* ==========all over view form============ */
 .form-right {
   padding: 50px 0;
+  position: relative;
 }
 .our-info-form span {
   color: #e5b759;
@@ -826,7 +843,7 @@ input#firstName {
 .form-right:after {
   content: "";
   display: block;
-  width: 100%;
+  width: 80%;
   height: 10rem;
   border: 8px solid #0c3e65;
   position: absolute;
@@ -839,7 +856,7 @@ input#firstName {
 .form-right:before {
   content: "";
   display: block;
-  width: 90%;
+  width: 70%;
   height: 10rem;
   border: 8px solid #0c3e65;
   position: absolute;
@@ -847,4 +864,55 @@ input#firstName {
   right: 2rem;
   border-top: none;
   border-left: none;
+} 
+/*  form css ends ======== */
+
+/* =====footer css starts==== */
+footer.main-footer {
+  height: 35rem;
+  background: #2c508f;
+  background-image: linear-gradient(to right, #1765c9, #202020);
+  margin-top: 5rem;
+  color: #fff;
+}
+.footer-left {
+  height: 15rem;
+}
+footer.main-footer h6 {
+  padding-top: 3rem;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 2;
+}
+.footer-left-info p {
+  color: #fff;
+  text-align: justify;
+}
+.footer-social-media ul {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-social-media li {
+  list-style: none;
+}
+
+.footer-social-media li a {
+  color: #fff;
+  margin: 12px;
+  font-size: 18px;
+  border: 1px solid;
+  padding: 8px;
+  border-radius: 25px;
+  display: block;
+  width: 70%;
+  height: 60%;
+  text-align: center;
+  transition: 0.3s linear;
+}
+
+.footer-social-media li a:hover {
+  background: #fff;
+  color: #1762c2;
 }
