@@ -69,11 +69,10 @@ body {
     /* margin: 0 auto; */
     /* background: #fff; */
     display: flex;
-  justify-content: flex-start;
-  flex-wrap: nowrap;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
   }
   /* flex-wrap: nowrap; */
-;
   text-align: center;
   justify-content: space-evenly;
 }
@@ -507,7 +506,7 @@ button.about-btn:hover {
 p.good-man-moving-p {
   line-height: 2;
   letter-spacing: 1.1px;
-  font-weight: 500;
+  /* font-weight: 500; */
   color: #222222bd;
   /* margin-top: 74px; */
 }
@@ -852,7 +851,6 @@ input#firstName {
   border-top: none;
   border-left: none;
 }
-
 .form-right:before {
   content: "";
   display: block;
@@ -864,40 +862,39 @@ input#firstName {
   right: 2rem;
   border-top: none;
   border-left: none;
-} 
+}
 /*  form css ends ======== */
 
 /* =====footer css starts==== */
 footer.main-footer {
-  height: 35rem;
+  height: 34rem;
   background: #2c508f;
   background-image: linear-gradient(to right, #1765c9, #202020);
   margin-top: 5rem;
   color: #fff;
 }
-.footer-left {
-  height: 15rem;
-}
 footer.main-footer h6 {
-  padding-top: 3rem;
+  padding-top: 2rem;
   font-size: 24px;
   font-weight: 500;
   line-height: 2;
+  margin: 0;
 }
 .footer-left-info p {
   color: #fff;
-  text-align: justify;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 400;
 }
 .footer-social-media ul {
   display: inline-flex;
   margin: 0;
   padding: 0;
 }
-
 .footer-social-media li {
   list-style: none;
 }
-
 .footer-social-media li a {
   color: #fff;
   margin: 12px;
@@ -911,8 +908,152 @@ footer.main-footer h6 {
   text-align: center;
   transition: 0.3s linear;
 }
-
 .footer-social-media li a:hover {
   background: #fff;
   color: #1762c2;
 }
+.footer-up {
+  padding: 20px 12px;
+  border-bottom: 1px solid;
+}
+.footer-up a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s linear;
+}
+.footer-up i {
+  margin: 0 5px;
+  font-size: 18px;
+  border: 1px solid #fff;
+  padding: 6px;
+  border-radius: 15px;
+  color: #1863c3;
+  background: #fff;
+}
+ul.list-content.list-x2 li {
+  list-style: none;
+  padding: 8px 0;
+}
+ul.list-content.list-x2 li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s linear;
+}
+ul.list-content li::before {
+  position: relative;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin: 0 10px;
+}
+ul.list-content.list-x2 {
+  margin: 0;
+  padding: 0;
+}
+.ul-wrapper-box {
+  display: inline-flex;
+}
+ul.list-content li a:hover {
+  text-decoration: underline;
+}
+.footer-up a:hover {
+  text-decoration: underline;
+}
+.footer-right li {
+  list-style: none;
+  padding: 6px 0;
+}
+.footer-right ul {
+  padding: 0;
+}
+.footer-right {
+  text-align: justify;
+}
+.footer-right li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s linear;
+}
+.footer-right a i {
+  margin: 0 8px;
+  margin-left: 0;
+}
+.footer-right li a:hover {
+  text-decoration: underline;
+}
+.describe-box {
+  border: 2px solid;
+  padding: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+}
+.describe-box h5 {
+  margin: 6px 0;
+  font-size: 14px;
+  border-bottom: 2px solid;
+  padding-bottom: 8px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.describe-box span {
+  margin: 6px 0;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.bbb-img img {
+  height: 5rem;
+  background: #fff;
+  padding: 6px;
+}
+.footer-between {
+  border-bottom: 1px solid;
+  padding-bottom: 2rem;
+}
+.payment {
+  display: inline-flex;
+}
+.payment img {
+  height: 3rem;
+  margin: 0 10px;
+}
+img.budget-img {
+  height: 3rem;
+  margin: 10px 0;
+}
+.list-x2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.list-x2 li {
+  width: 50%;
+  padding-right: 1rem;
+}
+.row.bbb-wrap {
+  margin-top: 15px;
+}
+/* =========footer between css ends======= */
+.footer-end {
+  display: inline-flex;
+  width: 100%;
+  padding: 20px 0;
+}
+.copyright {
+  width: 50%;
+  text-align: left;
+}
+.design-maple {
+  width: 50%;
+  text-align: end;
+}
+/* =========footer-end css end here */
