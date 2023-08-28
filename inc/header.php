@@ -3,17 +3,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    
+                    <div class="follow-us">
+                        Follow Us:
+                        <ul>
+                            <li class="li-h-1"><a href="https://www.facebook.com/profile.php?id=100089283152732"><i
+                                        class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li><a href="https://www.pinterest.com/goodmenmovingcompany/"><i
+                                        class="fa-brands fa-pinterest-p"></i></a></li>
+                            <li><a href="mail:goodmenmovingco@gmail.com"><i class="fa-regular fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="timing">
+                        <p>Monday-Friday: 9am-9pm <br> Saturday-Sunday: 9am-7pm</p>
+                    </div>
                 </div>
             </div>
-            <ul>
-                <li class="li-h-1"><a href="https://www.facebook.com/profile.php?id=100089283152732"><i
-                            class="fa-brands fa-facebook-f"></i></a>
-                </li>
-                <li><a href="https://www.pinterest.com/goodmenmovingcompany/"><i
-                            class="fa-brands fa-pinterest-p"></i></a></li>
-                <li><a href="mail:goodmenmovingco@gmail.com"><i class="fa-regular fa-envelope"></i></a></li>
-            </ul>
         </div>
     </div>
     <div class="heading-3">
@@ -30,7 +37,7 @@
                             <i class="fa-regular fa-envelope"></i>
                             <div class="header-mail-call">
                                 <span>Mail Us</span>
-                                <p><a href="mail:goodmenmovingco@gmail.com">goodmenmovingco@gmail.com</a></p>
+                                <p><a href="mail:goodmenmovingco@gmail.com" target="_blank">goodmenmovingco@gmail.com</a></p>
                             </div>
                         </div>
                         <div class="header-info">
@@ -54,14 +61,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <nav class="nav-shift">
-                        <ul>
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">FAQs</a></li>
+                    <nav class="navbar">
+                        <div class="mobile-nav-btn text-end">
+                            <i class="toggle-nav-icons-js fa fa-2x  fas fa-bars " name="menu-outline"></i>
+                            <i class="toggle-nav-icons-js fa fa-2x fa-close" name="close-outline"></i>
+                        </div>
+                        <ul class="nav-list" id="navList">
+                            <li class="nav-item active"><a class="navbar-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="navbar-link" href="#">About</a></li>
+                            <li class="nav-item"><a class="navbar-link" href="#">Services</a></li>
+                            <li class="nav-item"><a class="navbar-link" href="#">Testimonials</a></li>
+                            <li class="nav-item"><a class="navbar-link" href="#">Contact</a></li>
+                            <li class="nav-item"><a class="navbar-link" href="#">FAQs</a></li>
                         </ul>
                     </nav>
                 </div>

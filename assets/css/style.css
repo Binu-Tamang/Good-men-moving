@@ -105,7 +105,7 @@ body {
 
 nav.nav-shift {
   /* width: 80%; */
-  /* margin: 0 auto; */
+  margin: 0 auto;
   /* background: #fff; */
   /* display: flex; */
   /* justify-content: flex-start; */
@@ -213,14 +213,45 @@ nav.nav-shift ul li.active a {
   background: transparent;
   transition: 0.5s ease;
 }
+.follow-us {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.timing {
+  color: #fff;
+  display: inline-flex;
+  text-align: right;
+  width: 100%;
+}
+.timing p {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
 .quote-btn {
   text-align: end;
 }
-.heading-1 i {
+.follow-us i {
   border: 1px solid;
-  padding: 4px;
+  padding: 6px;
   width: 29px;
   text-align: center;
+  border-radius: 15px;
+  background: #fff;
+  color: #0056b3;
+  transition: 0.3s linear;
+}
+.follow-us i:hover {
+  background: #0056b3;
+  color: #fff;
 }
 .header-mail-call span {
   font-size: 18px;
@@ -457,6 +488,8 @@ h2.good-men-h2 {
 }
 .about-icon {
   margin-top: 16px;
+  justify-content: space-between;
+  display: flex;
 }
 .about-box h3 {
   font-family: poppins, sans-serif;
@@ -932,6 +965,27 @@ footer.main-footer h6 {
   color: #1863c3;
   background: #fff;
 }
+/* =====footer up css ends====== */
+/* ===scroll up to btn css ends=== */
+#scrollToTopButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+  z-index: 9;
+}
+#scrollToTopButton:hover {
+  background-color: #0056b3;
+}
+/* ===scroll up to btn css ends=== */
 ul.list-content.list-x2 li {
   list-style: none;
   padding: 8px 0;
@@ -1028,12 +1082,12 @@ img.budget-img {
   margin: 10px 0;
 }
 .list-x2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style-type: none;
 }
 .list-x2 li {
   width: 50%;
@@ -1057,3 +1111,34 @@ img.budget-img {
   text-align: end;
 }
 /* =========footer-end css end here */
+
+/* ================reponsive css starts====================== */
+/* ================reponsive css starts====================== */
+.mobile-nav-btn {
+  color: #fff;
+  text-align: end;
+  display: none;
+  z-index: 999;
+  color: #fff;
+}
+.toggle-nav-icons-js[name="close-outline"] {
+  display: none;
+}
+.toggle-nav-icons-js {
+  width: 3rem;
+  height: 3rem;
+}
+.nav-list.active {
+  display: block; /* Or the appropriate display value */
+}
+/* =====responsive code====== */
+/* below 980px */
+@media (max-width: 62em) {
+  .mobile-nav-btn {
+    display: flex;
+    position: relative;
+    z-index: 3;
+    justify-content: end;
+    text-align: right;
+  }
+}
