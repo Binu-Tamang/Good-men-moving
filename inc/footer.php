@@ -25,7 +25,7 @@
 
         <div class="footer-between">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-lg-4 col-12">
                     <div class="footer-left">
                         <h6>Good Men Moving Company</h6>
                         <div class="footer-left-info">
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-lg-4 col-12">
                     <div class="footer-mid">
                         <h6>Quick Links</h6>
                         <div class="ul-wrapper-box">
@@ -79,7 +79,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-lg-4 col-12">
                     <div class="footer-right">
                         <h6>Contact Us</h6>
                         <ul>

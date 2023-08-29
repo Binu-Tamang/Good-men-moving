@@ -158,4 +158,5 @@ $(document).ready(function () {
   });
 });
 
-// For the burger menu js
+// js for banner details slider
+

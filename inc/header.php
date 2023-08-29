@@ -61,11 +61,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <nav class="navbar">
-                        <div class="mobile-nav-btn text-end">
-                            <i class="toggle-nav-icons-js fa fa-2x  fas fa-bars " name="menu-outline"></i>
-                            <i class="toggle-nav-icons-js fa fa-2x fa-close" name="close-outline"></i>
-                        </div>
+                    <nav class="navbar nav-shift">
                         <ul class="nav-list" id="navList">
                             <li class="nav-item active"><a class="navbar-link" href="#">Home</a></li>
                             <li class="nav-item"><a class="navbar-link" href="#">About</a></li>

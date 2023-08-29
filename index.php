@@ -62,6 +62,9 @@
         with you!
       </p>
     </div>
+    <div class="banner-details-slider">
+      
+    </div>
   </section>
   <!-- banner part ends -->
 
@@ -75,7 +78,7 @@
           <div class="col-md-1">
 
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-6">
             <div class="company-services-box">
               <div class="services-img">
                 <i class="fa-solid fa-earth-americas"></i>
@@ -85,7 +88,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-6">
             <div class="company-services-box">
               <div class="services-img">
                 <i class="fa-solid fa-building"></i>
@@ -95,7 +98,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-6">
             <div class="company-services-box">
               <div class="services-img">
                 <i class="fa-solid fa-boxes-packing"></i>
@@ -105,7 +108,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-6">
             <div class="company-services-box">
               <div class="services-img">
                 <i class="fa-solid fa-people-carry-box"></i>
@@ -115,7 +118,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-6">
             <div class="company-services-box">
               <div class="services-img">
                 <i class="fa-solid fa-truck-fast"></i>
@@ -138,7 +141,7 @@
   <section class="about-good-men-moving">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <div class="img-good-men-moving">
             <div class="col-md-6">
               <div class="abou-img-left">
@@ -152,7 +155,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <div class="about-gmm-info">
             <span class="good-men-moving">About Good Men Moving</span>
             <h2 class="good-men-h2">We're Your Moving Partner</h2>
@@ -503,11 +506,11 @@
   </section>
   <!-- ======================= -->
   <!-- ---------------------------footer starts--------------------- -->
-	<?php
-	include('inc/footer.php');
-	include('inc/js.php')
-		?>
-	<!-- ---------------------------footer ends--------------------- -->
+  <?php
+  include('inc/footer.php');
+  include('inc/js.php')
+    ?>
+  <!-- ---------------------------footer ends--------------------- -->
   <!-- js link -->
   <?php
   include('inc/js.php')
