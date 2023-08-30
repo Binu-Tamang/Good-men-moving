@@ -5,8 +5,10 @@ const nav_list = document.querySelector(".nav-list");
 const toggleNavbar = () => {
   nav_list.classList.toggle("active");
 };
+if(mobile_nav){
+  mobile_nav.addEventListener("click", toggleNavbar);
 
-mobile_nav.addEventListener("click", toggleNavbar);
+}
 
 
 // js for text slider up and down
@@ -55,7 +57,7 @@ $(".owl-carousel").owlCarousel({
       items: 1,
     },
     600: {
-      items: 3,
+      items: 2,
     },
     1000: {
       items: 4,

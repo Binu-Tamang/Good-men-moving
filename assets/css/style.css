@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  /* overflow-x: hidden; */
   font-family: "Roboto", sans-serif;
 }
 html {
@@ -379,7 +380,8 @@ section.banner-part {
   position: absolute;
   top: -4rem;
   z-index: 1;
-  right: 7rem;
+  right: 3.5rem;
+  left: 3.5rem;
 }
 section.company-services {
   height: 20rem;
@@ -396,8 +398,13 @@ section.company-services {
   padding: 0;
   font-size: 38px;
 }
-section.company-services span {
-  line-height: 2;
+span.good-men-moving {
+  color: #83bfed;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 4;
+  letter-spacing: 2px;
+  word-spacing: 2px;
 }
 .service-info span {
   color: #0c3e65;
@@ -417,7 +424,15 @@ section.company-services span {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.services-box-wrapper .good-men-h2 {
+h2.good-men-h2 {
+  color: #0c3e65;
+  font-family: poppins, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  padding-right: 4rem;
   padding: 0;
   font-size: 36px;
 }
@@ -434,21 +449,18 @@ section.company-services span {
 /* ======responsive of company-services======== */
 @media (max-width: 62em) {
   section.company-services {
-    height: 10rem;
-    position: absolute;
-    top: 25rem;
+    height: 15rem;
+    position: relative;
     z-index: 1;
-    right: 3.5rem;
-    left: 3.5rem;
-  }
-  span.good-men-moving {
-    font-size: 12px;
   }
   section.company-services span {
-    font-size: 9px;
+    font-size: 15px;
   }
-  .services-box-wrapper .good-men-h2 {
-    font-size: 18px;
+  h2.good-men-h2 {
+    font-size: 30px;
+  }
+  .hide-box {
+    display: none;
   }
   .services-img i {
     font-size: 2rem;
@@ -457,8 +469,11 @@ section.company-services span {
   }
   .services-box-wrapper .heading-span {
     padding: 2px;
-    border-bottom-style: double;
-    border-color: #0c3e654f;
+    font-size: 14px;
+  }
+  span.good-men-moving {
+    font-size: 15px;
+    line-height: 2;
   }
 }
 @media (max-width: 35em) {
@@ -466,6 +481,7 @@ section.company-services span {
 /* ======about good men moving css starts==== */
 section.about-good-men-moving {
   margin: 0;
+  overflow-x: hidden;
 }
 .img-good-men-moving img {
   width: 100%;
@@ -484,25 +500,28 @@ section.about-good-men-moving {
 }
 .abou-img-left {
   position: relative;
+  height: 100%;
+  min-height: 400px;
+}
+.abou-img-left img:last-child {
+  margin: -30px 0 0 44%;
 }
 .abou-img-left img {
-  height: 22rem;
-  width: 95%;
+  height: 20rem;
+  width: 18rem;
   object-fit: cover;
 }
 .abou-img-left::before {
-  /* background: #0c3e65; */
   content: "";
-  height: 100%;
-  width: 100%;
+  height: 60%;
+  width: 70%;
   display: inline-block;
   position: absolute;
-  top: 10rem;
+  top: 8rem;
   right: 0;
   bottom: 0;
-  left: 8rem;
+  left: 6rem;
   z-index: -1;
-  /* border-radius: 4px; */
   border: 20px solid #0c3e65;
 }
 .img-good-men-moving img::before {
@@ -513,24 +532,6 @@ section.about-good-men-moving {
   width: 100%;
   height: 100%;
   background-color: hwb(213.71deg 10.59% 48.24% / 49%);
-}
-span.good-men-moving {
-  color: #83bfed;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 4;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-}
-h2.good-men-h2 {
-  color: #0c3e65;
-  font-family: poppins, sans-serif;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 1.1em;
-  letter-spacing: 1px;
-  word-spacing: 2px;
-  padding-right: 4rem;
 }
 .about-gmm-info {
   margin-left: 1rem;
@@ -598,25 +599,62 @@ button.about-btn:hover {
   color: #0c3e65;
   transition: 0.3s ease;
 }
+p.good-man-moving-p {
+  /* line-height: 2; */
+  letter-spacing: 1.1px;
+  color: #222222bd;
+}
 /* =========responsive of about-good-men-moving============ */
 @media (max-width: 62em) {
-  .img-good-men-moving{
+  .img-good-men-moving {
     height: 15rem;
+    margin: 2rem 0 0 0;
   }
-  .about-gmm-info{
-margin: 0;
+  .about-gmm-info {
+    margin: 8rem 0 0 0;
+  }
+  .abou-img-left::before {
+    width: 50%;
+    border: 12px solid #0c3e65;
+    height: 50%;
+    top: 4rem;
+  }
+  .abou-img-left img {
+    height: 12rem;
+    width: 16rem;
+  }
+  .about-gmm-info h2.good-men-h2 {
+    font-size: 30px;
+  }
+  p.good-man-moving-p {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+  }
+  .about-box {
+    margin: 6px 0;
+  }
+  .about-box i {
+    font-size: 20px;
+  }
+  .about-box h3 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .about-gmm-info ul li {
+    font-size: 1rem;
+  }
+  .btn-about-gmm {
+    text-align: center;
+  }
+  button.about-btn {
+    font-size: 1rem;
+    padding: 4px 18px;
   }
 }
 @media (max-width: 35em) {
 }
 /* =========why choose good men moving css========= */
-p.good-man-moving-p {
-  line-height: 2;
-  letter-spacing: 1.1px;
-  /* font-weight: 500; */
-  color: #222222bd;
-  /* margin-top: 74px; */
-}
 section.choosen-part {
   padding: 3rem 0 5rem 0;
   background-position: bottom;
@@ -694,7 +732,56 @@ section.choosen-part img {
   border-radius: 12px;
   z-index: -1;
 }
+/* ======responsive css of choosen part====== */
+@media (max-width: 62em) {
+  .choose-up-right p {
+    margin: 0;
+  }
+  section.choosen-part img {
+    width: 70px;
+  }
+  .choose-3-boxes h3 {
+    font-size: 18px;
+    margin: 6px 0;
+  }
+  .call-us-now::after {
+    width: 100%;
+    height: 200px;
+  }
+  .call-us-now {
+    height: 200px;
+    text-align: center;
+  }
+  .call-us-now h4{
+    font-size: 30px;
+    line-height: 1rem;
+  }
+  .call-us-now a{
+    font-size: 22px;
+  }
+}
+@media (max-width: 35em) {
+}
 /* =========our services css starts========== */
+section.goodmen-our-services {
+  background-image: linear-gradient(rgb(31 45 48 / 61%), rgb(31 45 48 / 60%)),
+    url(../img/umzug-per-spedition.jpg);
+  padding: 5rem 0;
+  text-align: center;
+  /* margin-top: 5rem; */
+}
+section.goodmen-our-services span {
+  font-size: 22px;
+}
+section.goodmen-our-services h4 {
+  color: #fff;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 700;
+  line-height: 1.1em;
+  word-spacing: 6.1px;
+}
 .our-services-boxes img {
   width: 100%;
   height: 200px;
@@ -745,25 +832,6 @@ section.choosen-part img {
   border-radius: 10px;
   font-size: 14px;
 }
-section.goodmen-our-services {
-  background-image: linear-gradient(rgb(31 45 48 / 61%), rgb(31 45 48 / 60%)),
-    url(../img/umzug-per-spedition.jpg);
-  padding: 5rem 0;
-  text-align: center;
-  /* margin-top: 5rem; */
-}
-section.goodmen-our-services span {
-  font-size: 22px;
-}
-section.goodmen-our-services h4 {
-  color: #fff;
-  font-size: 3rem;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 3px;
-  font-weight: 700;
-  line-height: 1.1em;
-  word-spacing: 6.1px;
-}
 .our-services-boxes a:hover {
   font-size: 14px;
   color: #83bfed;
@@ -784,6 +852,22 @@ section.goodmen-our-services h4 {
 }
 .our-services-btn button:hover {
   background: transparent;
+}
+/* ========responsive of our services======== */
+@media (max-width: 62em) {
+  section.goodmen-our-services span{
+    font-size: 15px;
+    line-height: 2;
+  }
+  section.goodmen-our-services h4{
+    font-size: 30px;
+    line-height: 2rem;
+  }
+  .our-services-boxes h5{
+    font-size: 22px;
+  }
+}
+@media (max-width: 35em) {
 }
 /* =======testimonials css starts======= */
 section.good-men-testimonials {
@@ -854,6 +938,14 @@ ul.testimonials-rating {
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #26559f;
+}
+/* =====responsive of testimonials======= */
+@media (max-width: 62em) {
+  .review-box h5{
+    font-size: 30px;
+  }
+}
+@media (max-width: 35em) {
 }
 /* ==========contact form======= */
 .form-container {
@@ -970,11 +1062,31 @@ input#firstName {
   border-top: none;
   border-left: none;
 }
+/* =====responsive of contact form======= */
+@media (max-width: 62em) {
+  .our-info-form span{
+    font-size: 15px;
+  }
+  .contact-h{
+    font-size: 30px;
+    line-height: 2.5rem;
+  }
+  .form-right:after{
+
+top: 21rem;
+
+}
+  .form-right:before{
+    
+top: 19rem;
+  }
+}
+@media (max-width: 35em) {
+}
 /*  form css ends ======== */
 
 /* =====footer css starts==== */
 footer.main-footer {
-  height: 34rem;
   background: #2c508f;
   background-image: linear-gradient(to right, #1765c9, #202020);
   margin-top: 5rem;
@@ -1004,14 +1116,12 @@ footer.main-footer h6 {
 }
 .footer-social-media li a {
   color: #fff;
-  margin: 12px;
+  margin: 4px;
   font-size: 18px;
   border: 1px solid;
-  padding: 8px;
+  padding: 2px;
   border-radius: 25px;
   display: block;
-  width: 70%;
-  height: 60%;
   text-align: center;
   transition: 0.3s linear;
 }
@@ -1020,24 +1130,14 @@ footer.main-footer h6 {
   color: #1762c2;
 }
 .footer-up {
-  padding: 20px 12px;
+  padding: 16px 12px;
   border-bottom: 1px solid;
-}
-.footer-up a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  transition: 0.3s linear;
+  text-align: center;
 }
 .footer-up i {
   margin: 0 5px;
   font-size: 18px;
-  border: 1px solid #fff;
   padding: 6px;
-  border-radius: 15px;
-  color: #1863c3;
-  background: #fff;
 }
 /* =====footer up css ends====== */
 /* ===scroll up to btn css ends=== */
@@ -1088,9 +1188,6 @@ ul.list-content.list-x2 {
 ul.list-content li a:hover {
   text-decoration: underline;
 }
-.footer-up a:hover {
-  text-decoration: underline;
-}
 .footer-right li {
   list-style: none;
   padding: 6px 0;
@@ -1120,6 +1217,7 @@ ul.list-content li a:hover {
   text-transform: uppercase;
   text-align: center;
   margin-top: 30px;
+  width: 170px;
 }
 .describe-box h5 {
   margin: 6px 0;
@@ -1149,7 +1247,8 @@ ul.list-content li a:hover {
 }
 .payment img {
   height: 3rem;
-  margin: 0 10px;
+  border-radius: 10px;
+  margin: 0 5px;
 }
 img.budget-img {
   height: 3rem;
@@ -1169,6 +1268,8 @@ img.budget-img {
 }
 .row.bbb-wrap {
   margin-top: 15px;
+  display: inline-flex;
+  width: 100%;
 }
 /* =========footer between css ends======= */
 .footer-end {

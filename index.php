@@ -63,7 +63,7 @@
       </p>
     </div>
     <div class="banner-details-slider">
-      
+
     </div>
   </section>
   <!-- banner part ends -->
@@ -108,7 +108,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-2 col-6">
+          <div class="col-md-2 hide-box">
             <div class="company-services-box">
               <div class="services-img">
                 <i class="fa-solid fa-people-carry-box"></i>
@@ -143,15 +143,9 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="img-good-men-moving">
-            <div class="col-md-6">
-              <div class="abou-img-left">
-                <img src="assets/img/umzug-per-spedition.jpg" alt="3 men">
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="about-img-right">
-                <img src="assets/img/packing-moving-box.jpg" alt="3 men">
-              </div>
+            <div class="abou-img-left">
+              <img src="assets/img/umzug-per-spedition.jpg" alt="3 men">
+              <img src="assets/img/packing-moving-box.jpg" alt="3 men">
             </div>
           </div>
         </div>
@@ -179,7 +173,9 @@
               <li>Professional Edmonton Movers</li>
               <li>Cross-Town Moving, Long Distance Moving</li>
             </ul>
-            <button class="about-btn">Read More</button>
+            <div class="btn-about-gmm">
+              <button class="about-btn">Read More</button>
+            </div>
           </div>
         </div>
       </div>
@@ -251,7 +247,7 @@
     <span class="good-men-moving">Good Men Moving</span>
     <h4>Our Services</h4>
     <div class="container">
-      <div class="row">
+      <div class="row gy-4">
         <div class="col-md-4">
           <div class="our-services-boxes">
             <img src="assets/img/residential_moving.jpg" alt="residential moving">
@@ -508,11 +504,6 @@
   <!-- ---------------------------footer starts--------------------- -->
   <?php
   include('inc/footer.php');
-  include('inc/js.php')
-    ?>
-  <!-- ---------------------------footer ends--------------------- -->
-  <!-- js link -->
-  <?php
   include('inc/js.php')
     ?>
 </body>
