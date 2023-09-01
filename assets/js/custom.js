@@ -1,51 +1,15 @@
-// JavaScript for toggling mobile navigation
+
+
+// js for the menu navbar
 const mobile_nav = document.querySelector(".mobile-nav-btn");
-const nav_list = document.querySelector(".nav-list");
+const nav_second_top_header = document.querySelector(".heading-2");
 
 const toggleNavbar = () => {
-  nav_list.classList.toggle("active");
+nav_second_top_header.classList.toggle("active");
 };
-if(mobile_nav){
-  mobile_nav.addEventListener("click", toggleNavbar);
 
-}
+mobile_nav.addEventListener("click", () => toggleNavbar()); 
 
-
-// js for text slider up and down
-$(document).ready(function () {
-  var changebox = $(".changebox");
-
-  var firstclone = changebox.children(":first").clone();
-  changebox.append(firstclone);
-
-  var fsstr = changebox.parent().css("font-size");
-  fsstr = fsstr.slice(0, fsstr.indexOf("p"));
-  var fs = parseInt(fsstr);
-
-  changebox.css("height", changebox.parent().css("font-size"));
-  ChangeSize(0);
-  setInterval(Next, 2000);
-
-  function Next() {
-    if (typeof Next.i == "undefined") {
-      Next.i = 0;
-    }
-    Next.i++;
-    if (Next.i == changebox.children("span").length) {
-      Next.i = 1;
-      changebox.scrollTop(0);
-    }
-    changebox.animate({ scrollTop: fs * Next.i + Next.i * 5 + 3 }, 500);
-    setTimeout(function () {
-      ChangeSize(Next.i);
-    }, 500);
-  }
-  function ChangeSize(i) {
-    var word = changebox.children("span").eq(i);
-    var wordsize = word.css("width");
-    changebox.css("width", wordsize);
-  }
-});
 //  js for review card slider
 $(".owl-carousel").owlCarousel({
   loop: true,
@@ -64,7 +28,7 @@ $(".owl-carousel").owlCarousel({
     },
   },
 });
-// js for form
+// js for contact form
 
 const form = document.getElementById("moveForm");
 
@@ -142,6 +106,7 @@ function displayErrors(errors) {
     errorContainer.appendChild(errorElement);
   }
 }
+
 // scroll up to button js
 $(document).ready(function () {
   const $scrollToTopButton = $("#scrollToTopButton");

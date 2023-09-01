@@ -85,23 +85,18 @@ nav.nav-shift {
   animation: fill 0.75 ease;
   font-weight: 500;
 }
-
 .heading-2 li {
   display: flex;
   list-style: none;
   margin: 0 12px;
   /* width: 100%; */
 }
-
 .heading-2 li a:hover {
   color: #2c508f;
 }
 nav.nav-shift {
   width: 80%;
   margin: 0 auto;
-  /* background: #fff; */
-  /* display: flex; */
-  /* justify-content: flex-start; */
   flex-wrap: nowrap;
   flex-direction: row;
   text-align: center;
@@ -150,10 +145,23 @@ nav.nav-shift ul li.active a {
     height: 100%;
   }
 }
+.mobile-nav-btn {
+  color: #fff;
+  text-align: end;
+  display: none;
+  z-index: 999;
+  color: #fff;
+}
+
+/* =====responsive code====== */
 /* ======responsive of header part starts======== */
 @media (max-width: 62em) {
+  /* below 980px */
   .heading-1 {
     display: none;
+  }
+  .heading-3{
+    padding: 10px 0;
   }
   .heading-3 .company-details {
     display: none;
@@ -162,17 +170,66 @@ nav.nav-shift ul li.active a {
     display: none;
   }
   .heading-3 .logo-img img {
-    width: 150px;
-    position: absolute;
-    top: 6px;
+height: 80px;
   }
   .heading-3 .quote-btn button {
     width: 6rem;
     margin: 6px 0;
     font-size: 10px;
+  }
+  /* =====css of burger mwenu==== */
+  .mobile-nav-btn {
+    display: inline-flex;
+    position: relative;
+    z-index: 3;
+    justify-content: end;
+    text-align: right;
+  }
+  /* ================reponsive css starts====================== */
+
+  .toggle-nav-icons-js[name="close-outline"] {
+    display: none;
+  }
+  .toggle-nav-icons-js {
+    padding-top: 10px;
+    width: 3rem;
+    height: 3rem;
+  }
+   
+  nav.nav-shift{
+    display:none;
+  }
+  .active  nav.nav-shift{
+    display:block;
+  }
+  .heading-2.active {
+    height: 100vh;
+
+  }
+
+  nav.nav-shift ul{
+    flex-direction: column;
+  }
+
+  .active .mobile-nav-btn .toggle-nav-icons-js[name="close-outline"] {
+    display: block;
+    outline: none;
+  }
+
+  .active .mobile-nav-btn .toggle-nav-icons-js[name="menu-outline"] {
+    display: none;
+    outline: none;
   }
 }
+
 @media (max-width: 35em) {
+  nav.nav-shift{
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+  
   .heading-1 {
     display: none;
   }
@@ -190,8 +247,17 @@ nav.nav-shift ul li.active a {
   .heading-3 .quote-btn button {
     width: 6rem;
     margin: 6px 0;
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 500;
   }
+}
+
+.toggle-nav-icons-js[name="close-outline"] {
+  display: none;
+}
+.toggle-nav-icons-js {
+  width: 3rem;
+  height: 3rem;
 }
 /* ==== heading 2 css ends==== */
 /* ========for the logo img css starts =========== */
@@ -265,6 +331,7 @@ nav.nav-shift ul li.active a {
 }
 .timing p {
   padding: 0;
+  padding-top: 15px;
   margin: 0;
   width: 100%;
   font-size: 14px;
@@ -332,7 +399,6 @@ section.banner-part {
   object-fit: cover;
   background-color: hwb(0 0% 100% / 0.4);
 }
-
 .carousel-item.banner-element::before {
   content: "";
   position: absolute;
@@ -340,34 +406,72 @@ section.banner-part {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: hwb(213.71deg 10.59% 48.24% / 49%);
+  /* background-color: hwb(213.71deg 10.59% 48.24% / 49%); */
 }
-/* =========text slider flip========== */
-.text-flip {
-  font-family: Raleway, sans-serif;
-  text-transform: uppercase;
-  justify-content: center;
-  font-size: 30px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
+.banner-details-slider {
   position: absolute;
-  top: 10rem;
-  right: 25rem;
-  z-index: 1;
+  top: 100px;
+  right: 8rem;
+  left: 8rem;
+  z-index: 9;
+  background: hwb(213.71deg 10.59% 48.24% / 49%);
   color: #fff;
-  letter-spacing: 4px;
+  text-align: center;
+  padding: 20px;
 }
-.changebox {
-  margin: 0 5px;
-  letter-spacing: 3px;
+.banner-details-slider strong {
+  font-size: 40px;
+  letter-spacing: 2.2px;
   color: #e5b759;
-  overflow: hidden;
-  transition: 0.5s;
-  white-space: nowrap;
+}
+.banner-details-slider p {
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  margin: 20px 0;
+}
+.banner-readmore {
+  text-align: center;
+}
+.banner-readmore button {
+  font-family: "poppins", Sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2;
+  letter-spacing: 1.1px;
+  word-spacing: 1.1px;
+  background: #e5b759;
+  color: #000;
+  padding: 7px 25px;
+  border: 2px solid #e5b759;
+  margin-top: 1rem;
+  transition: 0.3s ease;
+  color: #fff;
+}
+.banner-readmore button:hover {
+  background: transparent;
+  color: #fff;
+}
+@media (max-width: 62em) {
+  .banner-details-slider {
+    right: 1rem;
+    left: 1rem;
+    top: 2.5rem;
+  }
+  .banner-details-slider strong {
+    font-size: 35px;
+    line-height: 1;
+  }
+  .banner-details-slider p {
+    font-size: 16px;
+  }
+  .banner-readmore button {
+    font-size: 1rem;
+    padding: 4px 20px;
+  }
+}
+@media (max-width: 35em) {
 }
 /* ========company services css start========= */
-
 .company-services-box {
   text-align: center;
 }
@@ -427,14 +531,13 @@ span.good-men-moving {
 h2.good-men-h2 {
   color: #0c3e65;
   font-family: poppins, sans-serif;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 1.1em;
   letter-spacing: 1px;
   word-spacing: 2px;
   padding-right: 4rem;
   padding: 0;
-  font-size: 36px;
 }
 .services-box-wrapper .heading-span {
   margin: 0;
@@ -475,6 +578,10 @@ h2.good-men-h2 {
     font-size: 15px;
     line-height: 2;
   }
+  .services-box-wrapper {
+    right: 0;
+    left: 0;
+  }
 }
 @media (max-width: 35em) {
 }
@@ -504,7 +611,7 @@ section.about-good-men-moving {
   min-height: 400px;
 }
 .abou-img-left img:last-child {
-  margin: -30px 0 0 44%;
+  margin: -30px 0 0 30%;
 }
 .abou-img-left img {
   height: 20rem;
@@ -597,7 +704,6 @@ button.about-btn {
 button.about-btn:hover {
   background: transparent;
   color: #0c3e65;
-  transition: 0.3s ease;
 }
 p.good-man-moving-p {
   /* line-height: 2; */
@@ -687,6 +793,7 @@ section.choosen-part img {
 }
 .choose-up-right p {
   margin-top: 74px;
+  font-size: 16px;
 }
 .call-us-now {
   color: #fff;
@@ -747,16 +854,17 @@ section.choosen-part img {
   .call-us-now::after {
     width: 100%;
     height: 200px;
+    right: -10px;
   }
   .call-us-now {
     height: 200px;
     text-align: center;
   }
-  .call-us-now h4{
+  .call-us-now h4 {
     font-size: 30px;
     line-height: 1rem;
   }
-  .call-us-now a{
+  .call-us-now a {
     font-size: 22px;
   }
 }
@@ -855,16 +963,20 @@ section.goodmen-our-services h4 {
 }
 /* ========responsive of our services======== */
 @media (max-width: 62em) {
-  section.goodmen-our-services span{
+  section.goodmen-our-services span {
     font-size: 15px;
     line-height: 2;
   }
-  section.goodmen-our-services h4{
+  section.goodmen-our-services h4 {
     font-size: 30px;
     line-height: 2rem;
   }
-  .our-services-boxes h5{
+  .our-services-boxes h5 {
     font-size: 22px;
+  }
+  .our-services-btn button {
+    font-size: 1rem;
+    padding: 4px 10px;
   }
 }
 @media (max-width: 35em) {
@@ -941,7 +1053,7 @@ ul.testimonials-rating {
 }
 /* =====responsive of testimonials======= */
 @media (max-width: 62em) {
-  .review-box h5{
+  .review-box h5 {
     font-size: 30px;
   }
 }
@@ -1064,21 +1176,25 @@ input#firstName {
 }
 /* =====responsive of contact form======= */
 @media (max-width: 62em) {
-  .our-info-form span{
+  .our-info-form span {
     font-size: 15px;
   }
-  .contact-h{
+  .contact-h {
     font-size: 30px;
-    line-height: 2.5rem;
+    line-height: 2.4rem;
   }
-  .form-right:after{
-
-top: 21rem;
-
-}
-  .form-right:before{
-    
-top: 19rem;
+  .form-right:after {
+    top: 22rem;
+  }
+  .form-right:before {
+    top: 21rem;
+    right: 1rem;
+  }
+  .details-form i {
+    font-size: 30px;
+  }
+  .details-form p {
+    font-size: 20px;
   }
 }
 @media (max-width: 35em) {
@@ -1140,6 +1256,96 @@ footer.main-footer h6 {
   padding: 6px;
 }
 /* =====footer up css ends====== */
+/* ======call button css starts===== */
+.wrap-all-modal {
+  border-radius: 0 !important;
+  border-bottom: 1px solid#fbb4007d !important;
+}
+.call-icon {
+  display: none;
+}
+.call-text-btn {
+  text-align: center;
+}
+.call-text-btn button {
+  padding: 6px 20px;
+  margin: 6px;
+  background: #007bff;
+  border: 2px solid #007bff;
+}
+.call-text-btn a {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 10px;
+}
+/* ======call button css ends===== */
+@media (max-width: 35em) {
+  .call-icon {
+    display: block;
+    position: fixed;
+    bottom: 90px;
+    right: 15px;
+    z-index: 9;
+  }
+
+  .call-icon button {
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 50%;
+  }
+
+  .call-icon:hover {
+    animation: vibrate 1s infinite;
+  }
+
+  @keyframes vibrate {
+    0% {
+      transform: translate(0);
+    }
+    25% {
+      transform: translate(-2px, 2px);
+    }
+    50% {
+      transform: translate(0, -2px);
+    }
+    75% {
+      transform: translate(2px, 2px);
+    }
+    100% {
+      transform: translate(0);
+    }
+  }
+  /* ======call button css starts===== */
+  .wrap-all-modal {
+    border-radius: 0 !important;
+    border-bottom: 1px solid#fbb4007d !important;
+  }
+  .call-text-btn {
+    text-align: center;
+  }
+  .call-text-btn button {
+    padding: 6px 20px;
+    margin: 6px;
+    background: #007bff;
+    border: 2px solid#007bff;
+    color: #fff;
+  }
+  .call-text-btn a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 10px;
+  }
+}
+/* ======call button css ends===== */
+
+/*========= responsive of call icon css ends======== */
 /* ===scroll up to btn css ends=== */
 #scrollToTopButton {
   display: none;

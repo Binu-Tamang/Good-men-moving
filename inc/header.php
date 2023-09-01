@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="timing">
-                        <p>Monday-Friday: 9am-9pm <br> Saturday-Sunday: 9am-7pm</p>
+                        <p><i class="fa-regular fa-clock"></i> 24Hours Service</p>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,8 @@
                             <i class="fa-regular fa-envelope"></i>
                             <div class="header-mail-call">
                                 <span>Mail Us</span>
-                                <p><a href="mail:goodmenmovingco@gmail.com" target="_blank">goodmenmovingco@gmail.com</a></p>
+                                <p><a href="mail:goodmenmovingco@gmail.com"
+                                        target="_blank">goodmenmovingco@gmail.com</a></p>
                             </div>
                         </div>
                         <div class="header-info">
@@ -58,9 +59,14 @@
         </div>
     </div>
     <div class="heading-2">
+
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 text-end">
+                    <div class="mobile-nav-btn text-end">
+                        <i class="toggle-nav-icons-js fa fa-2x  fas fa-bars " name="menu-outline"></i>
+                        <i class="toggle-nav-icons-js fa fa-2x fa-close" name="close-outline"></i>
+                    </div>
                     <nav class="navbar nav-shift">
                         <ul class="nav-list" id="navList">
                             <li class="nav-item active"><a class="navbar-link" href="#">Home</a></li>
@@ -71,6 +77,7 @@
                             <li class="nav-item"><a class="navbar-link" href="#">FAQs</a></li>
                         </ul>
                     </nav>
+
                 </div>
             </div>
         </div>

@@ -49,21 +49,14 @@
         </button>
       </div>
     </div>
-    <div class="text-flip">
-      <p>
-        We are</p>
-      <div class="changebox">
-        <span>best</span><br>
-        <span>successful</span><br>
-        <span>happy</span><br>
-        <span>excited</span><br>
-      </div>
-      <p>
-        with you!
-      </p>
-    </div>
     <div class="banner-details-slider">
-
+      <strong>We Are Good Men Moving Company</strong>
+      <p>We are dedicated to making your move easy and affordable within your budget, with honesty and integrity. A
+        local
+        family owned and operated business.</p>
+      <div class="banner-readmore">
+        <button>Read More</button>
+      </div>
     </div>
   </section>
   <!-- banner part ends -->
@@ -225,7 +218,7 @@
           </div>
           <div class="col-md-3">
             <img src="assets/img/007-placeholder-with-check-mark.png" alt="">
-            <h3>CROSS-TOWN MOVING, LONG DISTANCE MOVING</h3>
+            <h3>CROSS-TOWN MOVING</h3>
             <p class="good-man-moving-p">Our commitment to excellence and customer satisfaction remains unwavering as we
               introduce our specialized
               services for Cross-Town Moving and Long-Distance Moving.</p>
