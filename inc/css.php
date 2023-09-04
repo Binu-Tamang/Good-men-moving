@@ -23,3 +23,7 @@
 <link rel="stylesheet" href="assets/plugins/owl/css/owl.theme.default.min.css">
 <!-- style css -->
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+ <!-- FavIcon -->
+ <link rel="icon" type="image/png" href="assets/img/logo-tab.png">
+    <!-- FavIcon -->

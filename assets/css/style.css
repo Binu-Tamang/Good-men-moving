@@ -152,7 +152,9 @@ nav.nav-shift ul li.active a {
   z-index: 999;
   color: #fff;
 }
-
+li.hide-btn-li {
+  display: none;
+}
 /* =====responsive code====== */
 /* ======responsive of header part starts======== */
 @media (max-width: 62em) {
@@ -160,7 +162,7 @@ nav.nav-shift ul li.active a {
   .heading-1 {
     display: none;
   }
-  .heading-3{
+  .heading-3 {
     padding: 10px 0;
   }
   .heading-3 .company-details {
@@ -170,12 +172,22 @@ nav.nav-shift ul li.active a {
     display: none;
   }
   .heading-3 .logo-img img {
-height: 80px;
+    height: 80px;
   }
   .heading-3 .quote-btn button {
     width: 6rem;
     margin: 6px 0;
     font-size: 10px;
+  }
+  .heading-2 li {
+    padding: 6px;
+  }
+  li.hide-btn-li {
+    display: block;
+  }
+
+  .quote-btn.hide-header-btn {
+    display: none;
   }
   /* =====css of burger mwenu==== */
   .mobile-nav-btn {
@@ -195,19 +207,18 @@ height: 80px;
     width: 3rem;
     height: 3rem;
   }
-   
-  nav.nav-shift{
-    display:none;
+
+  nav.nav-shift {
+    display: none;
   }
-  .active  nav.nav-shift{
-    display:block;
+  .active nav.nav-shift {
+    display: block;
   }
   .heading-2.active {
     height: 100vh;
-
   }
 
-  nav.nav-shift ul{
+  nav.nav-shift ul {
     flex-direction: column;
   }
 
@@ -223,13 +234,12 @@ height: 80px;
 }
 
 @media (max-width: 35em) {
-  nav.nav-shift{
+  nav.nav-shift {
     width: 100%;
     margin: 0 auto;
     flex-wrap: wrap;
     flex-direction: column;
-}
-  
+  }
   .heading-1 {
     display: none;
   }
@@ -239,10 +249,11 @@ height: 80px;
   .header-info {
     display: none;
   }
+  .logo-img {
+    text-align: center;
+  }
   .heading-3 .logo-img img {
-    width: 150px;
-    position: absolute;
-    top: 6px;
+    height: auto;
   }
   .heading-3 .quote-btn button {
     width: 6rem;
@@ -266,8 +277,8 @@ height: 80px;
   padding: 6px;
 }
 .company-details {
-  display: flex;
-  margin-left: 33px;
+  display: -webkit-inline-box;
+  margin-left: 30px;
 }
 .header-info {
   padding: 8px;
@@ -457,6 +468,10 @@ section.banner-part {
     left: 1rem;
     top: 2.5rem;
   }
+  .header-mail-call span,
+  .header-mail-call p {
+    font-size: 10px;
+  }
   .banner-details-slider strong {
     font-size: 35px;
     line-height: 1;
@@ -468,8 +483,18 @@ section.banner-part {
     font-size: 1rem;
     padding: 4px 20px;
   }
+  .quote-btn {
+    text-align: center;
+  }
+  .quote-btn button {
+    color: #fff;
+  }
 }
 @media (max-width: 35em) {
+  .header-mail-call span,
+  .header-mail-call p {
+    font-size: 10px;
+  }
 }
 /* ========company services css start========= */
 .company-services-box {
@@ -895,6 +920,10 @@ section.goodmen-our-services h4 {
   height: 200px;
   object-fit: cover;
   padding: 12px;
+  transition: all 1s linear;
+}
+.our-services-boxes:hover img {
+  transform: scale(0.9);
 }
 .our-services-boxes {
   background: #1c3c66a3;

@@ -50,8 +50,11 @@
       </div>
     </div>
     <div class="banner-details-slider">
-      <strong>We Are Good Men Moving Company</strong>
-      <p>We are dedicated to making your move easy and affordable within your budget, with honesty and integrity. A
+      <div data-aos="fade-right">
+        <strong class="d-block">We Are Good Men Moving Company</strong>
+      </div>
+      <p data-aos="fade-left">We are dedicated to making your move easy and affordable within your budget, with
+        honesty and integrity. A
         local
         family owned and operated business.</p>
       <div class="banner-readmore">
@@ -74,7 +77,7 @@
           <div class="col-md-2 col-6">
             <div class="company-services-box">
               <div class="services-img">
-                <i class="fa-solid fa-earth-americas"></i>
+                <i class="fa-solid fa-earth-americas" data-aos="flip-right"></i>
               </div>
               <div class="service-info">
                 <span class="heading-span">Residential Moving</span>
@@ -84,7 +87,7 @@
           <div class="col-md-2 col-6">
             <div class="company-services-box">
               <div class="services-img">
-                <i class="fa-solid fa-building"></i>
+                <i class="fa-solid fa-building" data-aos="flip-right"></i>
               </div>
               <div class="service-info">
                 <span class="heading-span">Commercial Moving</span>
@@ -94,7 +97,7 @@
           <div class="col-md-2 col-6">
             <div class="company-services-box">
               <div class="services-img">
-                <i class="fa-solid fa-boxes-packing"></i>
+                <i class="fa-solid fa-boxes-packing" data-aos="flip-right"></i>
               </div>
               <div class="service-info">
                 <span class="heading-span">Packing Services</span>
@@ -104,7 +107,7 @@
           <div class="col-md-2 hide-box">
             <div class="company-services-box">
               <div class="services-img">
-                <i class="fa-solid fa-people-carry-box"></i>
+                <i class="fa-solid fa-people-carry-box" data-aos="flip-right"></i>
               </div>
               <div class="service-info">
                 <span class="heading-span">Moving Supplies</span>
@@ -114,7 +117,7 @@
           <div class="col-md-2 col-6">
             <div class="company-services-box">
               <div class="services-img">
-                <i class="fa-solid fa-truck-fast"></i>
+                <i class="fa-solid fa-truck-fast" data-aos="flip-right"></i>
               </div>
               <div class="service-info">
                 <span class="heading-span">We Make it Faster</span>
@@ -137,19 +140,20 @@
         <div class="col-lg-6">
           <div class="img-good-men-moving">
             <div class="abou-img-left">
-              <img src="assets/img/umzug-per-spedition.jpg" alt="3 men">
-              <img src="assets/img/packing-moving-box.jpg" alt="3 men">
+              <img src="assets/img/umzug-per-spedition.jpg" alt="3 men" data-aos="fade-right">
+              <img src="assets/img/packing-moving-box.jpg" alt="3 men" data-aos="fade-right">
             </div>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="about-gmm-info">
             <span class="good-men-moving">About Good Men Moving</span>
-            <h2 class="good-men-h2">We're Your Moving Partner</h2>
-            <p class="good-man-moving-p">Good Men Moving Company is a Family-Owned Moving Company in Edmonton serving
+            <h2 class="good-men-h2" data-aos="fade-left">We're Your Moving Partner</h2>
+            <p class="good-man-moving-p" data-aos="fade-left">Good Men Moving Company is a Family-Owned Moving Company
+              in Edmonton serving
               Edmonton from last over 25
               Years. </p>
-            <div class="about-icon">
+            <div class="about-icon" data-aos="fade-left">
               <div class="about-box">
                 <i class="fa-solid fa-users"></i>
                 <h3>Local Moves</h3>
@@ -159,14 +163,14 @@
                 <h3>Office Moves</h3>
               </div>
             </div>
-            <ul>
+            <ul data-aos="fade-up">
               <li>Bringing solutions to moving problems</li>
               <li>Packing and unpacking</li>
               <li>No minimum charge & affordable rates</li>
               <li>Professional Edmonton Movers</li>
               <li>Cross-Town Moving, Long Distance Moving</li>
             </ul>
-            <div class="btn-about-gmm">
+            <div class="btn-about-gmm" data-aos="fade-up">
               <button class="about-btn">Read More</button>
             </div>
           </div>
@@ -181,14 +185,15 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <div class="choose-up-left">
+          <div class="choose-up-left" data-aos="fade-right">
             <span class="good-men-moving">Why Good Men Moving</span>
             <h2 class="good-men-h2">The Top Choice for Your Service Needs</h2>
           </div>
         </div>
         <div class="col-md-6">
           <div class="choose-up-right">
-            <p class="good-man-moving-p">Good Men Moving Company Your Trusted Family-Owned Edmonton Movers for Over 25
+            <p class="good-man-moving-p" data-aos="fade-left">Good Men Moving Company Your Trusted Family-Owned Edmonton
+              Movers for Over 25
               Years At Good Men Moving
               Company, we take pride in being a family-owned Edmonton moving company that has been serving the community
               for over 25 years.
@@ -205,26 +210,29 @@
             <img src="assets/img/003-discount-label-interface-commercial-symbol-with-percentage-sign.png"
               alt="discount tag">
             <h3>DISCOUNTED PACKING SUPPLIES</h3>
-            <p class="good-man-moving-p">We are thrilled to introduce an exciting new offering that will make your
+            <p class="good-man-moving-p" data-aos="fade-up">We are thrilled to introduce an exciting new offering that
+              will make your
               moving and loading experiences
               even more convenient and cost-effective our range of Discounted Packing Supplies.</p>
           </div>
           <div class="col-md-3">
             <img src="assets/img/002-insurance-agent.png" alt="insurrance people">
             <h3>INSURANCE AND SERVICE CONTRACTS</h3>
-            <p class="good-man-moving-p">We prioritize the security of your belongings, which is why we offer
+            <p class="good-man-moving-p" data-aos="fade-up">We prioritize the security of your belongings, which is why
+              we offer
               comprehensive Insurance and Service
               Contracts to provide you with peace of mind during the moving process.</p>
           </div>
           <div class="col-md-3">
             <img src="assets/img/007-placeholder-with-check-mark.png" alt="">
             <h3>CROSS-TOWN MOVING</h3>
-            <p class="good-man-moving-p">Our commitment to excellence and customer satisfaction remains unwavering as we
+            <p class="good-man-moving-p" data-aos="fade-up">Our commitment to excellence and customer satisfaction
+              remains unwavering as we
               introduce our specialized
               services for Cross-Town Moving and Long-Distance Moving.</p>
           </div>
           <div class="col-md-3">
-            <div class="call-us-now">
+            <div class="call-us-now" data-aos="fade-left">
               <h4>Call Us Now!</h4>
               <a href="tel:780-937-6666"><i class="fa-solid fa-phone"></i> 780-937-6666</a>
             </div>
@@ -237,12 +245,12 @@
 
   <!-- goodmen our services starts  -->
   <section class="goodmen-our-services">
-    <span class="good-men-moving">Good Men Moving</span>
-    <h4>Our Services</h4>
+    <span class="good-men-moving" data-aos="fade-down">Good Men Moving</span>
+    <h4 data-aos="fade-down">Our Services</h4>
     <div class="container">
       <div class="row gy-4">
         <div class="col-md-4">
-          <div class="our-services-boxes">
+          <div class="our-services-boxes" data-aos="fade-up">
             <img src="assets/img/residential_moving.jpg" alt="residential moving">
             <h5>Local Moves</h5>
             <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
@@ -251,7 +259,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="our-services-boxes">
+          <div class="our-services-boxes" data-aos="fade-up">
             <img src="assets/img/uship-investment-tracker.jpg" alt="truck carrying loads">
             <h5>Long Distance Moves</h5>
             <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
@@ -260,7 +268,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="our-services-boxes">
+          <div class="our-services-boxes" data-aos="fade-up">
             <img src="assets/img/corporate.jpg" alt="office building">
             <h5>Offices Moves</h5>
             <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
@@ -269,7 +277,7 @@
           </div>
         </div>
       </div>
-      <div class="our-services-btn mt-3">
+      <div class="our-services-btn mt-3" data-aos="fade-up">
         <button>View More <i class="fa-solid fa-arrow-right"></i></button>
       </div>
     </div>
@@ -466,23 +474,24 @@
           <div class="form-right">
             <div class="our-info-form">
               <span>Appointment</span>
-              <h5 class="contact-h">Make An Appointment</h5>
-              <p class="good-man-moving-p">Fill in the form below to send us a message or to ask about any queries you
+              <h5 class="contact-h" data-aos="fade-left">Make An Appointment</h5>
+              <p class="good-man-moving-p" data-aos="fade-left">Fill in the form below to send us a message or to ask
+                about any queries you
                 might have.</p>
             </div>
-            <div class="details-form">
+            <div class="details-form" data-aos="flip-up">
               <i class="fa-regular fa-comments"></i>
               <p>
                 <b>Customer Service</b><a href="tel:780-937-6666">780-937-6666</a>
               </p>
             </div>
-            <div class="details-form">
+            <div class="details-form" data-aos="flip-up">
               <i class="fa-solid fa-map-location-dot"></i>
               <p>
                 <b>Our Address</b><a href="#">6825 106 St, Edmonton, AB T6H 2W1</a>
               </p>
             </div>
-            <div class="details-form">
+            <div class="details-form" data-aos="flip-up">
               <i class="fa-regular fa-clock"></i>
               <p>
                 <b>Opening Hours</b><a href="#">24 hours 7 days a Week</a>

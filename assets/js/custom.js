@@ -29,7 +29,6 @@ $(".owl-carousel").owlCarousel({
   },
 });
 // js for contact form
-
 const form = document.getElementById("moveForm");
 
 form.addEventListener("submit", function (event) {
@@ -125,5 +124,37 @@ $(document).ready(function () {
   });
 });
 
-// js for banner details slider
+// =====================scroll aos animation
+AOS.init({
+  duration: 1200,
+  once: 'true',
+})
 
+window.addEventListener('DOMContentLoaded',function(){
+  document.addEventListener("scroll", (event) => {
+
+    let lastKnownScrollPosition = window.scrollY;
+    const scroll_button= document.querySelector('#go-to-top');
+
+    if (lastKnownScrollPosition < '200') {
+        scroll_button.classList.remove('show');
+    }else{
+      scroll_button.classList.add('show');
+
+    }
+  });
+});
+document.addEventListener("DOMContentLoaded", function () {
+  const link = document.querySelector("#go-to-top a");
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+      const target = document.querySelector(this.getAttribute("href"));
+      if (target) {
+
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+    }
+    });
+});

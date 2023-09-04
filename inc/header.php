@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="quote-btn">
+                    <div class="quote-btn hide-header-btn">
                         <button>Get A Quote</button>
                     </div>
                 </div>
@@ -75,6 +75,11 @@
                             <li class="nav-item"><a class="navbar-link" href="#">Testimonials</a></li>
                             <li class="nav-item"><a class="navbar-link" href="#">Contact</a></li>
                             <li class="nav-item"><a class="navbar-link" href="#">FAQs</a></li>
+                            <li class="hide-btn-li">
+                                <div class="quote-btn">
+                                    <button>Get A Quote</button>
+                                </div>
+                            </li>
                         </ul>
                     </nav>
 
