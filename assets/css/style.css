@@ -613,7 +613,6 @@ h2.good-men-h2 {
 /* ======about good men moving css starts==== */
 section.about-good-men-moving {
   margin: 0;
-  overflow-x: hidden;
 }
 .img-good-men-moving img {
   width: 100%;
