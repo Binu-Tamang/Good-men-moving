@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="logo-img">
-                        <img src="assets/img/logo-2.png" alt="logo of moving company">
+                        <img src="assets/img/logo-2_18_11zon.png" alt="logo of moving company">
                     </div>
                 </div>
                 <div class="col-md-6">

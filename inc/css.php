@@ -25,5 +25,5 @@
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
  <!-- FavIcon -->
- <link rel="icon" type="image/png" href="assets/img/logo-tab.png">
+ <link rel="icon" type="image/png" href="assets/img/logo-tab_19_11zon.png">
     <!-- FavIcon -->

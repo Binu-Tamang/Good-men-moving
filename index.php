@@ -24,19 +24,19 @@
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item banner-element active">
-            <img src="assets/img/slider/3men.jpg" class="d-block w-100" alt="good 3 men moving">
+            <img src="assets/img/slider/3men_1_11zon.jpg" class="d-block w-100" alt="good 3 men moving">
           </div>
           <div class="carousel-item banner-element">
-            <img src="assets/img/slider/view1.jpg" class="d-block w-100" alt="green and city">
+            <img src="assets/img/slider/view1_5_11zon.jpg" class="d-block w-100" alt="green and city">
           </div>
           <div class="carousel-item banner-element">
-            <img src="assets/img/slider/truck2.jpg" class="d-block w-100" alt="truck load">
+            <img src="assets/img/slider/truck2_4_11zon.jpg" class="d-block w-100" alt="truck load">
           </div>
           <div class="carousel-item banner-element">
-            <img src="assets/img/slider/best.jpg" class="d-block w-100" alt="city view">
+            <img src="assets/img/slider/best_2_11zon.jpg" class="d-block w-100" alt="city view">
           </div>
           <div class="carousel-item banner-element">
-            <img src="assets/img/slider/sv8.jpg" class="d-block w-100" alt="people loading">
+            <img src="assets/img/slider/sv8_3_11zon.jpg" class="d-block w-100" alt="people loading">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -76,7 +76,7 @@
           </div>
           <div class="col-md-2 col-6">
             <div class="company-services-box">
-              <div class="services-img">
+              <div class="services-img flip-container">
                 <i class="fa-solid fa-earth-americas" data-aos="flip-right"></i>
               </div>
               <div class="service-info">
@@ -86,7 +86,7 @@
           </div>
           <div class="col-md-2 col-6">
             <div class="company-services-box">
-              <div class="services-img">
+              <div class="services-img flip-container">
                 <i class="fa-solid fa-building" data-aos="flip-right"></i>
               </div>
               <div class="service-info">
@@ -96,7 +96,7 @@
           </div>
           <div class="col-md-2 col-6">
             <div class="company-services-box">
-              <div class="services-img">
+              <div class="services-img flip-container">
                 <i class="fa-solid fa-boxes-packing" data-aos="flip-right"></i>
               </div>
               <div class="service-info">
@@ -106,7 +106,7 @@
           </div>
           <div class="col-md-2 hide-box">
             <div class="company-services-box">
-              <div class="services-img">
+              <div class="services-img flip-container">
                 <i class="fa-solid fa-people-carry-box" data-aos="flip-right"></i>
               </div>
               <div class="service-info">
@@ -116,7 +116,7 @@
           </div>
           <div class="col-md-2 col-6">
             <div class="company-services-box">
-              <div class="services-img">
+              <div class="services-img flip-container">
                 <i class="fa-solid fa-truck-fast" data-aos="flip-right"></i>
               </div>
               <div class="service-info">
@@ -140,8 +140,8 @@
         <div class="col-lg-6">
           <div class="img-good-men-moving">
             <div class="abou-img-left">
-              <img src="assets/img/umzug-per-spedition.jpg" alt="3 men" data-aos="fade-right">
-              <img src="assets/img/packing-moving-box.jpg" alt="3 men" data-aos="fade-right">
+              <img src="assets/img/umzug-per-spedition_25_11zon.jpg" alt="3 men" data-aos="fade-right">
+              <img src="assets/img/packing-moving-box_20_11zon.jpg" alt="3 men" data-aos="fade-right">
             </div>
           </div>
         </div>
@@ -207,7 +207,8 @@
       <div class="choose-3-boxes">
         <div class="row">
           <div class="col-md-3">
-            <img src="assets/img/003-discount-label-interface-commercial-symbol-with-percentage-sign.png"
+            <img class="flip-container"
+              src="assets/img/003-discount-label-interface-commercial-symbol-with-percentage-sign_5_11zon.png"
               alt="discount tag">
             <h3>DISCOUNTED PACKING SUPPLIES</h3>
             <p class="good-man-moving-p" data-aos="fade-up">We are thrilled to introduce an exciting new offering that
@@ -216,7 +217,7 @@
               even more convenient and cost-effective our range of Discounted Packing Supplies.</p>
           </div>
           <div class="col-md-3">
-            <img src="assets/img/002-insurance-agent.png" alt="insurrance people">
+            <img class="flip-container" src="assets/img/002-insurance-agent_3_11zon.png" alt="insurrance people">
             <h3>INSURANCE AND SERVICE CONTRACTS</h3>
             <p class="good-man-moving-p" data-aos="fade-up">We prioritize the security of your belongings, which is why
               we offer
@@ -224,7 +225,7 @@
               Contracts to provide you with peace of mind during the moving process.</p>
           </div>
           <div class="col-md-3">
-            <img src="assets/img/007-placeholder-with-check-mark.png" alt="">
+            <img class="flip-container" src="assets/img/007-placeholder-with-check-mark_7_11zon.png" alt="">
             <h3>CROSS-TOWN MOVING</h3>
             <p class="good-man-moving-p" data-aos="fade-up">Our commitment to excellence and customer satisfaction
               remains unwavering as we
@@ -251,7 +252,7 @@
       <div class="row gy-4">
         <div class="col-md-4">
           <div class="our-services-boxes" data-aos="fade-up">
-            <img src="assets/img/residential_moving.jpg" alt="residential moving">
+            <img src="assets/img/residential_moving_21_11zon.jpg" alt="residential moving">
             <h5>Local Moves</h5>
             <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
               nec.</p>
@@ -260,7 +261,7 @@
         </div>
         <div class="col-md-4">
           <div class="our-services-boxes" data-aos="fade-up">
-            <img src="assets/img/uship-investment-tracker.jpg" alt="truck carrying loads">
+            <img src="assets/img/uship-investment-tracker_26_11zon.jpg" alt="truck carrying loads">
             <h5>Long Distance Moves</h5>
             <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
               nec.</p>
@@ -269,7 +270,7 @@
         </div>
         <div class="col-md-4">
           <div class="our-services-boxes" data-aos="fade-up">
-            <img src="assets/img/corporate.jpg" alt="office building">
+            <img src="assets/img/corporate_14_11zon.jpg" alt="office building">
             <h5>Offices Moves</h5>
             <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
               nec.</p>
@@ -292,118 +293,41 @@
         <h5>Our Reviews</h5>
       </div>
       <div class="review-slider">
-        <div class="owl-carousel owl-theme">
-          <div class="item review-info">
-            <i class="fa-solid fa-quote-right"></i>
-            <h6>Mona Ismaeil</h6>
-            <p>John and his guys did a great job! They were very professional, very pleasant, worked very quickly and
-              efficiently. They also took such good care of our things.</p>
-            <ul class="testimonials-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-            </ul>
+        <!-- <link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css"> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.rawgit.com/stevenmonson/googleReviews/6e8f0d79/google-places.js"></script>
+        <script
+          src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAama6im0Q4uKQg7soyDe-zQW5C-DSUmCo&signed_in=true&libraries=places"></script>
+
+        <script>
+          jQuery(document).ready(function ($) {
+            $(document).ready(function () {
+              $("#google-reviews").googlePlaces({
+                placeId: 'ChIJkRRokaoYoFMRxlQn2kPs83o'
+                , render: ['reviews']
+                , min_rating: 4
+                , max_rows: 4
+                , rotateTime: 16000
+              });
+            });
+          });
+
+        </script>
+
+        <div id="google-reviews"></div>
+        <div class="review-btn">
+          <div class="view-review review">
+            <a target="_blank"
+              href="https://www.google.com/search?q=good+men+moving+edmonton&oq=good+men&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAuGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgYIBRBFGEEyBggGEEUYPDIGCAcQRRg80gEIMjc1MWowajmoAgCwAgA&sourceid=chrome&ie=UTF-8&bshm=rime/1#lrd=0x53a018aa91681491:0x7af3ec43da2754c6,1,,,,">View
+              All Google Reviews <i class="fa-solid fa-circle-chevron-right"></i></a>
           </div>
-          <div class="item review-info">
-            <i class="fa-solid fa-quote-right"></i>
-            <h6>Darren Anderson</h6>
-            <p>2 weeks agoNEW
-              Fantastic to deal with. They had our entire place loaded, moved, and unpacked in under 5 hours. They were
-              very respectful of our things, and took apart/rebuilt our kitchen table and shelving units to take up less
-              space in the truck. </p>
-            <ul class="testimonials-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-            </ul>
-          </div>
-          <div class="item review-info">
-            <i class="fa-solid fa-quote-right"></i>
-            <h6>MITCHELL COUTURE</h6>
-            <p>Positive: Professionalism, Quality, Responsiveness, Value
-              These guys were great!! I had a special request to move a vary large and fragile fish tank system and they
-              were able to accommodate. Extremely professional and helped with the whole process, prepping doors and
-              railing for the move and installation of them when they were done. </p>
-            <ul class="testimonials-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-            </ul>
-          </div>
-          <div class="item review-info">
-            <i class="fa-solid fa-quote-right"></i>
-            <h6>Nadeem Ashraf</h6>
-            <p>Positive: Professionalism, Quality, Responsiveness, Value
-              Professional, honest and hardworking guys. They came exactly on time and got the job done in few hours.
-              Definitely would recommend if you are looking for a reliable movers.</p>
-            <ul class="testimonials-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-            </ul>
-          </div>
-          <div class="item review-info">
-            <i class="fa-solid fa-quote-right"></i>
-            <h6>Kathryn Jones</h6>
-            <p>Unfortunate experince but good movers. They didnt take mastercard. They cost as much as my move from
-              Innisfail to Sherwood Park and they didnt even travel far. Price was extremely disappointing for being in
-              town. </p>
-            <ul class="testimonials-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-            </ul>
-          </div>
-          <div class="item review-info">
-            <i class="fa-solid fa-quote-right"></i>
-            <h6>Lejon Brames</h6>
-            <p>We called this guy late afternoon on a Sunday and he was at our door 45 minutes later with bells on. We
-              were in a tight spot and he rounded up his own family to help us. He had us fully moved out of a 5000
-              square foot house in under.</p>
-            <ul class="testimonials-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-            </ul>
-          </div>
-          <div class="item review-info">
-            <i class="fa-solid fa-quote-right"></i>
-            <h6>Jesseca Van Wert</h6>
-            <p>Looking for a fantastic set of movers? Look no further!</p>
-            <ul class="testimonials-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-            </ul>
-          </div>
-          <div class="item review-info">
-            <i class="fa-solid fa-quote-right"></i>
-            <h6>Adrienne Paul</h6>
-            <p>Amazing company hands down. Do recommend. 5 stars just isn't enough. Nice guys with great attitudes! Hard
-              to find that anywhere else</p>
-            <ul class="testimonials-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-            </ul>
+          <div class="write-review review">
+            <a target="_blank"
+              href="https://www.google.com/search?q=good+men+moving+edmonton&oq=good+men&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAuGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgYIBRBFGEEyBggGEEUYPDIGCAcQRRg80gEIMjc1MWowajmoAgCwAgA&sourceid=chrome&ie=UTF-8&bshm=rime/1#lrd=0x53a018aa91681491:0x7af3ec43da2754c6,3,,,,">Write
+              A Reviews <i class="fa-solid fa-circle-chevron-right"></i></a>
           </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -458,7 +382,8 @@
                         <div class="form-group">
                           <div class="class-form">
                             <label for="phoneNumber">Phone Number:</label>
-                            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="123-45-678" required>
+                            <input type="tel" pattern="^\d{10}$" id="phoneNumber" name="phoneNumber" placeholder=""
+                              required>
                           </div>
                         </div>
                       </div>

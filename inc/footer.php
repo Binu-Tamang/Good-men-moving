@@ -51,8 +51,8 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="bbb-img my-2">
-                                    <img src="assets/img/bbb.png" alt="bbb img">
-                                    <img class="budget-img" src="assets/img/budget-vector-logo.jpg" alt="budget vector">
+                                    <img src="assets/img/bbb_11_11zon.png" alt="bbb img">
+                                    <img class="budget-img" src="assets/img/budget-vector-logo_13_11zon.jpg" alt="budget vector">
                                 </div>
                             </div>
                         </div>
@@ -79,8 +79,6 @@
                         <ul>
                             <li><a href="tel:780-937-6666"><i class="fa-solid fa-phone"></i> 780-937-6666</a></li>
                             <li><a href="#"><i class="fa-regular fa-envelope"></i> goodmenmovingco@gmail.com</a></li>
-                            <li><a href="#"><i class="fa-regular fa-clock"></i>Monday-Friday: 9am-9pm Saturday-Sunday:
-                                    9am-7pm</a></li>
                         </ul>
                         <div class="payment">
                             <img src="assets/img/interac.png" alt="interac">
