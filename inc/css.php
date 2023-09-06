@@ -21,6 +21,7 @@
 <!-- owl css -->
 <link rel="stylesheet" href="assets/plugins/owl/css/owl.carousel.min.css">
 <link rel="stylesheet" href="assets/plugins/owl/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
 <!-- style css -->
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 

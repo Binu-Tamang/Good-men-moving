@@ -140,8 +140,8 @@
         <div class="col-lg-6">
           <div class="img-good-men-moving">
             <div class="abou-img-left">
-              <img src="assets/img/umzug-per-spedition_25_11zon.jpg" alt="3 men" data-aos="fade-right">
-              <img src="assets/img/packing-moving-box_20_11zon.jpg" alt="3 men" data-aos="fade-right">
+              <img data-src="assets/img/umzug-per-spedition_25_11zon.jpg" alt="3 men" data-aos="fade-right">
+              <img data-src="assets/img/packing-moving-box_20_11zon.jpg" alt="3 men" data-aos="fade-right">
             </div>
           </div>
         </div>
@@ -208,7 +208,7 @@
         <div class="row">
           <div class="col-md-3">
             <img class="flip-container"
-              src="assets/img/003-discount-label-interface-commercial-symbol-with-percentage-sign_5_11zon.png"
+              data-src="assets/img/003-discount-label-interface-commercial-symbol-with-percentage-sign_5_11zon.png"
               alt="discount tag">
             <h3>DISCOUNTED PACKING SUPPLIES</h3>
             <p class="good-man-moving-p" data-aos="fade-up">We are thrilled to introduce an exciting new offering that
@@ -217,7 +217,7 @@
               even more convenient and cost-effective our range of Discounted Packing Supplies.</p>
           </div>
           <div class="col-md-3">
-            <img class="flip-container" src="assets/img/002-insurance-agent_3_11zon.png" alt="insurrance people">
+            <img class="flip-container" data-src="assets/img/002-insurance-agent_3_11zon.png" alt="insurrance people">
             <h3>INSURANCE AND SERVICE CONTRACTS</h3>
             <p class="good-man-moving-p" data-aos="fade-up">We prioritize the security of your belongings, which is why
               we offer
@@ -225,7 +225,7 @@
               Contracts to provide you with peace of mind during the moving process.</p>
           </div>
           <div class="col-md-3">
-            <img class="flip-container" src="assets/img/007-placeholder-with-check-mark_7_11zon.png" alt="">
+            <img class="flip-container" data-src="assets/img/007-placeholder-with-check-mark_7_11zon.png" alt="">
             <h3>CROSS-TOWN MOVING</h3>
             <p class="good-man-moving-p" data-aos="fade-up">Our commitment to excellence and customer satisfaction
               remains unwavering as we
@@ -252,7 +252,7 @@
       <div class="row gy-4">
         <div class="col-md-4">
           <div class="our-services-boxes" data-aos="fade-up">
-            <img src="assets/img/residential_moving_21_11zon.jpg" alt="residential moving">
+            <img data-src="assets/img/residential_moving_21_11zon.jpg" alt="residential moving">
             <h5>Local Moves</h5>
             <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
               nec.</p>
@@ -261,7 +261,7 @@
         </div>
         <div class="col-md-4">
           <div class="our-services-boxes" data-aos="fade-up">
-            <img src="assets/img/uship-investment-tracker_26_11zon.jpg" alt="truck carrying loads">
+            <img data-src="assets/img/uship-investment-tracker_26_11zon.jpg" alt="truck carrying loads">
             <h5>Long Distance Moves</h5>
             <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
               nec.</p>
@@ -270,7 +270,7 @@
         </div>
         <div class="col-md-4">
           <div class="our-services-boxes" data-aos="fade-up">
-            <img src="assets/img/corporate_14_11zon.jpg" alt="office building">
+            <img data-src="assets/img/corporate_14_11zon.jpg" alt="office building">
             <h5>Offices Moves</h5>
             <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
               nec.</p>
@@ -294,25 +294,7 @@
       </div>
       <div class="review-slider">
         <!-- <link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css"> -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://cdn.rawgit.com/stevenmonson/googleReviews/6e8f0d79/google-places.js"></script>
-        <script
-          src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAama6im0Q4uKQg7soyDe-zQW5C-DSUmCo&signed_in=true&libraries=places"></script>
-
-        <script>
-          jQuery(document).ready(function ($) {
-            $(document).ready(function () {
-              $("#google-reviews").googlePlaces({
-                placeId: 'ChIJkRRokaoYoFMRxlQn2kPs83o'
-                , render: ['reviews']
-                , min_rating: 4
-                , max_rows: 4
-                , rotateTime: 16000
-              });
-            });
-          });
-
-        </script>
+      
 
         <div id="google-reviews"></div>
         <div class="review-btn">
@@ -343,47 +325,52 @@
               <div class="form-container">
                 <form id="moveForm">
                   <div class="form-group">
-                    <label for="movingFrom">Moving From:</label>
-                    <input type="text" id="movingFrom" name="movingFrom" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="movingTo">Moving To:</label>
-                    <input type="text" id="movingTo" name="movingTo" required>
-                  </div>
-                  <div class="form-group">
                     <div class="row">
                       <div class="col-md-6">
                         <div class="class-form">
                           <label for="firstName">First Name:</label>
-                          <input type="text" id="firstName" name="firstName" required>
+                          <input placeholder="First Name" type="text" id="firstName" name="firstName" required>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="class-form">
                           <label for="lastName">Last Name:</label>
-                          <input type="text" id="lastName" name="lastName" required>
+                          <input placeholder="Last Name" type="text" id="lastName" name="lastName" required>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="date">Date :</label>
-                    <input type="date" id="date" name="date" required>
                   </div>
                   <div class="form-group">
                     <div class="row">
                       <div class="col-md-6">
                         <div class="class-form">
                           <label for="email">Email:</label>
-                          <input type="email" id="email" name="email" placeholder="goodmenmovingco@gmail.com" required>
+                          <input type="email" id="email" name="email" placeholder="Your Email" required>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
                           <div class="class-form">
                             <label for="phoneNumber">Phone Number:</label>
-                            <input type="tel" pattern="^\d{10}$" id="phoneNumber" name="phoneNumber" placeholder=""
+                            <input placeholder="Your Number" type="tel" pattern="^\d{10}$" id="phoneNumber" name="phoneNumber" placeholder=""
                               required>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <div class="class-form">
+                            <label for="subject">Subject:</label>
+                            <input type="name" class="form-control" id="subject" name="subject" 
+                            placeholder="Subject"
+                              required>
+                          </div>
+                        </div>
+                      </div><div class="col-md-12">
+                        <div class="form-group">
+                          <div class="class-form">
+                            <label for="message">Message:</label>
+                            <textarea name="message" id="message" class="form-control" placeholder="Your Message"  rows="5"></textarea>
                           </div>
                         </div>
                       </div>

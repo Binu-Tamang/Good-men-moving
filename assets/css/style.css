@@ -320,6 +320,7 @@ li.hide-btn-li {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 400;
+  letter-spacing: 2px;
 }
 .quote-btn button:hover {
   background: transparent;
@@ -645,7 +646,7 @@ section.about-good-men-moving {
   min-height: 400px;
 }
 .abou-img-left img:last-child {
-  margin: -64px 0 0 45%;
+  margin: -64px 0 0 40%;
 }
 .abou-img-left img {
   height: 20rem;
@@ -683,7 +684,6 @@ section.about-good-men-moving {
 /* ================= */
 .about-box {
   display: inline-flex;
-  margin: 14px 30px 14px 0;
 }
 .about-box i {
   font-size: 30px;
@@ -692,7 +692,8 @@ section.about-good-men-moving {
 }
 .about-icon {
   margin-top: 16px;
-  justify-content: space-between;
+  justify-content: start;
+  gap:20px;
   display: flex;
 }
 .about-box h3 {
@@ -907,7 +908,7 @@ section.choosen-part img {
 /* =========our services css starts========== */
 section.goodmen-our-services {
   background-image: linear-gradient(rgb(31 45 48 / 61%), rgb(31 45 48 / 60%)),
-    url(../img/umzug-per-spedition.jpg);
+    url(../img/umzug-per-spedition_25_11zon.jpg);
   padding: 5rem 0;
   text-align: center;
   /* margin-top: 5rem; */
@@ -1136,7 +1137,6 @@ input#date {
 }
 .contact-form button:hover {
   background-color: #d39a25;
-  color: #000;
 }
 /* ==========all over view form============ */
 .form-right {
@@ -1618,5 +1618,21 @@ line-height:1;
 }
 .review:hover {
   background: transparent;
+}
+/* =====responsive css of google reviews===== */
+@media (max-width: 62em) {
+  .review-btn{
+    display: inline-block;
+  }
+  .review{
+    font-size: 1rem;
+    padding: 4px 10px;
+  }
+}
+@media (max-width: 35em) {
+  .review{
+    font-size: 1rem;
+    padding: 4px 6px;
+  }
 }
 /* ====google place css====== */
