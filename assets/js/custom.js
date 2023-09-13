@@ -1,16 +1,12 @@
-
-
 // js for the menu navbar
 const mobile_nav = document.querySelector(".mobile-nav-btn");
 const nav_second_top_header = document.querySelector(".heading-2");
 
 const toggleNavbar = () => {
-nav_second_top_header.classList.toggle("active");
+  nav_second_top_header.classList.toggle("active");
 };
 
-mobile_nav.addEventListener("click", () => toggleNavbar()); 
-
-
+mobile_nav.addEventListener("click", () => toggleNavbar());
 
 // scroll up to button js
 $(document).ready(function () {
@@ -30,15 +26,15 @@ $(document).ready(function () {
   });
 });
 // ================date picker jquery
-$( function() {
-  $( "#date" ).datepicker();
-} );
+$(function () {
+  $("#date").datepicker();
+});
 
 // =====================scroll aos animation
 AOS.init({
   duration: 1200,
-  once: 'true',
-})
+  once: "true",
+});
 
 const options = {
   rootMargin: "500px",
@@ -74,11 +70,33 @@ if ("IntersectionObserver" in window) {
 jQuery(document).ready(function ($) {
   $(document).ready(function () {
     $("#google-reviews").googlePlaces({
-      placeId: 'ChIJkRRokaoYoFMRxlQn2kPs83o'
-      , render: ['reviews']
-      , min_rating: 4
-      , max_rows: 4
-      , rotateTime: 16000
+      placeId: "ChIJkRRokaoYoFMRxlQn2kPs83o",
+      render: ["reviews"],
+      min_rating: 4,
+      max_rows: 4,
+      rotateTime: 16000,
     });
   });
 });
+
+// JS for accordion FAQs page
+document.addEventListener("DOMContentLoaded", function () {
+  const accordionItems = document.querySelectorAll(".accordionTitle ");
+
+  accordionItems.forEach((item) => {
+    item.addEventListener("click", function (e) {
+      e.preventDefault();
+      // Toggle the active class to show/hide content
+      if (
+        item.parentElement.nextElementSibling &&
+        item.parentElement.nextElementSibling.tagName === "DD"
+      ) {
+        item.classList.toggle("active");
+        item.parentElement.nextElementSibling.classList.toggle(
+          "accordionItemCollapsed"
+        );
+      }
+    });
+  });
+});
+
