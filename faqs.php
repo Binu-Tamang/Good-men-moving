@@ -41,7 +41,7 @@
                     <div class="container">
                         <div class="faqs-box">
                             <div class="container">
-                                <h1>Welcome To The <span>Frequently Ask Questions</span></h1>
+                                <h1>Frequently Ask Questions</h1>
                                 <div class="accordion">
                                     <dl>
                                         <dt><a href="#" class="accordionTitle">How do you protect my furniture?

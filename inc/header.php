@@ -52,7 +52,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="quote-btn hide-header-btn">
-                        <button>Get A Quote</button>
+                        <button> <a href="quotes.php"> Get A Quote</a></button>
                     </div>
                 </div>
             </div>

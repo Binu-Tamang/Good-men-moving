@@ -294,7 +294,7 @@
       </div>
       <div class="review-slider">
         <!-- <link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css"> -->
-      
+
 
         <div id="google-reviews"></div>
         <div class="review-btn">
@@ -315,7 +315,7 @@
   </section>
   <!-- testimonials ends -->
   <!-- ===========contact us form============ -->
-  <section class="contact-form">
+  <section class="contact-form p-5">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -352,8 +352,8 @@
                         <div class="form-group">
                           <div class="class-form">
                             <label for="phoneNumber">Phone Number:</label>
-                            <input placeholder="Your Number" type="tel" pattern="^\d{10}$" id="phoneNumber" name="phoneNumber" placeholder=""
-                              required>
+                            <input placeholder="Your Number" type="tel" pattern="^\d{10}$" id="phoneNumber"
+                              name="phoneNumber" placeholder="" required>
                           </div>
                         </div>
                       </div>
@@ -361,22 +361,23 @@
                         <div class="form-group">
                           <div class="class-form">
                             <label for="subject">Subject:</label>
-                            <input type="name" class="form-control" id="subject" name="subject" 
-                            placeholder="Subject"
+                            <input type="name" class="form-control" id="subject" name="subject" placeholder="Subject"
                               required>
                           </div>
                         </div>
-                      </div><div class="col-md-12">
+                      </div>
+                      <div class="col-md-12">
                         <div class="form-group">
                           <div class="class-form">
                             <label for="message">Message:</label>
-                            <textarea name="message" id="message" class="form-control" placeholder="Your Message"  rows="5"></textarea>
+                            <textarea name="message" id="message" class="form-control" placeholder="Your Message"
+                              rows="5"></textarea>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <button type="submit">Submit</button>
+                  <button type="submit">Submit <i class="fa-regular fa-paper-plane"></i></button>
                 </form>
               </div>
             </div>
