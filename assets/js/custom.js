@@ -27,9 +27,13 @@ $(document).ready(function () {
 });
 // ================date picker jquery
 $(function () {
-  $("#date").datepicker();
+  if ($("#date").length) {
+    $("#date").datepicker({
+      minDate: 0, // Set the minimum date to today
+      dateFormat: "yy M d", // Format the date as "2023 May 4"
+    });
+  }
 });
-
 // =====================scroll aos animation
 AOS.init({
   duration: 1200,
@@ -100,3 +104,23 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// for a counter
+const counterUp = window.counterUp.default
+
+const callback = entries => {
+	entries.forEach( entry => {
+		const el = entry.target
+		if ( entry.isIntersecting && ! el.classList.contains( 'is-visible' ) ) {
+			counterUp( el, {
+				duration: 2000,
+				delay: 16,
+			} )
+			el.classList.add( 'is-visible' )
+		}
+	} )
+}
+
+const IO = new IntersectionObserver( callback, { threshold: 1 } )
+
+const el = document.querySelector( '.counter' )
+IO.observe( el )

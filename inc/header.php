@@ -70,9 +70,9 @@
                     <nav class="navbar nav-shift">
                         <ul class="nav-list" id="navList">
                             <li class="nav-item active"><a class="navbar-link" href="index.php">Home</a></li>
-                            <li class="nav-item"><a class="navbar-link" href="#">About</a></li>
+                            <li class="nav-item"><a class="navbar-link" href="about-us.php">About</a></li>
                             <li class="nav-item"><a class="navbar-link" href="#">Services</a></li>
-                            <li class="nav-item"><a class="navbar-link" href="#">Testimonials</a></li>
+                            <li class="nav-item"><a class="navbar-link" href="testimonial.php">Testimonials</a></li>
                             <li class="nav-item"><a class="navbar-link" href="contactus.php">Contact</a></li>
                             <li class="nav-item"><a class="navbar-link" href="faqs.php">FAQs</a></li>
                             <li class="hide-btn-li">

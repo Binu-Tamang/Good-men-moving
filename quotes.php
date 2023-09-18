@@ -25,54 +25,62 @@
     <!-- banner and header page -->
 
     <section class="getaqoutes text-center p-5">
-        <div class="container">
-            <h1 class="good-men-h2 p-0">GET A FREE QUOTE <i class="fa-solid fa-clipboard"></i></h1>
-            <p class="good-man-moving-p aos-init aos-animate">Fill the remaining field below to get a quote. We will
-                respond ASAP to all of your inquiries.</p>
-            <div class="quotes-form">
-                <form id="quotesform">
-                    <div class="row g-3">
-                        <div class="col-12 col-lg-6">
-                            <input type="text" id="name" name="name" class="form-control border-2" required
-                                placeholder="Your First Name" style="height: 55px;">
-                            <small id="nameError" class="form-text text-danger"></small>
-                        </div>
+        <div class="quotes-wrap">
+            <div class="container">
+                <h1 class="good-men-h2 p-0">GET A FREE QUOTE <i class="fa-solid fa-clipboard"></i></h1>
+                <p class="good-man-moving-p aos-init aos-animate">Fill the remaining field below to get a quote. We will
+                    respond ASAP to all of your inquiries.</p>
+                <div class="quotes-form">
+                    <form id="quotesform">
+                        <div class="row g-3">
+                            <div class="col-12 col-lg-6">
+                                <input type="text" id="name" name="name" class="form-control" required
+                                    placeholder="Your First Name" style="height: 55px;">
+                                <small id="nameError" class="form-text text-danger"></small>
+                            </div>
 
-                        <div class="col-12 col-lg-6">
-                            <input type="text" id="name" name="name" class="form-control border-2" required
-                                placeholder="Your Last Name" style="height: 55px;">
-                            <small id="nameError" class="form-text text-danger"></small>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <input type="tel" id="phone" name="phone" pattern="^\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}$"
-                                class="form-control border-2" required placeholder="Your Number" style="height: 55px;">
-                        </div>
-                        <div class="col-12 col-lg-12">
-                            <label for="bedrrom">Bedroom:</label>
-                            <select name="room" class="form-control" required>
-                                <option selected disabled>-- Bedroom --</option>
-                                <option value="One">One</option>
-                                <option value="two">Two</option>
-                                <option value="three">Three</option>
-                                <option value="four">Four</option>
-                                <option value="five">Five</option>
-                                <option value="more">More</option>
-                                <option value="other">Other (office, container, warehouse etc)</option>
-                            </select>
-                        </div>
-                        <div class="col-12 col-lg-12">
-                            <label for="services">Services Required:</label>
-                            <select id="servicesrq" name="servicerq" class="form-control" required>
-                                <option disabled="" selected="">* Services Required:</option>
-                                <option>Local Moves</option>
-                                <option>Long Distance Moves</option>
-                                <option>Office Moves</option>
-                                <option>Commercial Movers</option>
-                                <option>Assembly and Disassembly of any size or type</option>
-                                <option>Wide variety of boxes and packing equipment</option>
-                                <option>Packing and unpacking</option>
-                                <option>Available storage facilities</option>
-                            </select>
+                            <div class="col-12 col-lg-6">
+                                <input type="text" id="name" name="name" class="form-control" required
+                                    placeholder="Your Last Name" style="height: 55px;">
+                                <small id="nameError" class="form-text text-danger"></small>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <input type="tel" id="phone" name="phone"
+                                    pattern="^\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}$" class="form-control" required
+                                    placeholder="Your Number" style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <input id="form_email" name="email" value="" class="form-control"
+                                    placeholder="Email Address" required="required" data-error="Email is required."
+                                    type="text" style="height:55px">
+                            </div>
+                            <div class="col-12 col-lg-12">
+                                <label for="bedrrom">Bedroom:</label>
+                                <select name="room" class="form-control" required>
+                                    <option selected disabled>-- Bedroom --</option>
+                                    <option value="One">One</option>
+                                    <option value="two">Two</option>
+                                    <option value="three">Three</option>
+                                    <option value="four">Four</option>
+                                    <option value="five">Five</option>
+                                    <option value="more">More</option>
+                                    <option value="other">Other (office, container, warehouse etc)</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-lg-12">
+                                <label for="services">Services Required:</label>
+                                <select id="servicesrq" name="servicerq" class="form-control" required>
+                                    <option disabled="" selected="">* Services Required</option>
+                                    <option>Local Moves</option>
+                                    <option>Long Distance Moves</option>
+                                    <option>Office Moves</option>
+                                    <option>Commercial Movers</option>
+                                    <option>Assembly and Disassembly of any size or type</option>
+                                    <option>Wide variety of boxes and packing equipment</option>
+                                    <option>Packing and unpacking</option>
+                                    <option>Available storage facilities</option>
+                                </select>
+                            </div>
                         </div>
                         <div class="row formrow">
                             <h3>Moving From :</h3>
@@ -92,13 +100,13 @@
 
                             <div class="col-md-4 col-sm-4">
                                 <div class="formfield">
-                                    <input name="movingdate" type="text" value="" placeholder="Moving Date"
-                                        id="movdate1" required="required" data-error="Please specify move date"
-                                        required>
+                                    <input type="name" placeholder="YYYY M DD" id="date" name="moving_date"
+                                        required="required" class="form-control">
                                 </div>
                             </div>
 
                         </div>
+
                         <div class="row formrow">
                             <h3>Moving To :</h3>
                             <div class="col-md-4 col-sm-4">
@@ -128,11 +136,13 @@
 
                         <div class="row formrow form-submit-clear">
                             <div class="col-md-12">
-                                <input class="form-control" value="Send Email" type="submit">
+                                <div class="email-btn">
+                                    <button>Send Email</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
