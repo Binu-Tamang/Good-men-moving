@@ -38,7 +38,7 @@
                         <h1 class="good-men-h2 aos-init aos-animate">Why Choose <span>Edmonton Moving Company</span>
                         </h1>
                         <p class="good-man-moving-p aos-init aos-animate">
-                            Good Men Moving Company has been in business serving Edmonton families and business for over
+                            <strong>Good Men Moving Company</strong> has been in business serving Edmonton families and business for over
                             25 years. Handed down from father to son. Our goal is to provide the best service to our
                             fellow Edmontonians. <br> <br>
 
@@ -64,50 +64,51 @@
                     </div>
                 </div>
             </div>
+            
+
             <div class="counter-wrap">
                 <div class="row">
                     <div class="col-lg-3 counting-div" id="counter1">
-                        <div class="counter-1">
+                        <div class="counter-box">
                             <i class="fa-solid fa-truck-fast"></i>
                             <div class="counter">
-                                111
+                                100+
                             </div>
                         </div>
-                        <span>DELIVERED</span>
+                        <p>RESIDENTIAL MOVING</p>
                     </div>
 
                     <div class="col-lg-3 counting-div" id="counter2">
-                        <div class="counter-1">
-                            <i class="fa-solid fa-user"></i>
+                        <div class="counter-box">
+                            <i class="fa-solid fa-people-carry-box"></i>
                             <div class="counter">
-                                111
+                                15+
                             </div>
                         </div>
-                        <span>MOVERS</span>
+                        <p>PROFESSIONAL MOVERS</p>
                     </div>
 
                     <div class="col-lg-3 counting-div" id="counter3">
-                        <div class="counter-1">
+                        <div class="counter-box">
                             <i class="fa-solid fa-boxes-stacked"></i>
                             <div class="counter">
-                                222
+                                222+
                             </div>
                         </div>
-                        <span>GOODS</span>
+                        <p>COMMERCIAL MOVING</p>
                     </div>
 
                     <div class="col-lg-3 counting-div" id="counter4">
-                        <div class="counter-1">
+                        <div class="counter-box">
                             <i class="fa-solid fa-users"></i>
                             <div class="counter">
-                                333
+                                3000+
                             </div>
                         </div>
-                        <span>CUSTOMERS</span>
+                        <p>HAPPY <br> CUSTOMERS</p>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 

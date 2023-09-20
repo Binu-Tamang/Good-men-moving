@@ -221,7 +221,7 @@
                                 </li>
                                 <li><a href="#serve-5"><i class="fa-solid fa-boxes-packing"></i> Packing And Unpacking</a>
                                 </li>
-                                <li><a href="#serve-6"><i class="fa-solid fa-reply-all"></i> See All Services</a></li>
+                                <li><a href="services-page.php"><i class="fa-solid fa-reply-all"></i> See All Services</a></li>
                             </ul>
                         </div>
 

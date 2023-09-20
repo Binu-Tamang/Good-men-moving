@@ -68,16 +68,30 @@
                         <i class="toggle-nav-icons-js fa fa-2x fa-close" name="close-outline"></i>
                     </div>
                     <nav class="navbar nav-shift">
-                        <ul class="nav-list" id="navList">
+                        <ul class="nav-list nav-menu" id="navList">
                             <li class="nav-item active"><a class="navbar-link" href="index.php">Home</a></li>
                             <li class="nav-item"><a class="navbar-link" href="about-us.php">About</a></li>
-                            <li class="nav-item"><a class="navbar-link" href="#">Services</a></li>
+                            <li class="nav-item">
+
+                                <a class="navbar-link" href="services-page.php">Services</a>
+                                <ul class="sub-menu">
+                                    <li class="submenu-a" ><a href="#">Local Moves</a></li>
+                                    <li class="submenu-a" ><a href="#">Long Distance Moves</a></li>
+                                    <li class="submenu-a" ><a href="#">Office Moves</a></li>
+                                    <li class="submenu-a" ><a href="#">Commercial Moves</a></li>
+                                    <li class="submenu-a" ><a href="#">Assembly/Disassembly</a></li>
+                                    <li class="submenu-a" ><a href="#">Packing/Equipment</a></li>
+                                    <li class="submenu-a" ><a href="#">Packing and Unpacking</a></li>
+                                    <li class="submenu-a" ><a href="#">Available Storage Facilities</a></li>
+                                </ul>
+                            </li>
+
                             <li class="nav-item"><a class="navbar-link" href="testimonial.php">Testimonials</a></li>
                             <li class="nav-item"><a class="navbar-link" href="contactus.php">Contact</a></li>
                             <li class="nav-item"><a class="navbar-link" href="faqs.php">FAQs</a></li>
                             <li class="hide-btn-li">
                                 <div class="quote-btn">
-                                    <button>Get A Quote</button>
+                                    <button><a href="quotes.php"> Get A Quote</a></button>
                                 </div>
                             </li>
                         </ul>

@@ -279,7 +279,7 @@
         </div>
       </div>
       <div class="our-services-btn mt-3" data-aos="fade-up">
-        <button>View More <i class="fa-solid fa-arrow-right"></i></button>
+        <button><a href="services-page.php">View More <i class="fa-solid fa-arrow-right"></i></a></button>
       </div>
     </div>
   </section>

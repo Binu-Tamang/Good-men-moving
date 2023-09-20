@@ -63,12 +63,12 @@
                         <h6>Quick Links</h6>
                         <div class="ul-wrapper-box">
                             <ul class="list-content list-x2">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                                <li><a href="#">Contacts</a></li>
-                                <li><a href="#">FAQS</a></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="about-us.php">About</a></li>
+                                <li><a href="services-page.php">Services</a></li>
+                                <li><a href="testimonial.php">Testimonials</a></li>
+                                <li><a href="contactus.php">Contacts</a></li>
+                                <li><a href="faqs.php">FAQS</a></li>
                             </ul>
                         </div>
                     </div>

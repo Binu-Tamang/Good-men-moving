@@ -105,22 +105,48 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // for a counter
-const counterUp = window.counterUp.default
+// const counterUp = window.counterUp.default
 
-const callback = entries => {
-	entries.forEach( entry => {
-		const el = entry.target
-		if ( entry.isIntersecting && ! el.classList.contains( 'is-visible' ) ) {
-			counterUp( el, {
-				duration: 2000,
-				delay: 16,
-			} )
-			el.classList.add( 'is-visible' )
-		}
-	} )
-}
+// const callback = entries => {
+// 	entries.forEach( entry => {
+// 		const el = entry.target
+// 		if ( entry.isIntersecting && ! el.classList.contains( 'is-visible' ) ) {
+// 			counterUp( el, {
+// 				duration: 2000,
+// 				delay: 16,
+// 			} )
+// 			el.classList.add( 'is-visible' )
+// 		}
+// 	} )
+// }
 
-const IO = new IntersectionObserver( callback, { threshold: 1 } )
+// const IO = new IntersectionObserver( callback, { threshold: 1 } )
 
-const el = document.querySelector( '.counter' )
-IO.observe( el )
+// const el = document.querySelector( '.counter' )
+// IO.observe( el )
+const counterUp = window.counterUp.default;
+
+  let counterItems = document.querySelectorAll(".counter");
+  let counterItemsObserver = new IntersectionObserver(function (
+    entries,
+    observer
+  ) {
+    entries.forEach(function (entry) {
+      let counterItem = entry.target;
+
+      if (
+        entry.isIntersecting &&
+        !counterItem.classList.contains("is-visible")
+      ) {
+        counterUp(counterItem, {
+          duration: 2000,
+          delay: 16,
+        });
+        counterItem.classList.add("is-visible");
+        counterItemsObserver.unobserve(counterItem);
+      }
+    });
+  });
+  counterItems.forEach(function (counterItem) {
+    counterItemsObserver.observe(counterItem);
+  });
