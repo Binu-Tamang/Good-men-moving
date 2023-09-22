@@ -53,12 +53,13 @@
       <div data-aos="fade-right">
         <strong class="d-block">We Are Good Men Moving Company</strong>
       </div>
-      <p data-aos="fade-left">We are dedicated to making your move easy and affordable within your budget, with
+      <p data-aos="fade-left" class="respo-banner-p1">We are dedicated to making your move easy and affordable within your budget, with
         honesty and integrity. A
         local
         family owned and operated business.</p>
+      <p data-aos="fade-left" class="respo-banner-p2" >Your affordable, honest, and family-owned partner for an easy move within your budget.</p>
       <div class="banner-readmore">
-        <button>Read More</button>
+        <button><a href="about-us.php">Read More</a></button>
       </div>
     </div>
   </section>
@@ -149,10 +150,16 @@
           <div class="about-gmm-info">
             <span class="good-men-moving">About Good Men Moving</span>
             <h2 class="good-men-h2" data-aos="fade-left">We're Your Moving Partner</h2>
-            <p class="good-man-moving-p" data-aos="fade-left">Good Men Moving Company is a Family-Owned Moving Company
-              in Edmonton serving
-              Edmonton from last over 25
-              Years. </p>
+            <p class="good-man-moving-p" data-aos="fade-left">Good Men Moving Company is a well-established and
+              reputable moving company based in Edmonton, Canada. With a proud history spanning over 25 years, we have
+              consistently delivered top-notch moving services to the local community. As a family-owned business, we
+              prioritize personalized care and attention to detail, ensuring that each customer's unique moving needs
+              are met with professionalism and reliability.<br> Our enduring commitment to excellence means you can
+              trust us
+              to provide a seamless and stress-free moving experience, making your transition as smooth as possible.
+              Whether you're relocating locally or long-distance, Good Men Moving Company is here to assist you with
+              integrity and dedication.
+            </p>
             <div class="about-icon" data-aos="fade-left">
               <div class="about-box">
                 <i class="fa-solid fa-users"></i>
@@ -184,22 +191,24 @@
   <section class="choosen-part">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6 align-items-center d-flex">
           <div class="choose-up-left" data-aos="fade-right">
             <span class="good-men-moving">Why Good Men Moving</span>
-            <h2 class="good-men-h2">The Top Choice for Your Service Needs</h2>
+            <h2 class="good-men-h2 ">The Top Choice for Your Service Needs</h2>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <div class="choose-up-right">
-            <p class="good-man-moving-p" data-aos="fade-left">Good Men Moving Company Your Trusted Family-Owned Edmonton
-              Movers for Over 25
-              Years At Good Men Moving
-              Company, we take pride in being a family-owned Edmonton moving company that has been serving the community
-              for over 25 years.
+            <p class="good-man-moving-p" data-aos="fade-left">Our dedication to excellence goes beyond merely
+              transporting your belongings. We ensure that your experience is stress-free by offering additional
+              services such as packing, unpacking, and storage solutions. Our friendly and efficient staff is always
+              ready to assist you throughout your moving journey, providing peace of mind during this important
+              transition.
               <br>
-              When you choose us, you can trust that you are in capable hands. Our crews consist of highly trained and
-              experienced professional Edmonton movers who are committed to delivering exceptional service.
+              At Good Men Moving Company, we take pride in being a local, family-owned business that understands the
+              needs of our community intimately. We've built our reputation on trust and reliability, making us the top
+              choice for anyone seeking exceptional service and a smooth, worry-free moving experience. Your
+              satisfaction is our priority, and we're here to make your move as seamless and enjoyable as possible.
             </p>
           </div>
         </div>
@@ -214,7 +223,8 @@
             <p class="good-man-moving-p" data-aos="fade-up">We are thrilled to introduce an exciting new offering that
               will make your
               moving and loading experiences
-              even more convenient and cost-effective our range of Discounted Packing Supplies.</p>
+              even more convenient and cost-effective our range of Discounted Packing Supplies.
+            </p>
           </div>
           <div class="col-md-3">
             <img class="flip-container" data-src="assets/img/002-insurance-agent_3_11zon.png" alt="insurrance people">
@@ -222,7 +232,8 @@
             <p class="good-man-moving-p" data-aos="fade-up">We prioritize the security of your belongings, which is why
               we offer
               comprehensive Insurance and Service
-              Contracts to provide you with peace of mind during the moving process.</p>
+              Contracts to provide you with peace of mind during the moving process.
+            </p>
           </div>
           <div class="col-md-3">
             <img class="flip-container" data-src="assets/img/007-placeholder-with-check-mark_7_11zon.png" alt="">
@@ -256,7 +267,7 @@
             <h5>Local Moves</h5>
             <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
               nec.</p>
-            <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="services-details-page.php">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
         <div class="col-md-4">
@@ -265,7 +276,7 @@
             <h5>Long Distance Moves</h5>
             <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
               nec.</p>
-            <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="service-two.php">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
         <div class="col-md-4">
@@ -274,7 +285,7 @@
             <h5>Offices Moves</h5>
             <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
               nec.</p>
-            <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="service-three.php">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>

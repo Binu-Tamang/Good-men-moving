@@ -43,72 +43,72 @@
                 <div class="col-md-4">
                     <div class="our-services-boxes landing-box">
                         <img data-src="assets/img/uship-investment-tracker_26_11zon.jpg" alt="truck carrying loads">
-                        <h5><a class="serv-header-a" href="services-details-page.php">Long Distance Movers</a></h5>
+                        <h5><a class="serv-header-a" href="service-two.php">Long Distance Movers</a></h5>
                         <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                             tellus, luctus
                             nec.</p>
-                        <a href="services-details-page.php">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="service-two.php">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="our-services-boxes landing-box">
                         <img data-src="assets/img/corporate_14_11zon.jpg" alt="office building">
-                        <h5><a class="serv-header-a" href="#">Offices Moves</a></h5>
+                        <h5><a class="serv-header-a" href="service-three.php">Offices Moves</a></h5>
                         <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                             tellus, luctus
                             nec.</p>
-                        <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="service-three.php">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="our-services-boxes landing-box">
                         <img data-src="assets/img/residential_moving_21_11zon.jpg" alt="residential moving">
-                        <h5><a class="serv-header-a" href="#">Commercial Moves</a></h5>
+                        <h5><a class="serv-header-a" href="service-four.php">Commercial Moves</a></h5>
                         <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                             tellus, luctus
                             nec.</p>
-                        <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="service-four.php">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="our-services-boxes landing-box">
                         <img data-src="assets/img/uship-investment-tracker_26_11zon.jpg" alt="truck carrying loads">
-                        <h5><a class="serv-header-a" href="#">Assembly And Disassembly Of Any Size Or Type</a></h5>
+                        <h5><a class="serv-header-a" href="service-five.php">Assembly And Disassembly Of Any Size Or Type</a></h5>
                         <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                             tellus, luctus
                             nec.</p>
-                        <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="service-five.php">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="our-services-boxes landing-box">
                         <img data-src="assets/img/corporate_14_11zon.jpg" alt="office building">
-                        <h5><a class="serv-header-a" href="#">Wide Variety Of Boxes And Packing Equipment</a></h5>
+                        <h5><a class="serv-header-a" href="service-six.php">Wide Variety Of Boxes And Packing Equipment</a></h5>
                         <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                             tellus, luctus
                             nec.</p>
-                        <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="service-six.php">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="our-services-boxes landing-box">
                         <img data-src="assets/img/corporate_14_11zon.jpg" alt="office building">
-                        <h5><a class="serv-header-a" href="#">Packing And Unpacking</a></h5>
+                        <h5><a class="serv-header-a" href="service-seven.php">Packing And Unpacking</a></h5>
                         <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                             tellus, luctus
                             nec.</p>
-                        <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="service-seven.php">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="our-services-boxes landing-box">
                         <img data-src="assets/img/corporate_14_11zon.jpg" alt="office building">
-                        <h5><a class="serv-header-a" href="#">Available
+                        <h5><a class="serv-header-a" href="service-eight.phps">Available
                             Storage Facilities</a></h5>
                         <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                             tellus, luctus
                             nec.</p>
-                        <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="service-eight.php">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

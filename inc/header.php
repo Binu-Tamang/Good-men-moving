@@ -26,15 +26,23 @@
     <div class="heading-3">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 d-inline-flex">
                     <div class="logo-img">
                         <img src="assets/img/logo-2_18_11zon.png" alt="logo of moving company">
                     </div>
+                    <div class="head-budget">
+                        <div class="bbb my-2">
+                            <img src="assets/img/bbb_11_11zon.png" alt="bbb-img">
+                        </div>
+                        <div class="budget">
+                            <img src="assets/img/budget-vector-logo_13_11zon.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 text-left d-content">
                     <div class="company-details">
-                        <div class="header-info">
-                            <i class="fa-regular fa-envelope"></i>
+                        <div class="header-info header-mail">
+                            <i class="fa-regular fa-envelope d-none"></i>
                             <div class="header-mail-call">
                                 <span>Mail Us</span>
                                 <p><a href="mail:goodmenmovingco@gmail.com"
@@ -42,12 +50,16 @@
                             </div>
                         </div>
                         <div class="header-info">
-                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-phone d-none"></i>
                             <div class="header-mail-call">
                                 <span>Call Us</span>
                                 <p><a href="tel:780-937-6666">780-937-6666</a></p>
                             </div>
                         </div>
+
+                    </div>
+                    <div class="quote-btn respo-q-btn">
+                        <button><a href="quotes.php"> Get A Quote</a></button>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -59,7 +71,6 @@
         </div>
     </div>
     <div class="heading-2">
-
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-end">
@@ -72,9 +83,8 @@
                             <li class="nav-item active"><a class="navbar-link" href="index.php">Home</a></li>
                             <li class="nav-item"><a class="navbar-link" href="about-us.php">About</a></li>
                             <li class="nav-item">
-
                                 <a class="navbar-link" href="services-page.php">Services</a>
-                                <ul class="sub-menu">
+                                <!-- <ul class="sub-menu">
                                     <li class="submenu-a" ><a href="#">Local Moves</a></li>
                                     <li class="submenu-a" ><a href="#">Long Distance Moves</a></li>
                                     <li class="submenu-a" ><a href="#">Office Moves</a></li>
@@ -83,7 +93,7 @@
                                     <li class="submenu-a" ><a href="#">Packing/Equipment</a></li>
                                     <li class="submenu-a" ><a href="#">Packing and Unpacking</a></li>
                                     <li class="submenu-a" ><a href="#">Available Storage Facilities</a></li>
-                                </ul>
+                                </ul> -->
                             </li>
 
                             <li class="nav-item"><a class="navbar-link" href="testimonial.php">Testimonials</a></li>

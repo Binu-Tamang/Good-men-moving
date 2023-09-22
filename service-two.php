@@ -27,9 +27,9 @@
             <div class="row">
                 <div class="col-lg-8 col-12">
                     <div class="local-mover" id=serve-1>
-                        <h2 class="contact-h aos-init aos-animate">Edmonton Local Movers</h2>
+                        <h2 class="contact-h aos-init aos-animate">Long Distance Moves</h2>
                         <div class="serv-img-left">
-                            <img src="assets/img/residential_moving_21_11zon.jpg" alt="2 men">
+                            <img src="assets/img/uship-investment-tracker_26_11zon.jpg" alt="2 men">
                         </div> <br>
                         <div class="service-page-img">
                             <p class="good-man-moving-p aos-init aos-animate"><strong>Good Men Moving

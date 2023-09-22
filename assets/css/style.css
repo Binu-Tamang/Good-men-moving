@@ -1,7 +1,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  /* overflow-x: hidden; */
   font-family: "Roboto", sans-serif;
 }
 html {
@@ -35,7 +34,6 @@ body {
   margin: 12px;
 }
 .heading-1 li::before {
-  /* content: ""; */
   border-left: 2px solid #fff;
 }
 .heading-1 li.li-h-1::before {
@@ -89,7 +87,6 @@ nav.nav-shift {
   display: flex;
   list-style: none;
   margin: 0 12px;
-  /* width: 100%; */
 }
 .heading-2 li a:hover {
   color: #2c508f;
@@ -136,7 +133,7 @@ nav.nav-shift ul li.active a {
   padding: 0;
 }
 /* Style the sub-menu */
-.sub-menu {
+/* .sub-menu {
   display: none !important;
   position: absolute;
   top: 46px;
@@ -158,7 +155,7 @@ nav.nav-shift ul li.active a {
   padding: 10px 20px;
   display: block !important;
   border-bottom: 1px solid #ccc !important;
-}
+} */
 .nav-item {
   position: relative;
 }
@@ -188,6 +185,31 @@ nav.nav-shift ul li.active a {
 li.hide-btn-li {
   display: none;
 }
+p.respo-banner-p2 {
+  display: none;
+}
+
+p.respo-banner-p1 {
+  display: block;
+}
+.bbb img {
+  height: 4rem;
+  background: #fff;
+  padding: 6px;
+  width: auto;
+}
+.budget img {
+  height: 2rem;
+  width: auto;
+}
+.head-budget {
+text-align: right;
+margin: 0 20px;
+display: none;
+}
+.quote-btn.respo-q-btn button{
+  display: none;
+}
 /* =====responsive code====== */
 /* ======responsive of header part starts======== */
 @media (min-width: 62em) {
@@ -195,21 +217,38 @@ li.hide-btn-li {
     display: block !important;
     z-index: 999;
   }
+
 }
 @media (max-width: 62em) {
   /* below 980px */
-  .sub-menu{
+  .respo-banner-p1 {
+    display: none !important;
+  }
+  .respo-banner-p2 {
+    display: block !important;
+  }
+  .sub-menu {
     display: block !important;
     right: -65px;
   }
   .heading-1 {
     display: none;
   }
+  .heading-2 {
+  }
+  nav.nav-shift {
+    overflow: auto;
+    height: auto;
+  }
   .heading-3 {
-    padding: 10px 0;
+    /* padding: 10px 0; */
+    padding-bottom: 10px;
   }
   .heading-3 .company-details {
-    display: none;
+    /* display: none; */
+  }
+  .header-info.header-mail{
+    /* display: none !important; */
   }
   .header-info {
     display: none;
@@ -228,7 +267,9 @@ li.hide-btn-li {
   li.hide-btn-li {
     display: block;
   }
-
+  .heading-2 li a {
+    width: 100%;
+  }
   .quote-btn.hide-header-btn {
     display: none;
   }
@@ -243,6 +284,17 @@ li.hide-btn-li {
   .nav-item .sub-menu.active {
     display: block !important;
   }
+  .head-budget{
+    display: block;
+  }
+  .quote-btn.respo-q-btn button{
+    display: block;
+  }
+  .quote-btn.respo-q-btn button {
+    width: 100% !important;
+    margin: 0 !important;
+    margin-top: 5px !important;
+}
   /* ================reponsive css starts====================== */
 
   .toggle-nav-icons-js[name="close-outline"] {
@@ -266,6 +318,7 @@ li.hide-btn-li {
 
   nav.nav-shift ul {
     flex-direction: column;
+    text-align: left;
   }
 
   .active .mobile-nav-btn .toggle-nav-icons-js[name="close-outline"] {
@@ -291,17 +344,30 @@ li.hide-btn-li {
     display: none;
   }
   .heading-3 .company-details {
-    display: none;
+    /* display: none; */
+    margin: 0;
   }
   .header-info {
     display: none;
+    padding: 0 !important;
+    margin: 0 !important;
   }
   .logo-img {
-    text-align: center;
+    text-align: left;
+  }
+ 
+  .header-mail-call{
+    margin: 0 10px !important;
   }
   .heading-3 .logo-img img {
-    height: auto;
+    height: 50%;
+    width: 180px;
   }
+  .header-info i {
+    margin: 4px;
+    font-size: 18px !important;
+    color: #2c508f;
+}
   .heading-3 .quote-btn button {
     width: 6rem;
     margin: 6px 0;
@@ -510,6 +576,10 @@ section.banner-part {
   transition: 0.3s ease;
   color: #fff;
 }
+.banner-readmore button a {
+  color: #fff;
+  text-decoration: none;
+}
 .banner-readmore button:hover {
   background: transparent;
   color: #fff;
@@ -542,14 +612,30 @@ section.banner-part {
     color: #fff;
     padding: 4px;
   }
-  .quote-btn button a{
+  .quote-btn button a {
     font-size: 12px;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    color: #fff;
+    z-index: 99;
+  }
+  .header-mail-call{
+    text-align: left;
   }
 }
 @media (max-width: 35em) {
   .header-mail-call span,
   .header-mail-call p {
     font-size: 10px;
+  }
+  .header-mail-call{
+    text-align: left;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    color: #fff;
+    z-index: 99;
   }
 }
 /* ========company services css start========= */
@@ -678,7 +764,7 @@ h2.good-men-h2 {
 }
 /* ======about good men moving css starts==== */
 section.about-good-men-moving {
-  margin: 0;
+  margin: 2rem 0;
 }
 .img-good-men-moving img {
   width: 100%;
@@ -701,16 +787,16 @@ section.about-good-men-moving {
   min-height: 400px;
 }
 .abou-img-left img:last-child {
-  margin: -64px 0 0 40%;
+  margin: -48px 0 0 40%;
 }
 .abou-img-left img {
-  height: 20rem;
+  height: 25rem;
   width: 18rem;
   object-fit: cover;
 }
 .abou-img-left::before {
   content: "";
-  height: 60%;
+  height: 67%;
   width: 70%;
   display: inline-block;
   position: absolute;
@@ -731,6 +817,7 @@ section.about-good-men-moving {
   background-color: hwb(213.71deg 10.59% 48.24% / 49%);
 }
 .about-gmm-info {
+  margin: 1rem 0;
   margin-left: 1rem;
 }
 .about-gmm-info p {
@@ -882,7 +969,7 @@ section.choosen-part img {
   margin: 1rem 0;
 }
 .choose-up-right p {
-  margin-top: 74px;
+  /* margin-top: 74px; */
   font-size: 16px;
 }
 .call-us-now {
@@ -1608,6 +1695,14 @@ img.budget-img {
   display: inline-flex;
   width: 100%;
 }
+/* ====responsive===== */
+@media (max-width: 62em) {
+  .bbb-img {
+    width: 4rem;
+  }
+}
+@media (max-width: 35em) {
+}
 /* =========footer between css ends======= */
 .footer-end {
   display: inline-flex;
@@ -1775,7 +1870,9 @@ strong.typing-text {
   font-size: 40px;
   color: #fff;
 }
-
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #fff;
+}
 .page-header li a {
   color: #eee;
   text-decoration: none;
@@ -2200,6 +2297,8 @@ ul.services-menu-list li i {
 .contact-msg {
   letter-spacing: 2px;
   margin: 2rem 0 0 0;
+  color: #0c3e65 !important;
+  font-weight: 600;
 }
 .contact-msg textarea {
   background: #d4d4d4;
@@ -2207,6 +2306,7 @@ ul.services-menu-list li i {
 }
 .text-black {
   letter-spacing: 3px;
+  color: #0c3e65 !important;
 }
 
 /* ==== Get a quotes css===== */
@@ -2260,7 +2360,6 @@ section.getaqoutes {
   padding: 30px;
   margin: 0 auto;
 }
-
 .formrow h3 {
   font-family: Roboto;
   font-size: 20px;
@@ -2272,6 +2371,21 @@ section.getaqoutes {
   padding: 10px 15px;
   text-align: left;
   margin-bottom: 5px;
+}
+@media (max-width: 62em) {
+  section.getaqoutes h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px !important;
+  }
+  section.getaqoutes {
+    padding: 1rem 0 2rem 0;
+  }
+  .quotes-wrap {
+    padding: 0px;
+  }
+}
+@media (max-width: 35em) {
 }
 /* ===testimonials page css==== */
 section.review-page {

@@ -24,7 +24,7 @@
     <?php include('inc/page-header.php') ?>
     <!-- banner and header page -->
 
-    <section class="getaqoutes text-center p-5">
+    <section class="getaqoutes text-center p-0 p-md-5">
         <div class="quotes-wrap">
             <div class="container">
                 <h1 class="good-men-h2 p-0">GET A FREE QUOTE <i class="fa-solid fa-clipboard"></i></h1>

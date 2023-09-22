@@ -19,7 +19,7 @@
     <!-- header part ends -->
 
     <!-- banner and headre page  -->
-    <?php $page_name = ' Local Movers' ?>
+    <?php $page_name = 'Edmonton Local Movers' ?>
     <?php include('inc/page-header.php') ?>
     <!-- banner and header page -->
     <section class="service-page">
@@ -27,9 +27,9 @@
             <div class="row">
                 <div class="col-lg-8 col-12">
                     <div class="local-mover" id=serve-1>
-                        <h2 class="contact-h aos-init aos-animate">Edmonton Local Movers</h2>
+                        <h2 class="contact-h aos-init aos-animate">   Packing/Equipment</h2>
                         <div class="serv-img-left">
-                            <img src="assets/img/residential_moving_21_11zon.jpg" alt="2 men">
+                            <img src="assets/img/slider/truck2_4_11zon.jpg" alt="2 men">
                         </div> <br>
                         <div class="service-page-img">
                             <p class="good-man-moving-p aos-init aos-animate"><strong>Good Men Moving
