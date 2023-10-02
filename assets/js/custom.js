@@ -124,6 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // const el = document.querySelector( '.counter' )
 // IO.observe( el )
+// ========js for the counter
 const counterUp = window.counterUp.default;
 
   let counterItems = document.querySelectorAll(".counter");
@@ -150,3 +151,34 @@ const counterUp = window.counterUp.default;
   counterItems.forEach(function (counterItem) {
     counterItemsObserver.observe(counterItem);
   });
+
+  // ============owl carousel 
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+// ======google review code
+jQuery(document).ready(function ($) {
+  $(document).ready(function () {
+      $("#google-reviews").googlePlaces({
+          placeId: 'ChIJkRRokaoYoFMRxlQn2kPs83o'
+          , render: ['reviews']
+          , min_rating: 4
+          , max_rows: 4
+          , rotateTime: 16000
+      });
+  });
+});

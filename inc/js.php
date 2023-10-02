@@ -17,20 +17,6 @@
 <script defer
     src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAama6im0Q4uKQg7soyDe-zQW5C-DSUmCo&signed_in=true&libraries=places"></script>
 <script defer src="https://unpkg.com/counterup2@2.0.2/dist/index.js">	</script>
-<script>
-    jQuery(document).ready(function ($) {
-        $(document).ready(function () {
-            $("#google-reviews").googlePlaces({
-                placeId: 'ChIJkRRokaoYoFMRxlQn2kPs83o'
-                , render: ['reviews']
-                , min_rating: 4
-                , max_rows: 4
-                , rotateTime: 16000
-            });
-        });
-    });
-
-</script>
 <script defer src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <!-- custom js -->
 <script defer src="assets/js/custom.js"></script>

@@ -44,10 +44,8 @@ body {
 
 /* ====heading 2 cs starts==== */
 .heading-2 {
-  box-shadow: -1px 3px 11px 3px rgba(0 0 0/ 15%);
-  border: 2px solid#2c508f;
-  background-color: #3e67af;
-  background-image: linear-gradient(to right, #1368d2, #2c508f);
+  /* box-shadow: -1px 3px 11px 3px rgba(0 0 0/ 15%); */
+  /* background-color: #3a62a8; */
   text-align: center;
 }
 .heading-2 img {
@@ -89,7 +87,7 @@ nav.nav-shift {
   margin: 0 12px;
 }
 .heading-2 li a:hover {
-  color: #2c508f;
+  color: #000;
 }
 nav.nav-shift {
   width: 80%;
@@ -124,7 +122,6 @@ nav.nav-shift ul li a:hover:after {
   -moz-animation: fill 0.3s forwards;
 }
 nav.nav-shift ul li.active a {
-  color: #2c508f;
   background: #e5b759;
 }
 /* ===sub menu==== */
@@ -193,21 +190,23 @@ p.respo-banner-p1 {
   display: block;
 }
 .bbb img {
-  height: 4rem;
+  height: 6rem;
   background: #fff;
   padding: 6px;
   width: auto;
 }
 .budget img {
-  height: 2rem;
+  height: 3rem;
   width: auto;
+  margin-top: 30px;
+  padding-left: 2rem;
 }
 .head-budget {
-text-align: right;
-margin: 0 20px;
-display: none;
+  text-align: right;
+  margin: 0 20px;
+  display: flex;
 }
-.quote-btn.respo-q-btn button{
+.quote-btn.respo-q-btn button {
   display: none;
 }
 /* =====responsive code====== */
@@ -217,7 +216,6 @@ display: none;
     display: block !important;
     z-index: 999;
   }
-
 }
 @media (max-width: 62em) {
   /* below 980px */
@@ -247,7 +245,7 @@ display: none;
   .heading-3 .company-details {
     /* display: none; */
   }
-  .header-info.header-mail{
+  .header-info.header-mail {
     /* display: none !important; */
   }
   .header-info {
@@ -284,17 +282,17 @@ display: none;
   .nav-item .sub-menu.active {
     display: block !important;
   }
-  .head-budget{
+  .head-budget {
     display: block;
   }
-  .quote-btn.respo-q-btn button{
+  .quote-btn.respo-q-btn button {
     display: block;
   }
   .quote-btn.respo-q-btn button {
     width: 100% !important;
     margin: 0 !important;
     margin-top: 5px !important;
-}
+  }
   /* ================reponsive css starts====================== */
 
   .toggle-nav-icons-js[name="close-outline"] {
@@ -355,8 +353,8 @@ display: none;
   .logo-img {
     text-align: left;
   }
- 
-  .header-mail-call{
+
+  .header-mail-call {
     margin: 0 10px !important;
   }
   .heading-3 .logo-img img {
@@ -367,7 +365,7 @@ display: none;
     margin: 4px;
     font-size: 18px !important;
     color: #2c508f;
-}
+  }
   .heading-3 .quote-btn button {
     width: 6rem;
     margin: 6px 0;
@@ -386,18 +384,20 @@ display: none;
 /* ==== heading 2 css ends==== */
 /* ========for the logo img css starts =========== */
 .logo-img img {
-  width: 18rem;
-  padding: 6px;
+  padding-left: 0;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 400px;
 }
 .company-details {
   display: -webkit-inline-box;
-  margin-left: 30px;
+  margin-left: 44px;
 }
 .header-info {
   padding: 8px;
   display: flex;
   margin-left: 20px;
-  margin-top: 8px;
+  margin-top: 14px;
 }
 .header-info i {
   margin: 12px;
@@ -427,7 +427,7 @@ display: none;
   border: 2px solid #e5b759;
   width: 10rem;
   padding: 8px;
-  margin-top: 18px;
+  margin-top: 26px;
   border-radius: 8px;
   background: #e5b759;
   text-transform: uppercase;
@@ -448,13 +448,14 @@ display: none;
   font-size: 14px;
   font-weight: 600;
 }
+
 .timing {
   color: #fff;
   display: inline-flex;
   text-align: right;
   width: 100%;
 }
-.timing p {
+.heading-1 .timing p {
   padding: 0;
   padding-top: 15px;
   margin: 0;
@@ -465,6 +466,7 @@ display: none;
 }
 .quote-btn {
   text-align: end;
+  margin-left: 8rem;
 }
 .quote-btn a {
   color: #000;
@@ -620,7 +622,7 @@ section.banner-part {
     color: #fff;
     z-index: 99;
   }
-  .header-mail-call{
+  .header-mail-call {
     text-align: left;
   }
 }
@@ -629,7 +631,7 @@ section.banner-part {
   .header-mail-call p {
     font-size: 10px;
   }
-  .header-mail-call{
+  .header-mail-call {
     text-align: left;
   }
   .carousel-control-next,
@@ -1637,7 +1639,7 @@ ul.list-content li a:hover {
 }
 .describe-box {
   border: 2px solid;
-  padding: 12px;
+  padding: 6px 15px;
   text-transform: uppercase;
   text-align: center;
   margin-top: 30px;
@@ -1645,9 +1647,9 @@ ul.list-content li a:hover {
 }
 .describe-box h5 {
   margin: 6px 0;
-  font-size: 14px;
-  border-bottom: 2px solid;
-  padding-bottom: 8px;
+  font-size: 16px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 4px;
   font-weight: 500;
   letter-spacing: 2px;
 }
@@ -1656,6 +1658,11 @@ ul.list-content li a:hover {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 1px;
+  padding: 4px 0;
+  /* border-top: 2px solid #364933; */
+  font-size: 14px;
+  word-spacing: -2px;
+  color: #3a62a8;
 }
 .bbb-img img {
   height: 5rem;
@@ -2615,4 +2622,196 @@ section.services-page h1::after {
 }
 .services-wrap-box {
   margin-bottom: 4rem;
+}
+
+/* ======================================= */
+.heading-1 p {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+/* =========head navbar css starts====== */
+.head-1 p {
+  text-align: center;
+  background: #3a62a8;
+  color: #fff;
+  padding: 6px;
+  font-size: 18px;
+  font-weight: 900;
+  margin: 0;
+}
+.head-2 {
+  margin: 0;
+  padding: 10px 0;
+  background: #f2f2f2;
+}
+.head-1 {
+  padding: 0;
+  margin: 0;
+}
+.nav-contact li {
+  list-style: none;
+  margin: 8px 0;
+  padding: 0;
+  /* font-family: Montserrat; */
+  letter-spacing: 1px;
+}
+.nav-contact i {
+  padding: 6px;
+  margin: 0 4px;
+  border-radius: 50%;
+  color: #3e67af;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  font-size: 22px;
+  margin-right: 4px;
+  border: 2px solid #000;
+}
+.nav-contact {
+  margin: 0;
+  padding: 0;
+}
+.nav-contact ul {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.nav-contact li a {
+  color: #000;
+  text-decoration: none;
+  /* font-family: Montserrat; */
+  font-size: 15px;
+}
+.describe-box.nav-describe-box {
+  margin: 0;
+}
+
+.describe-box.nav-describe-box h5 {
+  color: #3a62a8;
+}
+
+.describe-box.nav-describe-box strong {
+  font-size: 30px;
+  font-weight: 800;
+}
+/* =========menu bar css starts ======= */
+ul#navList {
+  display: inline-flex;
+  text-align: left;
+}
+
+.nav-shift li {
+  margin: 0 8px;
+  list-style: none;
+  padding: 6px 2px;
+  text-align: left;
+}
+
+ul.navbar-ul {
+  display: inline-flex;
+}
+
+ul.navbar-ul a {
+  /* font-family: Open Sans; */
+  font-size: 15.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 2px;
+  color: #222;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+
+.quote-button {
+  text-align: end;
+  /* padding: 14px 0; */
+  margin: 0;
+}
+
+.quote-button button {
+  border: none;
+  background: none;
+}
+
+.quote-button button a {
+  color: #fff;
+  text-decoration: none;
+  width: 170px;
+  background-color: #3E67AF;
+  color: #fff;
+  border: 0;
+  overflow: hidden;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 55px;
+  border-bottom: 10px solid #51975d;
+}
+
+.head-3 {
+  margin: 0;
+  padding: 0;
+}
+/* ======goode men movers ===== */
+.good-men-movers {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .15);
+  padding: 20px;
+}
+
+section.movers-gmen {
+  margin-top: 5rem;
+}
+
+.good-men-movers h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+/* ====css of what we offer ===== */
+.gmm-offers-ul li img {
+  max-width: 45px;
+  margin: 0 12px;
+}
+
+.gmm-offers-ul ul li {
+  list-style: none;
+  border: 1px solid #ccc;
+  border-width: 1px 1px 3px;
+  padding: 10px 0 10px 20px;
+  margin: 0 20px 20px;
+  min-height: 70px;
+  transition: 350ms;
+  display: flex;
+  align-items: center;
+}
+section.gmm-offers {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+section.gmm-offers h2 {
+  margin: 20px 0px;
+  font-size: 40px;
+  color: #444;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.gmm-offers-ul ul li:hover {
+  box-shadow: 0 6px 9px rgba(0, 0, 0, .1);
+  border-bottom-color: #3E67AF;
+}
+.gmm-offers-ul span {
+  padding: 0 15px 0 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
