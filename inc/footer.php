@@ -42,7 +42,7 @@
                                 Edmonton serving Edmonton from
                                 last over 25 Years.</p>
                         </div>
-                        <div class="row bbb-wrap">
+                        <!-- <div class="row bbb-wrap">
                             <div class="col-md-6">
                                 <div class="describe-box">
                                     <h5>Professional <strong>movers</strong></h5>
@@ -55,7 +55,7 @@
                                     <img class="budget-img" src="assets/img/budget-vector-logo_13_11zon.jpg" alt="budget vector">
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 col-12">

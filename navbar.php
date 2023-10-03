@@ -59,9 +59,12 @@
                     </div>
                 </div>
             </div>
+            <div class="head-1 head-hide d-none">
+                <p class="p-all">"The Professional Muscular Edmonton Movers"</p>
+            </div>
             <div class="head-3 heading-2">
                 <div class="container">
-                    <div class="row">
+                    <div class="row d-flex">
                         <div class="col-md-6 text-end">
                             <div class="mobile-nav-btn text-end">
                                 <i class="toggle-nav-icons-js fa fa-2x  fas fa-bars " name="menu-outline"></i>
@@ -89,11 +92,11 @@
                                     </li>
                                     <li class="nav-item"><a class="navbar-link" href="contactus.php">Contact</a></li>
                                     <li class="nav-item"><a class="navbar-link" href="faqs.php">FAQs</a></li>
-                                    <li class="hide-btn-li">
+                                    <!-- <li class="hide-btn-li">
                                         <div class="quote-btn">
                                             <button><a href="quotes.php"> Get A Quote</a></button>
                                         </div>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </nav>
                         </div>
@@ -116,19 +119,78 @@
                 <div class="carousel-inner">
                     <div class="carousel-item banner-element active">
                         <img src="assets/img/slider/3men_1_11zon.jpg" class="d-block w-100" alt="good 3 men moving">
+                        <div class="banner-text">
+                            <strong>Good Men Moving</strong>
+                            <p class="banner-p">We are dedicated to making your move easy and affordable within your
+                                budget,
+                                with honesty and integrity. A local family owned and operated moving company serving
+                                Edmonton, ST Albert and Sherwood Park.</p>
+                            <div class="banner-btn">
+                                <a class="banner-read-more" href="about-us.php">Read More <i
+                                        class="fa-solid fa-angle-right"></i></a>
+                                <a class="banner-quote-a" href="quotes.php">Get A Qoute</a>
+                            </div>
+                        </div>
                     </div>
+
                     <div class="carousel-item banner-element">
                         <img src="assets/img/slider/view1_5_11zon.jpg" class="d-block w-100" alt="green and city">
+                        <div class="banner-text">
+                            <strong>Good Men Moving</strong>
+                            <p class="banner-p"> We are dedicated to making your move easy and affordable within your
+                                budget, with honesty
+                                and integrity. A local family owned and operated business.</p>
+                            <div class="banner-btn">
+                                <a class="banner-read-more" href="about-us.php">Read More <i
+                                        class="fa-solid fa-angle-right"></i></a>
+                                <a class="banner-quote-a" href="quotes.php">Get A Qoute</a>
+                            </div>
+                        </div>
                     </div>
+
                     <div class="carousel-item banner-element">
                         <img src="assets/img/slider/truck2_4_11zon.jpg" class="d-block w-100" alt="truck load">
+                        <div class="banner-text">
+                            <strong>Good Men Moving</strong>
+                            <p class="banner-p">We are voted one of the best moving company in Edmonton</p>
+                            <div class="banner-btn">
+                                <a class="banner-read-more" href="about-us.php">Read More <i
+                                        class="fa-solid fa-angle-right"></i></a>
+                                <a class="banner-quote-a" href="quotes.php">Get A Qoute</a>
+                            </div>
+                        </div>
                     </div>
+
                     <div class="carousel-item banner-element">
                         <img src="assets/img/slider/best_2_11zon.jpg" class="d-block w-100" alt="city view">
+                        <div class="banner-text">
+                            <strong>Good Men Moving</strong>
+                            <p class="banner-p">We are dedicated to making your move easy and affordable to your budget,
+                                with honesty and integrity. A local family owned and operated moving company serving
+                                Edmonton, ST Albert and Sherwood Park.</p>
+                            <div class="banner-btn">
+                                <a class="banner-read-more" href="about-us.php">Read More <i
+                                        class="fa-solid fa-angle-right"></i></a>
+                                <a class="banner-quote-a" href="quotes.php">Get A Qoute</a>
+                            </div>
+                        </div>
                     </div>
+
                     <div class="carousel-item banner-element">
-                        <img src="assets/img/slider/sv8_3_11zon.jpg" class="d-block w-100" alt="people loading">
+                        <img src="assets/img/truck1_24_11zon.jpg" class="d-block w-100" alt="people loading">
+                        <div class="banner-text">
+                            <strong>Good Men Moving- Your Trusted Edmonton Movers</strong>
+                            <p class="banner-p">We are dedicated to making your move easy and affordable to your budget,
+                                with honesty and integrity. A local family owned and operated business.
+                            </p>
+                            <div class="banner-btn">
+                                <a class="banner-read-more" href="about-us.php">Read More <i
+                                        class="fa-solid fa-angle-right"></i></a>
+                                <a class="banner-quote-a" href="quotes.php">Get A Qoute</a>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
                     data-bs-slide="prev">
@@ -142,19 +204,6 @@
                 </button>
             </div>
         </div>
-        <!-- <div class="banner-details-slider">
-      <div data-aos="fade-right">
-        <strong class="d-block">We Are Good Men Moving Company</strong>
-      </div>
-      <p data-aos="fade-left" class="respo-banner-p1">We are dedicated to making your move easy and affordable within your budget, with
-        honesty and integrity. A
-        local
-        family owned and operated business.</p>
-      <p data-aos="fade-left" class="respo-banner-p2" >Your affordable, honest, and family-owned partner for an easy move within your budget.</p>
-      <div class="banner-readmore">
-        <button><a href="about-us.php">Read More</a></button>
-      </div>
-    </div> -->
     </section>
     <!-- banner part ends -->
 
@@ -260,40 +309,109 @@
             <h3>OUR <span>SERVICES</span></h3>
             <div class="owl-carousel owl-theme">
                 <div class="item service-owl-img">
-                    <img src="assets/img/residential_moving_21_11zon.jpg" alt="services of company">
+                    <img class="serv-image" src="assets/img/residential_moving_21_11zon.jpg" alt="services of company">
                     <h4>Local Moves</h4>
+                    <div class="middle-text">
+                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
                 </div>
                 <div class="item service-owl-img">
-                    <img src="assets/img/uship-investment-tracker_26_11zon.jpg" alt="services of company">
+                    <img class="serv-image" src="assets/img/uship-investment-tracker_26_11zon.jpg"
+                        alt="services of company">
                     <h4>Long Distance Moves</h4>
+                    <div class="middle-text">
+                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
                 </div>
                 <div class="item service-owl-img">
-                    <img src="assets/img/corporate_14_11zon.jpg" alt="services of company">
+                    <img class="serv-image" src="assets/img/corporate_14_11zon.jpg" alt="services of company">
                     <h4>Office Moves</h4>
+                    <div class="middle-text">
+                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
                 </div>
                 <div class="item service-owl-img">
-                    <img src="assets/img/img4_16_11zon.jpg" alt="services of company">
+                    <img class="serv-image" src="assets/img/img4_16_11zon.jpg" alt="services of company">
                     <h4>Commercial Moves</h4>
+                    <div class="middle-text">
+                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
                 </div>
                 <div class="item service-owl-img">
-                    <img src="assets/img/slider/sv8_3_11zon.jpg" alt="services of company">
+                    <img class="serv-image" src="assets/img/slider/sv8_3_11zon.jpg" alt="services of company">
                     <h4>Assembly and Disassembly of any size or type</h4>
+                    <div class="middle-text">
+                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
                 </div>
                 <div class="item service-owl-img">
-                    <img src="assets/img/img3_15_11zon.jpg" alt="services of company">
+                    <img class="serv-image" src="assets/img/img3_15_11zon.jpg" alt="services of company">
                     <h4>Wide variety of boxes and packing Equipment</h4>
+                    <div class="middle-text">
+                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
                 </div>
                 <div class="item service-owl-img">
-                    <img src="assets/img/packing-moving-box_20_11zon.jpg" alt="services of company">
+                    <img class="serv-image" src="assets/img/packing-moving-box_20_11zon.jpg" alt="services of company">
                     <h4>Packing and unpacking</h4>
+                    <div class="middle-text">
+                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
                 </div>
                 <div class="item service-owl-img">
-                    <img src="assets/img/sv2_23_11zon.jpg" alt="services of company">
+                    <img class="serv-image" src="assets/img/sv2_23_11zon.jpg" alt="services of company">
                     <h4>Available storage Facilities</h4>
+                    <div class="middle-text">
+                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- ==== call us tody hrml part starts ====== -->
+    <section class="callus-main">
+        <div class="call-us-box">
+            <div class="container">
+                <h5>Call Today To See How We Can Make Moving Easy!</h5>
+                <p>We Are Open 24/7 - Call or Text - <a href="tel:780-937-6666">780-937-6666</a> </p>
+                <div class="call-us-btn">
+                    <a class="call-now" href="tel:780-937-6666"> CALL US NOW</a>
+                    <a class="text-us" href="#"> TEXT US</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials starts -->
+    <section class="good-men-testimonials">
+        <div class="container">
+            <div class="review-box">
+                <span class="good-men-moving">TESTIMONIAL</span>
+                <h5>Our Reviews</h5>
+            </div>
+            <div class="review-slider">
+                <!-- <link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css"> -->
+
+
+                <div id="google-reviews"></div>
+                <div class="review-btn">
+                    <div class="view-review review">
+                        <a target="_blank"
+                            href="https://www.google.com/search?q=good+men+moving+edmonton&oq=good+men&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAuGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgYIBRBFGEEyBggGEEUYPDIGCAcQRRg80gEIMjc1MWowajmoAgCwAgA&sourceid=chrome&ie=UTF-8&bshm=rime/1#lrd=0x53a018aa91681491:0x7af3ec43da2754c6,1,,,,">View
+                            All Google Reviews <i class="fa-solid fa-circle-chevron-right"></i></a>
+                    </div>
+                    <div class="write-review review">
+                        <a target="_blank"
+                            href="https://www.google.com/search?q=good+men+moving+edmonton&oq=good+men&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAuGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgYIBRBFGEEyBggGEEUYPDIGCAcQRRg80gEIMjc1MWowajmoAgCwAgA&sourceid=chrome&ie=UTF-8&bshm=rime/1#lrd=0x53a018aa91681491:0x7af3ec43da2754c6,3,,,,">Write
+                            A Reviews <i class="fa-solid fa-circle-chevron-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- testimonials ends -->
     <!-- ---------------------------footer starts--------------------- -->
     <?php
     include('inc/footer.php');

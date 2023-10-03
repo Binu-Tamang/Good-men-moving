@@ -380,6 +380,7 @@ p.respo-banner-p1 {
 .toggle-nav-icons-js {
   width: 3rem;
   height: 3rem;
+  color: #000;
 }
 /* ==== heading 2 css ends==== */
 /* ========for the logo img css starts =========== */
@@ -1184,10 +1185,10 @@ section.good-men-testimonials {
   text-align: center;
   padding: 4rem 0;
   animation: bp 4s linear infinite;
-  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='69.141' height='40' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M69.212 40H46.118L34.57 20 46.118 0h23.094l11.547 20zM57.665 60H34.57L23.023 40 34.57 20h23.095l11.547 20zm0-40H34.57L23.023 0 34.57-20h23.095L69.212 0zM34.57 60H11.476L-.07 40l11.547-20h23.095l11.547 20zm0-40H11.476L-.07 0l11.547-20h23.095L46.118 0zM23.023 40H-.07l-11.547-20L-.07 0h23.094L34.57 20z'  stroke-width='1' stroke='hsla(0, 0%, 95%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-92,-128)' fill='url(%23a)'/></svg>");
+  /* background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='69.141' height='40' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M69.212 40H46.118L34.57 20 46.118 0h23.094l11.547 20zM57.665 60H34.57L23.023 40 34.57 20h23.095l11.547 20zm0-40H34.57L23.023 0 34.57-20h23.095L69.212 0zM34.57 60H11.476L-.07 40l11.547-20h23.095l11.547 20zm0-40H11.476L-.07 0l11.547-20h23.095L46.118 0zM23.023 40H-.07l-11.547-20L-.07 0h23.094L34.57 20z'  stroke-width='1' stroke='hsla(0, 0%, 95%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-92,-128)' fill='url(%23a)'/></svg>"); */
 }
 .review-box h5 {
-  color: #0c3e65;
+  color: #3e67af;
   font-size: 3rem;
   font-family: "Poppins", sans-serif;
   letter-spacing: 3px;
@@ -1422,9 +1423,7 @@ input#firstName {
 
 /* =====footer css starts==== */
 footer.main-footer {
-  background: #2c508f;
-  background-image: linear-gradient(to right, #1765c9, #202020);
-  /* margin-top: 5rem; */
+  background: #3a62a8;
   color: #fff;
 }
 footer.main-footer h6 {
@@ -2728,23 +2727,22 @@ ul.navbar-ul a {
   text-decoration: none;
   letter-spacing: 3px;
 }
-
 .quote-button {
   text-align: end;
-  /* padding: 14px 0; */
   margin: 0;
 }
-
+.quote-button button a:hover {
+  border-bottom: 10px solid #61be1c;
+}
 .quote-button button {
   border: none;
   background: none;
 }
-
 .quote-button button a {
   color: #fff;
   text-decoration: none;
   width: 170px;
-  background-color: #3E67AF;
+  background-color: #3e67af;
   color: #fff;
   border: 0;
   overflow: hidden;
@@ -2761,9 +2759,73 @@ ul.navbar-ul a {
   margin: 0;
   padding: 0;
 }
+/* ====responsive of header css start====== */
+@media (max-width: 62em) {
+  .head-1 {
+    display: none;
+  }
+  .describe-box.nav-describe-box {
+    display: none;
+  }
+  .logo-img img {
+    max-width: 210px;
+    margin: 0;
+  }
+  .head-1.head-hide {
+    display: block !important;
+  }
+  .head-1 p {
+    font-size: 12px;
+  }
+  .budget img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-contact {
+    text-align: center;
+  }
+  .nav-contact li {
+    font-size: 14px;
+  }
+  .nav-contact li a {
+    font-size: 14px;
+  }
+  .quote-button {
+    text-align: center;
+  }
+  /* ====banner respo css starts===== */
+  .banner-text {
+    top: 15% !important;
+    left: 3% !important;
+  }
+  .banner-text strong,
+  .banner-text p {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+    padding-right: 0 !important;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  .banner-btn {
+    display: block !important;
+  }
+  .banner-btn a {
+    padding: 5px 10px !important;
+    font-size: 12px;
+    margin: 0 20px 5px 0;
+    width: 120px !important;
+  }
+}
+@media (max-width: 35em) {
+}
+/* =======header css ends ====== */
 /* ======goode men movers ===== */
 .good-men-movers {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, .15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   padding: 20px;
 }
 
@@ -2806,12 +2868,279 @@ section.gmm-offers h2 {
   letter-spacing: 2px;
 }
 .gmm-offers-ul ul li:hover {
-  box-shadow: 0 6px 9px rgba(0, 0, 0, .1);
-  border-bottom-color: #3E67AF;
+  box-shadow: 0 6px 9px rgba(0, 0, 0, 0.1);
+  border-bottom-color: #3e67af;
 }
 .gmm-offers-ul span {
   padding: 0 15px 0 0;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
+}
+section.home-services {
+  /* margin-top: 5rem; */
+  background: #f2f2f2;
+  padding: 5rem 0;
+}
+section.home-services h3 {
+  font-size: 32px;
+  margin: 0 0 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+section.home-services span {
+  color: #3e67af;
+}
+/* ===respo of company services==== */
+@media (max-width: 62em) {
+  section.home-services h3 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 35em) {
+}
+/* ======perv and next css starts===== */
+
+.owl-nav button span {
+  font-size: 29px !important;
+  border: 1px solid #859ec9;
+  padding: 0px 6px;
+  background: #859ec9;
+  color: #fff;
+  border-radius: 16%;
+  margin: 6px;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: none;
+}
+
+.owl-nav button span:hover {
+  background: #3e67af;
+}
+.item.service-owl-img img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.item.service-owl-img h4 {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 0 18px;
+  width: 100%;
+  background-color: #3e67af;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+}
+.middle-text a {
+  text-decoration: none;
+  color: #65c80d;
+}
+
+.middle-text i {
+  border: 1px solid;
+  padding: 2px 4px;
+  border-radius: 50%;
+  background: #65c80d;
+  color: #fff !important;
+}
+/* =====for the hover effect of the image=== */
+img.serv-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle-text {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.item.service-owl-img {
+  position: relative;
+}
+.item.service-owl-img:hover .serv-image {
+  opacity: 0.3;
+}
+.item.service-owl-img:hover .middle-text {
+  opacity: 1;
+}
+/* ===respo of company offer starts==== */
+@media (max-width: 62em) {
+  section.gmm-offers h2 {
+    font-size: 22px;
+  }
+  .gmm-offers-ul span {
+    font-size: 12px;
+  }
+  .gmm-offers-ul ul li {
+    padding: 0;
+  }
+}
+@media (max-width: 35em) {
+}
+/* ====about the call us button cs==== */
+section.callus-main {
+  text-align: center;
+  height: 300px;
+  color: #fff;
+  background-image: url(../img/residential_moving_21_11zon.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.call-us-box {
+  background: rgba(62, 103, 175, 0.85);
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+section.callus-main h5 {
+  font-size: 32px;
+  font-weight: 700;
+  padding: 0 15rem;
+  letter-spacing: 2px;
+}
+section.callus-main p {
+  font-family: raleway;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+section.callus-main p a {
+  color: #fff;
+  text-decoration: none;
+}
+section.callus-main p a:hover {
+  text-decoration: underline;
+}
+.call-us-btn button {
+  padding: 6px;
+  letter-spacing: 2px;
+  margin: 6px 14px;
+}
+.call-now {
+  background-color: #333;
+  color: #65c80d;
+}
+.text-us {
+  background-color: #fff;
+  border-color: #333;
+  color: #333;
+}
+.call-us-btn a {
+  padding: 10px 20px;
+  border: 3px solid #333;
+  margin: 0 20px;
+  font-weight: 700;
+  animation-delay: 1.2s;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+.call-now:hover {
+  background: #65c80d;
+  color: #333;
+  text-decoration: underline;
+}
+.text-us:hover {
+  color: #65c80d;
+  text-decoration: underline;
+}
+/* =====respo of the cas us now css starts==== */
+@media (max-width: 62em) {
+  section.callus-main h5 {
+    font-size: 22px;
+    padding: 0;
+  }
+  section.callus-main p {
+    font-size: 16px;
+  }
+  .call-us-btn {
+    display: grid !important;
+  }
+  .call-us-btn a {
+    padding: 5px 10px;
+    margin: 5px;
+  }
+}
+@media (max-width: 35em) {
+}
+/* =======banner text======== */
+.banner-text {
+  position: absolute;
+  color: white;
+  top: 40%;
+  left: 5%;
+  padding: 0 6rem;
+}
+.banner-text strong {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.banner-text p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 40px;
+  line-height: 35px;
+  letter-spacing: 2px;
+  padding-right: 6rem;
+}
+
+.banner-btn a {
+  display: block;
+  width: 160px;
+  padding: 10px 0;
+  margin-right: 20px;
+  border: 3px solid #3e67af;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Open sans;
+  transition: 350ms;
+  /* color: #fff; */
+  text-decoration: none;
+}
+
+.banner-btn {
+  display: flex;
+}
+
+.banner-btn i {
+  border: 1px solid;
+  padding: 2px 4px;
+  border-radius: 50%;
+}
+a.banner-read-more {
+  background: #3e67af;
+  color: #fff;
+}
+a.banner-quote-a {
+  background: #fff;
+  color: #3e67af;
+}
+a.banner-read-more:hover {
+  background: #fff;
+  color: #3e67af;
+}
+
+a.banner-quote-a:hover {
+  background: #3e67af;
+  color: #fff;
 }
