@@ -129,34 +129,28 @@ nav.nav-shift ul li.active a {
   list-style: none;
   padding: 0;
 }
-/* Style the sub-menu */
-/* .sub-menu {
-  display: none !important;
-  position: absolute;
-  top: 46px;
-  background-color: #fff;
-  border: 1px solid #ccc !important;
-}
-.submenu-a a {
-  font-size: 15px !important;
-  text-transform: none !important;
-}
-.sub-menu li {
+/* Style the sub-menu submenu */
+
+ul.dropdown-menu.submenu-ul.show {
   display: block !important;
-  text-align: left;
 }
 
-.sub-menu a {
-  text-decoration: none;
-  color: #333 !important;
-  padding: 10px 20px;
-  display: block !important;
-  border-bottom: 1px solid #ccc !important;
-} */
+ul.dropdown-menu.submenu-ul {
+  display: none !important;
+}
+li.nav-item.dropdown.submenu i {
+  font-size: 12px;
+  font-weight: 800;
+  margin-left: -6px;
+}
 .nav-item {
   position: relative;
 }
-
+a#dropdownMenuLink {
+  background: none;
+  border: none;
+  color: #222;
+}
 /* Keyframes */
 @-webkit-keyframes fill {
   0% {
@@ -329,8 +323,13 @@ p.respo-banner-p1 {
     outline: none;
   }
   /* ====submenu=== */
+  ul.dropdown-menu.submenu-ul {
+    display: block;
 }
-
+}
+ul.dropdown-menu.submenu-ul {
+    display: block;
+}
 @media (max-width: 35em) {
   nav.nav-shift {
     width: 100%;
@@ -2711,6 +2710,7 @@ ul#navList {
   list-style: none;
   padding: 6px 2px;
   text-align: left;
+  display: inline-block;
 }
 
 ul.navbar-ul {
@@ -2801,6 +2801,7 @@ ul.navbar-ul a {
   .banner-text {
     top: 15% !important;
     left: 3% !important;
+    text-align: left;
   }
   .banner-text strong,
   .banner-text p {
@@ -2808,7 +2809,7 @@ ul.navbar-ul a {
     line-height: 1.4 !important;
     padding-right: 0 !important;
     letter-spacing: 0;
-    text-align: center;
+    text-align: left;
   }
   .banner-btn {
     display: block !important;
@@ -3079,6 +3080,9 @@ section.callus-main p a:hover {
     padding: 5px 10px;
     margin: 5px;
   }
+  .banner-btn{
+    text-align: center;
+  }
 }
 @media (max-width: 35em) {
 }
@@ -3086,7 +3090,7 @@ section.callus-main p a:hover {
 .banner-text {
   position: absolute;
   color: white;
-  top: 40%;
+  top: 30%;
   left: 5%;
   padding: 0 6rem;
 }
@@ -3103,7 +3107,6 @@ section.callus-main p a:hover {
   letter-spacing: 2px;
   padding-right: 6rem;
 }
-
 .banner-btn a {
   display: block;
   width: 160px;
@@ -3117,11 +3120,9 @@ section.callus-main p a:hover {
   /* color: #fff; */
   text-decoration: none;
 }
-
 .banner-btn {
   display: flex;
 }
-
 .banner-btn i {
   border: 1px solid;
   padding: 2px 4px;
@@ -3144,3 +3145,9 @@ a.banner-quote-a:hover {
   background: #3e67af;
   color: #fff;
 }
+/* ===slider perv and next=== */
+span.carousel-control-next-icon, span.carousel-control-prev-icon  {
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
