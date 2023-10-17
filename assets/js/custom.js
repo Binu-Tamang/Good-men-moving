@@ -2,11 +2,15 @@
 const mobile_nav = document.querySelector(".mobile-nav-btn");
 const nav_second_top_header = document.querySelector(".heading-2");
 
-const toggleNavbar = () => {
-  nav_second_top_header.classList.toggle("active");
-};
+if(nav_second_top_header)
+{
+  const toggleNavbar = () => {
+    nav_second_top_header.classList.toggle("active");
+  };
+  
+  mobile_nav.addEventListener("click", () => toggleNavbar());
+}
 
-mobile_nav.addEventListener("click", () => toggleNavbar());
 
 // scroll up to button js
 $(document).ready(function () {

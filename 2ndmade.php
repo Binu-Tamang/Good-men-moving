@@ -9,8 +9,8 @@
 
 
     <!-- favicon link -->
-    <link rel="icon" type="image/png" href="assets/img/logo-Stab_19_11zon.png">
-    <title>Home</title>
+    <link rel="icon" type="images/png" href="">
+    <title>Navigation Bar</title>
 </head>
 
 <body>
