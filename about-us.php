@@ -29,8 +29,8 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="about-left">
-                        <img class="about-left-1" src="assets/img/2019_06_10T14_16_34_843Z.jpg" alt="2 men">
-                        <img class="about-left-2" src="assets/img/blue-moving-truck_12_11zon.jpg" alt="2 men">
+                        <img class="about-left-1" data-src="assets/img/2019_06_10T14_16_34_843Z_12_11zon.webp" alt="2 men">
+                        <!-- <img class="about-left-2" data-src="assets/img/blue-moving-truck_12_11zon.jpg" alt="2 men"> -->
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -38,7 +38,8 @@
                         <h1 class="good-men-h2 aos-init aos-animate">Why Choose <span>Edmonton Moving Company</span>
                         </h1>
                         <p class="good-man-moving-p aos-init aos-animate">
-                            <strong>Good Men Moving Company</strong> has been in business serving Edmonton families and business for over
+                            <strong>Good Men Moving Company</strong> has been in business serving Edmonton families and
+                            business for over
                             25 years. Handed down from father to son. Our goal is to provide the best service to our
                             fellow Edmontonians. <br> <br>
 
@@ -64,7 +65,7 @@
                     </div>
                 </div>
             </div>
-            
+
 
             <div class="counter-wrap">
                 <div class="row">
@@ -105,7 +106,7 @@
                                 3000+
                             </div>
                         </div>
-                        <p>HAPPY <br> CUSTOMERS</p>
+                        <p>HAPPY CUSTOMERS</p>
                     </div>
                 </div>
             </div>
@@ -117,6 +118,11 @@
     include('inc/footer.php');
     include('inc/js.php')
         ?>
+
+    <script>const navItems = document.querySelectorAll('.navbar-nav  > li a');
+        if (navItems.length >= 2) {
+            navItems[1].classList.add("active");
+        }</script>
 </body>
 
 </html>

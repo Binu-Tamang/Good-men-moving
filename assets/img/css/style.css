@@ -44,6 +44,8 @@ body {
 
 /* ====heading 2 cs starts==== */
 .heading-2 {
+  /* box-shadow: -1px 3px 11px 3px rgba(0 0 0/ 15%); */
+  /* background-color: #3a62a8; */
   text-align: center;
 }
 .heading-2 img {
@@ -158,10 +160,11 @@ a#dropdownMenuLink {
   letter-spacing: 2px;
 }
 .nav-item a.nav-link:hover {
-  color: #3e67af;
+  color: #3E67AF;
 }
-a.nav-link.active {
-  color: #3e67af !important;
+a.nav-link.active{
+  color: #3E67AF !important;
+
 }
 /* Keyframes */
 @keyframes fill {
@@ -201,9 +204,14 @@ p.respo-banner-p1 {
   padding: 6px;
   width: auto;
 }
+.navmenubar {
+  background: #fff;
+}
 .budget img {
+  /* height: 3rem; */
   width: 100px;
-  height: auto;
+  /* margin-top: 30px; */
+  /* padding-left: 2rem; */
 }
 .head-budget {
   text-align: right;
@@ -236,6 +244,8 @@ p.respo-banner-p1 {
   .heading-1 {
     display: none;
   }
+  .heading-2 {
+  }
   nav.nav-shift {
     overflow: auto;
     height: auto;
@@ -243,6 +253,12 @@ p.respo-banner-p1 {
   .heading-3 {
     /* padding: 10px 0; */
     padding-bottom: 10px;
+  }
+  .heading-3 .company-details {
+    /* display: none; */
+  }
+  .header-info.header-mail {
+    /* display: none !important; */
   }
   .header-info {
     display: none;
@@ -268,7 +284,7 @@ p.respo-banner-p1 {
   .quote-btn.hide-header-btn {
     display: none;
   }
-  /* =====css of burger menu==== */
+  /* =====css of burger mwenu==== */
   .mobile-nav-btn {
     display: inline-flex;
     position: relative;
@@ -283,7 +299,11 @@ p.respo-banner-p1 {
     display: block;
     /* position: relative; */
   }
-
+  .budget img{
+    position: absolute;
+    top: 0;
+    right: 5px;
+  }
   .quote-btn.respo-q-btn button {
     display: block;
   }
@@ -349,16 +369,6 @@ ul.dropdown-menu.submenu-ul {
     /* display: none; */
     margin: 0;
   }
-  .budget img {
-    position: absolute;
-    top: 0;
-    right: 5px;
-    margin: 0 !important;
-  }
-  .nav-contact ul {
-    margin: 0 !important;
-    margin-left: -20px !important;
-  }
   .header-info {
     display: none;
     padding: 0 !important;
@@ -367,10 +377,9 @@ ul.dropdown-menu.submenu-ul {
   .logo-img {
     text-align: left;
   }
-  .logo-img img {
+  .logo-img img{
     width: 70% !important;
     margin: 0 !important;
-    height: auto !important;
   }
   .header-mail-call {
     margin: 0 10px !important;
@@ -390,7 +399,7 @@ ul.dropdown-menu.submenu-ul {
     font-size: 12px;
     font-weight: 500;
   }
-  .nav-contact ul {
+  .nav-contact ul{
     display: flex;
   }
 }
@@ -550,7 +559,7 @@ section.banner-part {
 .carousel-item.banner-element img {
   height: 35rem;
   object-fit: cover;
-  background-color: rgba(17, 17, 17, 0.15);
+  background-color:rgba(17, 17, 17, .15);
 }
 .carousel-item.banner-element::before {
   content: "";
@@ -560,7 +569,8 @@ section.banner-part {
   width: 100%;
   height: 100%;
   /* background-color: hwb(213.71deg 10.59% 48.24% / 49%); */
-  background-color: rgba(17, 17, 17, 0.15);
+  background-color:rgba(17, 17, 17, .15);
+
 }
 .banner-details-slider {
   position: absolute;
@@ -788,6 +798,9 @@ h2.good-men-h2 {
 @media (max-width: 35em) {
 }
 /* ======about good men moving css starts==== */
+section.about-good-men-moving {
+  margin: 2rem 0;
+}
 .img-good-men-moving img {
   width: 100%;
 }
@@ -949,7 +962,6 @@ p.good-man-moving-p {
   }
   .about-gmm-info ul li {
     font-size: 1rem;
-    display: flex;
   }
   .btn-about-gmm {
     text-align: center;
@@ -960,10 +972,6 @@ p.good-man-moving-p {
   }
 }
 @media (max-width: 35em) {
-  .about-gmm-info ul li {
-    font-size: 1rem;
-    display: flex;
-  }
 }
 /* =========why choose good men moving css========= */
 section.choosen-part {
@@ -1149,8 +1157,6 @@ a.serv-header-a {
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   transition: ease 0.3s;
-  text-align: left;
-  padding: 0;
 }
 .our-services-boxes:hover {
   background: #1c3c66;
@@ -1286,9 +1292,6 @@ ul.testimonials-rating {
 @media (max-width: 35em) {
 }
 /* ==========contact form======= */
-section.contact-form {
-  padding: 3rem;
-}
 .form-container {
   padding: 20px;
   border: 1px solid #ccc;
@@ -1313,7 +1316,7 @@ label {
   /* border-bottom: 1px solid #ccc; */
   border-radius: 0;
   background: white;
-  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 3px 0px rgba(0,0,0,0.25);
 }
 input[type="text"],
 input[type="email"],
@@ -1448,10 +1451,6 @@ input#firstName {
   .form-right::before {
     bottom: 1rem;
     right: 0;
-  }
-  section.contact-form {
-    padding: 0 !important;
-    padding-bottom: 3rem !important;
   }
 }
 /*  form css ends ======== */
@@ -1768,23 +1767,30 @@ img.budget-img {
 #google-reviews {
   display: flex;
   flex-wrap: wrap;
+  /*display: grid;
+grid-template-columns: repeat( auto-fit, minmax(320px, 1fr));*/
 }
+
 .review-item {
+  /* border: solid 1px rgb(0 123 255); */
   margin: 0 auto;
   padding: 3em;
   flex: 1 1 20%;
   background: #26559f36;
 }
+
 @media (max-width: 1200px) {
   .review-item {
     flex: 1 1 40%;
   }
 }
+
 @media (max-width: 450px) {
   .review-item {
     flex: 1 1 90%;
   }
 }
+
 .review-meta,
 .review-stars {
   text-align: center;
@@ -1812,6 +1818,7 @@ img.budget-img {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 span.review-author {
   font-size: 20px;
   letter-spacing: 2px;
@@ -1840,6 +1847,7 @@ span.review-author {
 .star:after {
   content: "\2605";
 }
+
 .review-btn a {
   color: #000;
   padding: 15px;
@@ -1887,7 +1895,7 @@ span.review-author {
 /* ===================CSS of FAQs page===================== */
 .page-header {
   background: linear-gradient(#21252982, #5f64694f),
-    url(../img/banner-bg_11zon.webp);
+    url(../img/corporate_14_11zon.jpg);
   height: 250px;
   text-align: center;
   background-repeat: no-repeat;
@@ -1903,7 +1911,7 @@ strong.typing-text {
   color: #fff;
 }
 .breadcrumb-item + .breadcrumb-item::before {
-  display: none;
+  color: #fff;
 }
 .page-header li a {
   color: #eee;
@@ -1952,16 +1960,20 @@ strong.typing-text {
   padding: 1em 2em 1em 2em;
   margin: 0;
 }
+
 .accordion {
   position: relative;
+  /* background-color: #16a085; */
   letter-spacing: 1px;
   box-shadow: 0px 0px 10px rgba(0 0 0 / 15%);
 }
+
 .faqs-box .container {
   max-width: 960px;
   margin: 0 auto;
   padding: 2em 0 2em 0;
 }
+
 .faqs-box .accordionTitle {
   background-color: #1567ce;
   border-bottom: 1px solid #1665cb;
@@ -1978,12 +1990,14 @@ strong.typing-text {
   background: #83bfed;
   padding: 8px;
 }
+
 .accordionTitle.active:before {
   transform: rotate(135deg);
 }
 .faqs-box .accordionTitle:hover {
   background-color: #3486ea;
 }
+
 .faqs-box .accordionTitleActive {
   background-color: #34495e;
 }
@@ -1992,6 +2006,7 @@ strong.typing-text {
   -moz-transform: rotate(-225deg);
   transform: rotate(-225deg);
 }
+
 .faqs-box .accordionItem {
   height: auto;
   overflow: hidden;
@@ -2127,25 +2142,31 @@ strong.typing-text {
     transform: scale(0.8);
   }
 }
+/* ============ */
 /* ------service menu list------ */
+
 .services-details-menu {
   background: #fff;
-  padding: 15px 8px;
+  padding: 15px;
   box-shadow: 0 6px 35px rgba(0, 0, 0, 0.07);
   margin: 2rem 0;
   display: grid;
 }
+
 .services-details-menu strong {
   font-size: 22px;
   letter-spacing: 2px;
+  /* color: #fbb400; */
   margin-left: 8px;
 }
+
 ul.services-menu-list {
   margin: 0;
   padding: 0;
   text-align: left;
   margin-top: 12px;
 }
+
 ul.services-menu-list li {
   list-style: none;
   padding: 12px 0;
@@ -2153,22 +2174,21 @@ ul.services-menu-list li {
   padding-bottom: 16px;
   transition: 0.3s ease;
 }
+
 ul.services-menu-list a {
   text-decoration: none;
   color: #000;
   font-size: 17px;
   letter-spacing: 1px;
-  display: flex;
 }
+
 ul.services-menu-list li i {
   margin: 0 10px;
   font-size: 22px;
 }
+
 ul.services-menu-list li:hover {
   border-bottom: 1px solid #26559f;
-}
-ul.services-menu-list li.active {
-  border-bottom: 1px solid #26559f !important;
 }
 /* ----service-part-2------ */
 .city-tour-img {
@@ -2323,20 +2343,20 @@ ul.services-menu-list li i {
 .contact-msg textarea {
   background: #ffffff;
   border: none;
-  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 3px 0px rgba(0,0,0,0.25);
 }
 .text-black {
   letter-spacing: 3px;
   color: #0c3e65 !important;
 }
 .contact-box-wrap {
-  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 3px 0px rgba(0,0,0,0.25);
   padding: 2rem;
   margin: 2rem 3rem;
   background: #fff;
 }
 .contact-box-wrap:hover {
-  box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 6px 0px rgba(0,0,0,0.25);
 }
 /* ==== Get a quotes css===== */
 section.getaqoutes h1 {
@@ -2416,9 +2436,6 @@ section.getaqoutes {
   }
 }
 @media (max-width: 35em) {
-  .contact-box-wrap {
-    margin: 2rem 0rem;
-  }
 }
 /* ===testimonials page css==== */
 section.review-page {
@@ -2585,7 +2602,7 @@ section.service-page {
   object-fit: cover;
   width: 100%;
 }
-.serv_box {
+.serv_box{
   padding: 15px;
   max-width: 400px;
   margin: 0 auto;
@@ -2640,6 +2657,17 @@ strong.service-quote {
   font-weight: 600;
   color: #1666cb;
 }
+
+/* section.services-page h1::after {
+  content: "";
+  border-bottom: 2px solid #e5b759;
+  width: 22%;
+  display: block;
+  padding: 4px;
+  position: absolute;
+  right: 33rem;
+  padding: 0;
+} */
 .services-wrap-box {
   margin-bottom: 4rem;
 }
@@ -2788,26 +2816,31 @@ ul.navbar-ul a {
     font-size: 14px;
     font-weight: 600;
   }
-  .budget img {
-    height: 2rem;
-    width: 4rem;
-    margin-top: 30px;
-  }
-
+  /* .describe-box.nav-describe-box {
+    display: none; */
+  /* } */
+  /* .logo-img img {
+    max-width: 210px;
+    margin: 0;
+  } */
   .head-1.head-hide {
     display: block !important;
   }
-
+  /* .head-1 p {
+    font-size: 12px;
+  } */
   .nav-contact {
     text-align: left;
   }
-
+  .nav-contact ul{
+    margin: 0 !important;
+    margin-left: -20px !important;
+  }
   .nav-contact li {
     font-size: 14px;
     margin-right: 8px;
-    display: flex;
   }
-  .nav-contact i {
+  .nav-contact i{
     width: 35px;
     height: 35px;
     font-size: 18px;
@@ -2842,25 +2875,11 @@ ul.navbar-ul a {
     margin: 0 0 6px 0;
     /* width: 120px !important; */
   }
-  .quote-button button a {
+  .quote-button button a{
     line-height: 44px;
   }
 }
-@media (max-width: 365px) {
-  .nav-contact ul {
-    display: block;
-  }
-}
 @media (max-width: 35em) {
-  .service-header h1 {
-    font-size: 20px;
-  }
-  .services-details-menu {
-    margin: 0;
-  }
-  .services-details-menu strong {
-    font-size: 20px;
-  }
 }
 /* =======header css ends ====== */
 /* ======goode men movers ===== */

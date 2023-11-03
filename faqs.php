@@ -28,8 +28,8 @@
                 </strong>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center text-uppercase">
-                        <li class="breadcrumb-item " aria-current="page"><a href="index.php">Home</a></li>
-                        <li class="breadcrumb-item text-white active" aria-current="page"><a href="faqs.php" style="color: #83bfed;">FAQs</a></li>
+                        <li class="breadcrumb-item " aria-current="page"><a aria-label="about our home page" href="index.php">Home</a></li>
+                        <li class="breadcrumb-item text-white active" aria-current="page"><a aria-label="about the FAQs" href="faqs.php" style="color: #83bfed;">FAQs</a></li>
                     </ol>
                 </nav>
             </div>
@@ -44,7 +44,7 @@
                                 <h1>Frequently Ask Questions</h1>
                                 <div class="accordion">
                                     <dl>
-                                        <dt><a href="#" class="accordionTitle">How do you protect my furniture?
+                                        <dt><a aria-label="about the accordion information about our company" href="#" class="accordionTitle">How do you protect my furniture?
                                                 Floors?</a>
                                         </dt>
                                         <dd class="accordionItem accordionItemCollapsed">
@@ -61,7 +61,7 @@
                                                 with our dollies we are not damaging or dirtying your floors.</p>
                                         </dd>
 
-                                        <dt><a href="#" class="accordionTitle">Do you move my TV? What if it breaks?</a>
+                                        <dt><a aria-label="about the accordion information about our company" href="#" class="accordionTitle">Do you move my TV? What if it breaks?</a>
                                         </dt>
                                         <dd class="accordionItem accordionItemCollapsed">
                                             <p>We move TV’s every single day of the week, and if we broke them all the
@@ -77,7 +77,7 @@
                                                 to them.</p>
                                         </dd>
 
-                                        <dt><a href="#" class="accordionTitle">Do you guys set up the beds and dressers
+                                        <dt><a aria-label="about the accordion information about our company" href="#" class="accordionTitle">Do you guys set up the beds and dressers
                                                 at
                                                 the
                                                 new
@@ -95,7 +95,7 @@
                                                 are provided.</p>
                                         </dd>
 
-                                        <dt><a href="#" class="accordionTitle">Can I leave the clothes in my
+                                        <dt><a aria-label="about the accordion information about our company" href="#" class="accordionTitle">Can I leave the clothes in my
                                                 dresser?</a>
                                         </dt>
                                         <dd class="accordionItem accordionItemCollapsed">
@@ -109,7 +109,7 @@
                                                 out or get damaged.</p>
                                         </dd>
 
-                                        <dt><a href="#" class="accordionTitle">How do I pack the clothes in my
+                                        <dt><a aria-label="about the accordion information about our company" href="#" class="accordionTitle">How do I pack the clothes in my
                                                 closet?</a>
                                         </dt>
                                         <dd class="accordionItem accordionItemCollapsed">
@@ -140,7 +140,7 @@
                                                 for.</p>
                                         </dd>
 
-                                        <dt><a href="#" class="accordionTitle">What should we do with the televisions?
+                                        <dt><a aria-label="about the accordion information about our company" href="#" class="accordionTitle">What should we do with the televisions?
                                                 Do we
                                                 need the
                                                 original boxes?</a></dt>
@@ -162,7 +162,7 @@
                                                 the box when moved.</p>
                                         </dd>
 
-                                        <dt><a href="#" class="accordionTitle">Should we empty the dresser drawers?</a>
+                                        <dt><a aria-label="about the accordion information about our company" href="#" class="accordionTitle">Should we empty the dresser drawers?</a>
                                         </dt>
                                         <dd class="accordionItem accordionItemCollapsed">
                                             <p>Yes and no. If it is just clothing or other softer, lighter items, then
@@ -181,7 +181,7 @@
                                                 the dresser.</p>
                                         </dd>
 
-                                        <dt><a href="#" class="accordionTitle">How will you protect my carpet and
+                                        <dt><a aria-label="about the accordion information about our company" href="#" class="accordionTitle">How will you protect my carpet and
                                                 hardwood
                                                 floors?</a>
                                         </dt>
@@ -191,7 +191,7 @@
                                                 damage.</p>
                                         </dd>
 
-                                        <dt><a href="#" class="accordionTitle">Can I pack some items myself?</a></dt>
+                                        <dt><a aria-label="about the accordion information about our company" href="#" class="accordionTitle">Can I pack some items myself?</a></dt>
                                         <dd class="accordionItem accordionItemCollapsed">
                                             <p>Yes. It is recommended that you pack only unbreakable items, such as
                                                 linens
@@ -213,18 +213,18 @@
                         <div class="services-details-menu">
                             <strong>Service Menu</strong>
                             <ul class="services-menu-list">
-                            <li><a href="services-details-page.php"><i class="fa-solid fa-people-carry-box"></i> Local Moves</a>
+                            <li><a aria-label="about the services we provided" href="services-details-page.php"><i class="fa-solid fa-people-carry-box"></i> Local Moves</a>
                                 </li>
-                                <li><a href="service-two.php"><i class="fa-solid fa-truck-moving"></i> Long Distance
+                                <li><a aria-label="about the services we provided" href="service-two.php"><i class="fa-solid fa-truck-moving"></i> Long Distance
                                         Moves</a>
                                 </li>
-                                <li><a href="service-three.php"><i class="fa-solid fa-city"></i> Offices Moves</a></li>
-                                <li><a href="serice-four.php"><i class="fa-solid fa-truck-plane"></i> Commercial Moves</a>
+                                <li><a aria-label="about the services we provided" href="service-three.php"><i class="fa-solid fa-city"></i> Offices Moves</a></li>
+                                <li><a aria-label="about the services we provided" href="service-four.php"><i class="fa-solid fa-truck-plane"></i> Commercial Moves</a>
                                 </li>
-                                <li><a href="service-five.php"><i class="fa-solid fa-business-time"></i>
+                                <li><a aria-label="about the services we provided" href="service-five.php"><i class="fa-solid fa-business-time"></i>
                                         Assembly/Disassembly</a>
                                 </li>
-                                <li><a href="services-page.php"><i class="fa-solid fa-reply-all"></i> See All Services</a></li>
+                                <li><a aria-label="about the services we provided" href="services-page.php"><i class="fa-solid fa-reply-all"></i> See All Services</a></li>
                             </ul>
                         </div>
 
@@ -246,7 +246,7 @@
                                 </div>
                                 <div class="contact-details">
                                     <span>Contact Phone</span>
-                                    <p><a class="all-p" href="tel: 780-937-6666"> 780-937-6666</a></p>
+                                    <p><a aria-label="call us now" class="all-p" href="tel: 780-937-6666"> 780-937-6666</a></p>
                                 </div>
                             </div>
 
@@ -275,6 +275,11 @@
     include('inc/footer.php');
     include('inc/js.php')
         ?>
+
+<script>const navItems = document.querySelectorAll('.navbar-nav  > li a');
+        if (navItems.length >= 6) {
+            navItems[5].classList.add("active");
+        }</script>
 </body>
 
 </html>

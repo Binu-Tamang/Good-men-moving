@@ -1,16 +1,3 @@
-// js for the menu navbar
-const mobile_nav = document.querySelector(".mobile-nav-btn");
-const nav_second_top_header = document.querySelector(".heading-2");
-
-if(nav_second_top_header)
-{
-  const toggleNavbar = () => {
-    nav_second_top_header.classList.toggle("active");
-  };
-  
-  mobile_nav.addEventListener("click", () => toggleNavbar());
-}
-
 
 // scroll up to button js
 $(document).ready(function () {
@@ -108,26 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// for a counter
-// const counterUp = window.counterUp.default
 
-// const callback = entries => {
-// 	entries.forEach( entry => {
-// 		const el = entry.target
-// 		if ( entry.isIntersecting && ! el.classList.contains( 'is-visible' ) ) {
-// 			counterUp( el, {
-// 				duration: 2000,
-// 				delay: 16,
-// 			} )
-// 			el.classList.add( 'is-visible' )
-// 		}
-// 	} )
-// }
-
-// const IO = new IntersectionObserver( callback, { threshold: 1 } )
-
-// const el = document.querySelector( '.counter' )
-// IO.observe( el )
 // ========js for the counter
 const counterUp = window.counterUp.default;
 
@@ -156,23 +124,6 @@ const counterUp = window.counterUp.default;
     counterItemsObserver.observe(counterItem);
   });
 
-  // ============owl carousel 
-  $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
 
 // ======google review code
 jQuery(document).ready(function ($) {

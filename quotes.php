@@ -137,7 +137,7 @@
                         <div class="row formrow form-submit-clear">
                             <div class="col-md-12">
                                 <div class="email-btn">
-                                    <button>Send Email</button>
+                                    <button>Submit Now</button>
                                 </div>
                             </div>
                         </div>

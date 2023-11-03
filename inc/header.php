@@ -8,13 +8,15 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-start text-center">
                         <div class="logo-img">
-                            <img src="assets/img/logo-2_18_11zon.png" alt="logo of moving company">
+                            <img width="350" height="82" src="assets/img/logo-2_18_11zon.png"
+                                alt="logo of moving company">
                         </div>
                     </div>
-                    <div class="col-lg-8 d-flex text-end align-items-center justify-content-lg-end justify-content-center">
+                    <div
+                        class="col-lg-8 d-flex text-end align-items-left justify-content-lg-end justify-content-center">
                         <div class="head-budget">
                             <div class="budget">
-                                <img src="assets/img/budget-vector-logo_13_11zon.jpg" alt="">
+                                <img width="34px" height="90px" src="assets/img/budget-vector-logo_13_11zon.jpg" alt="">
                             </div>
                         </div>
                         <div class="describe-box d-sm-block d-none nav-describe-box">
@@ -23,9 +25,10 @@
                         </div>
                         <div class="nav-contact">
                             <ul>
-                                <li><a href="tel:780-937-6666"><i class="fa-solid fa-phone"></i>
+                                <li><a aria-label="call us" href="tel:780-937-6666"><i class="fa-solid fa-phone"></i>
                                         780-937-6666</a></li>
-                                <li><i class="fa-solid fa-location-dot"></i> Edmonton, AB</li>
+                                <li><a aria-label="our location" href="https://www.google.com/maps/place/Good+Men+Moving+Company.+Edmonton+Movers/@53.5054997,-113.5067579,17z/data=!3m1!4b1!4m6!3m5!1s0x53a018aa91681491:0x7af3ec43da2754c6!8m2!3d53.5054965!4d-113.504183!16s%2Fg%2F11dxl44xlx?entry=ttu">
+                                        <i class="fa-solid fa-location-dot"></i> Edmonton, AB</a></li>
                             </ul>
                         </div>
                     </div>
@@ -35,88 +38,50 @@
         <div class="head-1 d-sm-none">
             <p class="p-all">"The Professional Muscular Edmonton Movers"</p>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="navbar navbar-expand-lg  ">
-                        <div class="container-fluid">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="quote-button text-end order-lg-2">
-                                <button> <a href="quotes.php"> Get A Quote</a></button>
-                            </div>
-                            <div class="collapse navbar-collapse" id="navbarText">
-                                <ul class="navbar-default navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="about-us.php">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="services-page.php">Services</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="testimonial.php">Testimonials</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="contactus.php">Contact</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="faqs.php">FAQs</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-
-            </div>
-
-        </div>
-        <!-- <div class="head-3 heading-2">
+        <div class="navmenubar">
             <div class="container">
-
-                <div class="row d-flex">
-                    <div class="col-md-6 text-end">
-                        <div class="mobile-nav-btn text-end">
-                            <i class="toggle-nav-icons-js fa fa-2x  fas fa-bars " name="menu-outline"></i>
-                            <i class="toggle-nav-icons-js fa fa-2x fa-close" name="close-outline"></i>
-                        </div>
-                        <nav class="navbar nav-shift">
-                            <ul class="navbar-ul" id="navList">
-                                <li class="nav-item active"><a class="navbar-link" href="home.php">Home</a></li>
-                                <li class="nav-item"><a class="navbar-link" href="about-us.php">About</a></li>
-                                <li class="nav-item dropdown submenu">
-                                    <a class="navbar-link btn btn-secondary dropdown-toggle" href="services-page.php" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Services <i class="fa-solid fa-chevron-down"></i></a>
-                                    <ul class="dropdown-menu submenu-ul" aria-labelledby="dropdownMenuLink">
-                                        <li class="dropdown-item submenuli"><a href="#">Local Moves</a></li>
-                                        <li class="dropdown-item submenuli"><a href="#">Long Distance Moves</a></li>
-                                        <li class="dropdown-item submenuli"><a href="#">Office Moves</a></li>
-                                        <li class="dropdown-item submenuli"><a href="#">Commercial Moves</a></li>
-                                        <li class="dropdown-item submenuli"><a href="#">Assembly/Disassembly</a></li>
-                                        <li class="dropdown-item submenuli"><a href="#">Packing/Equipment</a></li>
-                                        <li class="dropdown-item submenuli"><a href="#">Packing and Unpacking</a></li>
-                                        <li class="dropdown-item submenuli"><a href="#">Available Storage Facilities</a></li>
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-lg p-0 ">
+                            <div class="container-fluid">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="quote-button text-end order-lg-2">
+                                    <button> <a aria-label="about the quotes" href="quotes.php"> Get A Quote</a></button>
+                                </div>
+                                <div class="collapse navbar-collapse" id="navbarText">
+                                    <ul class="navbar-default navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a aria-label="about ou home page" class="nav-link" aria-current="page" href="index.php">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a aria-label="about page section" class="nav-link" href="about-us.php">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a aria-label="about the services page" class="nav-link" href="services-page.php">Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a aria-label="about the Testimonials page" class="nav-link" href="testimonial.php">Testimonials</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a aria-label="about the contact page" class="nav-link" href="contactus.php">Contact</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a aria-label="about the FAQs page" class="nav-link" href="faqs.php">FAQs</a>
+                                        </li>
                                     </ul>
-                                </li>
-
-                                <li class="nav-item"><a class="navbar-link" href="testimonial.php">Testimonials</a>
-                                </li>
-                                <li class="nav-item"><a class="navbar-link" href="contactus.php">Contact</a></li>
-                                <li class="nav-item"><a class="navbar-link" href="faqs.php">FAQs</a></li>
-                            </ul>
+                                </div>
+                            </div>
                         </nav>
                     </div>
-                    <div class="col-md-6">
-                        <div class="quote-button">
-                            <button> <a href="quotes.php"> Get A Quote</a></button>
-                        </div>
-                    </div>
+
                 </div>
+
             </div>
-        </div> -->
+        </div>
     </div>
 </header>
 <!-- ====end of header parts ========= -->

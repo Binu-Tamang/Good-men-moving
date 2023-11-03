@@ -8,7 +8,7 @@
         </strong>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb justify-content-center text-uppercase">
-                <li class="breadcrumb-item " aria-current="page"><a href="index.php">Home</a></li>
+                <li class="breadcrumb-item " aria-current="page"><a href="index.php">Home /</a></li>
                 <li class="breadcrumb-item text-white active" aria-current="page"><a href="contactus.php"
                         style="color: #83bfed;">
                         <?php if (isset($page_name)): ?>

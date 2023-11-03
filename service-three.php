@@ -29,7 +29,7 @@
                     <div class="local-mover" id=serve-1>
                         <h2 class="contact-h aos-init aos-animate"> Office Movers</h2>
                         <div class="serv-img-left">
-                            <img src="assets/img/corporate_14_11zon.jpg" alt="2 men">
+                            <img src="assets/img/corporate_14_11zon_10_11zon.webp" alt="2 men">
                         </div> <br>
                         <div class="service-page-img">
                             <p class="good-man-moving-p aos-init aos-animate"><strong>Good Men Moving
@@ -61,7 +61,7 @@
                             adipisicing elit. Id non doloremque consequuntur
                             obcaecati sequi, enim laboriosam autem assumenda magnam laudantium tempora nesciunt?
                             Officiis, vero accusamus cupiditate iste ex neque cum.
-                            
+
                             <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id non doloremque
                             consequuntur
                             obcaecati sequi, enim laboriosam autem assumenda magnam laudantium tempora nesciunt?
@@ -71,35 +71,37 @@
                     </div>
                     <!-- <hr class="my-4"> -->
                 </div>
-                <div class="col-lg-4 d-lg-block d-none">
+                <div class="col-lg-4 gy-3 d-lg-block">
                     <div class="container">
                         <div class="services-details-menu">
                             <strong>Service Menu</strong>
                             <ul class="services-menu-list">
-                                <li><a href="services-details-page.php"><i class="fa-solid fa-people-carry-box"></i> Local Moves</a>
+                                <li><a aria-label="about the services we provided" href="services-details-page.php"><i class="fa-solid fa-people-carry-box"></i>
+                                        Local Moves</a>
                                 </li>
-                                <li><a href="service-two.php"><i class="fa-solid fa-truck-moving"></i> Long Distance
+                                <li><a aria-label="about the services we provided" href="service-two.php"><i class="fa-solid fa-truck-moving"></i> Long Distance
                                         Moves</a>
                                 </li>
-                                <li><a href="service-three.php"><i class="fa-solid fa-city"></i> Offices Moves</a></li>
-                                <li><a href="service-four.php"><i class="fa-solid fa-truck-plane"></i> Commercial Moves</a>
+                                <li><a aria-label="about the services we provided" vhref="service-three.php"><i class="fa-solid fa-city"></i> Offices Moves</a></li>
+                                <li><a href="service-four.php"><i class="fa-solid fa-truck-plane"></i> Commercial
+                                        Moves</a>
                                 </li>
-                                <li><a href="service-five.php"><i class="fa-solid fa-business-time"></i>
+                                <li><a aria-label="about the services we provided" href="service-five.php"><i class="fa-solid fa-business-time"></i>
                                         Assembly/Disassembly</a>
                                 </li>
-                                <li><a href="service-six.php"><i class="fa-solid fa-dolly"></i> Packing/Equipment</a>
+                                <li><a aria-label="about the services we provided" href="service-six.php"><i class="fa-solid fa-dolly"></i> Packing/Equipment</a>
                                 </li>
-                                <li><a href="service-seven.php"><i class="fa-solid fa-boxes-packing"></i> Packing And
+                                <li><a aria-label="about the services we provided" href="service-seven.php"><i class="fa-solid fa-boxes-packing"></i> Packing And
                                         Unpacking</a>
                                 </li>
-                                <li><a href="service-eight.php"><i class="fa-solid fa-reply-all"></i> Available Storage
+                                <li><a aria-label="about the services we provided" href="service-eight.php"><i class="fa-solid fa-reply-all"></i> Available Storage
                                         Facilities</a>
                                 </li>
 
                             </ul>
                         </div>
 
-                        <div class="services-details-menu">
+                        <div class="services-details-menu d-lg-block d-none">
                             <p><strong>Contact Us</strong></p>
                             <div class="contact-info-box">
                                 <div class="icon-contact">
@@ -117,7 +119,7 @@
                                 </div>
                                 <div class="contact-details">
                                     <span>Contact Phone</span>
-                                    <p><a class="all-p" href="tel: 780-937-6666"> 780-937-6666</a></p>
+                                    <p><a aria-label="about the services we provided" class="all-p" href="tel: 780-937-6666"> 780-937-6666</a></p>
                                 </div>
                             </div>
 
@@ -146,6 +148,16 @@
     include('inc/js.php')
         ?>
 
+    <script>const navItems = document.querySelectorAll('.services-menu-list  > li');
+        if (navItems.length >= 3) {
+            navItems[2].classList.add("active");
+        }
+    </script>
+    <script>const serviceNav = document.querySelectorAll('.navbar-nav  > li a');
+        if (serviceNav.length >= 3) {
+            serviceNav[2].classList.add("active");
+        }
+    </script>
 </body>
 
 </html>

@@ -2,325 +2,440 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- fontawesome,custom css,bootstrap css -->
-    <?php include('inc/css.php') ?>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font awesome,custom css,bootstrap css -->
+  <?php include('inc/css.php') ?>
 
 
-    <!-- favicon link -->
-    <link rel="icon" type="image/png" href="assets/img/logo-Stab_19_11zon.png">
-    <title>Home</title>
+  <!-- favicon link -->
+  <link rel="icon" type="images/png" href="">
+  <title>Good Men Moving</title>
 </head>
 
 <body>
-    <!-- header parts start -->
+  <!-- header parts start -->
   <?php include('inc/header.php') ?>
   <!-- header part ends -->
 
-    <!-- banner part start -->
-    <section class="banner-part">
-        <div class="banner-look">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item banner-element active">
-                        <img src="assets/img/slider/3men_1_11zon.jpg" class="d-block w-100" alt="good 3 men moving">
-                        <div class="banner-text">
-                            <strong>Good Men Moving</strong>
-                            <p class="banner-p">We are dedicated to making your move easy and affordable within your
-                                budget,
-                                with honesty and integrity. A local family owned and operated moving company serving
-                                Edmonton, ST Albert and Sherwood Park.</p>
-                            <div class="banner-btn">
-                                <a class="banner-read-more" href="about-us.php">Read More <i
-                                        class="fa-solid fa-angle-right"></i></a>
-                                <a class="banner-quote-a" href="quotes.php">Get A Qoute</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item banner-element">
-                        <img src="assets/img/slider/view1_5_11zon.jpg" class="d-block w-100" alt="green and city">
-                        <div class="banner-text">
-                            <strong>Good Men Moving</strong>
-                            <p class="banner-p"> We are dedicated to making your move easy and affordable within your
-                                budget, with honesty
-                                and integrity. A local family owned and operated business.</p>
-                            <div class="banner-btn">
-                                <a class="banner-read-more" href="about-us.php">Read More <i
-                                        class="fa-solid fa-angle-right"></i></a>
-                                <a class="banner-quote-a" href="quotes.php">Get A Qoute</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item banner-element">
-                        <img src="assets/img/slider/truck2_4_11zon.jpg" class="d-block w-100" alt="truck load">
-                        <div class="banner-text">
-                            <strong>Good Men Moving</strong>
-                            <p class="banner-p">We are voted one of the best moving company in Edmonton</p>
-                            <div class="banner-btn">
-                                <a class="banner-read-more" href="about-us.php">Read More <i
-                                        class="fa-solid fa-angle-right"></i></a>
-                                <a class="banner-quote-a" href="quotes.php">Get A Qoute</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item banner-element">
-                        <img src="assets/img/slider/best_2_11zon.jpg" class="d-block w-100" alt="city view">
-                        <div class="banner-text">
-                            <strong>Good Men Moving</strong>
-                            <p class="banner-p">We are dedicated to making your move easy and affordable to your budget,
-                                with honesty and integrity. A local family owned and operated moving company serving
-                                Edmonton, ST Albert and Sherwood Park.</p>
-                            <div class="banner-btn">
-                                <a class="banner-read-more" href="about-us.php">Read More <i
-                                        class="fa-solid fa-angle-right"></i></a>
-                                <a class="banner-quote-a" href="quotes.php">Get A Qoute</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item banner-element">
-                        <img src="assets/img/truck1_24_11zon.jpg" class="d-block w-100" alt="people loading">
-                        <div class="banner-text">
-                            <strong>Good Men Moving- Your Trusted Edmonton Movers</strong>
-                            <p class="banner-p">We are dedicated to making your move easy and affordable to your budget,
-                                with honesty and integrity. A local family owned and operated business.
-                            </p>
-                            <div class="banner-btn">
-                                <a class="banner-read-more" href="about-us.php">Read More <i
-                                        class="fa-solid fa-angle-right"></i></a>
-                                <a class="banner-quote-a" href="quotes.php">Get A Qoute</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+  <!-- banner part start -->
+  <section class="banner-part">
+    <div class="banner-look">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item banner-element active">
+            <img loading="lazy" data-src="assets/img/slider/3men_1_11zon.jpg" class="d-block w-100" alt="good 3 men moving">
+          </div>
+          <div class="carousel-item banner-element">
+            <img loading="lazy" data-src="assets/img/slider/view1_5_11zon.jpg" class="d-block w-100" alt="green and city">
+          </div>
+          <div class="carousel-item banner-element">
+            <img loading="lazy" data-src="assets/img/slider/truck2_4_11zon.jpg" class="d-block w-100" alt="truck load">
+          </div>
+          <div class="carousel-item banner-element">
+            <img loading="lazy" data-src="assets/img/slider/best_2_11zon.jpg" class="d-block w-100" alt="city view">
+          </div>
+          <div class="carousel-item banner-element">
+            <img loading="lazy" data-src="assets/img/slider/banner-bg_11zon.webp" class="d-block w-100" alt="people loading">
+          </div>
         </div>
-    </section>
-    <!-- banner part ends -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="banner-details-slider">
+      <div data-aos="fade-right">
+        <strong class="d-block">We Are Good Men Moving Company</strong>
+      </div>
+      <p data-aos="fade-left" class="respo-banner-p1">We are dedicated to making your move easy and affordable within your budget, with
+        honesty and integrity. A
+        local
+        family owned and operated business.</p>
+      <p data-aos="fade-left" class="respo-banner-p2" >Your affordable, honest, and family-owned partner for an easy move within your budget.</p>
+      <div class="banner-readmore">
+        <button><a aria-label="read more about it" href="about-us.php">Read More</a></button>
+      </div>
+    </div>
+  </section>
+  <!-- banner part ends -->
 
-    <!-- =====Edmonton Movers==== -->
-    <section class="movers-gmen" data-aos="fade-right">
-        <div class="container">
-            <div class="good-men-movers">
-                <h1>Edmonton Movers</h1>
-                <p class="good-man-moving-p aos-init aos-animate">Good Men Moving Company Your Trusted Family-Owned
-                    Edmonton Movers for Over 25 Years At Good
-                    Men
-                    Moving Company, we take pride in being a family-owned Edmonton moving company that has been serving
-                    the
-                    community for over 25 years.
-                    <br>
-                    Our dedication to providing worry-free professional moving services at unbeatable rates has made us
-                    the
-                    top
-                    choice for countless customers in the city.
-                    <br>
-                    When you choose us, you can trust that you are in capable hands. Our crews consist of highly trained
-                    and
-                    experienced professional Edmonton movers who are committed to delivering exceptional service.
-                    <br>
-                    Whether you need help with packing, unpacking, assembly, disassembly, or handling small to large
-                    moves,
-                    our
-                    goal is to take care of you and your belongings every step of the way.
-                    <br>
-                    Don't just take our word for it - we have been voted Edmonton's Best Movers, a testament to the
-                    quality
-                    of
-                    service we provide.
-                    <br>
-                    Join the many satisfied customers who have entrusted their moves to Good Men Moving Company and
-                    experience a
-                    stress-free moving experience like never before.
-                    <br>
-                    Contact Us Today to make your next move a breeze.
-                </p>
+  <!-- company services starts -->
+  <section class="company-services">
+    <div class="container">
+      <div class="services-box-wrapper">
+        <span class="good-men-moving">Good Men Moving</span>
+        <h2 class="good-men-h2 p-0">"The Professional Muscular Edmonton Movers"</h2>
+        <div class="row">
+          <div class="col-md-1">
+
+          </div>
+          <div class="col-md-2 col-6">
+            <div class="company-services-box">
+              <div class="services-img flip-container">
+                <i class="fa-solid fa-earth-americas" data-aos="flip-right"></i>
+              </div>
+              <div class="service-info">
+                <span class="heading-span">Residential Moving</span>
+              </div>
             </div>
-        </div>
-    </section>
+          </div>
+          <div class="col-md-2 col-6">
+            <div class="company-services-box">
+              <div class="services-img flip-container">
+                <i class="fa-solid fa-building" data-aos="flip-right"></i>
+              </div>
+              <div class="service-info">
+                <span class="heading-span">Commercial Moving</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-6">
+            <div class="company-services-box">
+              <div class="services-img flip-container">
+                <i class="fa-solid fa-boxes-packing" data-aos="flip-right"></i>
+              </div>
+              <div class="service-info">
+                <span class="heading-span">Packing Services</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 hide-box">
+            <div class="company-services-box">
+              <div class="services-img flip-container">
+                <i class="fa-solid fa-people-carry-box" data-aos="flip-right"></i>
+              </div>
+              <div class="service-info">
+                <span class="heading-span">Moving Supplies</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-6">
+            <div class="company-services-box">
+              <div class="services-img flip-container">
+                <i class="fa-solid fa-truck-fast" data-aos="flip-right"></i>
+              </div>
+              <div class="service-info">
+                <span class="heading-span">We Make it Faster</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1">
 
-    <!-- ==== good men movers offer=== -->
-    <section class="gmm-offers">
-        <div class="container">
-            <div class="gmm-offers-box">
-                <h2>WHAT WE OFFER</h2>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="gmm-offers-ul">
-                            <ul>
-                                <li data-aos="flip-up" ><img src="assets/img/010-magnifying-lens-as-head-of-business-professional_10_11zon.png"
-                                        alt="offers of company"><span class="offer-heading">PROFESSIONAL
-                                        EDMONTON MOVERS</span></li>
-                                <li data-aos="flip-up"><img src="assets/img/003-budget_4_11zon.png" alt="offers of company"><span
-                                        class="offer-heading">NO MINIMUM
-                                        CHARGE & AFFORDABLE RATES</span></li>
-                                <li data-aos="flip-up"><img src="assets/img/008-technology_8_11zon.png" alt="offers of company"><span
-                                        class="offer-heading">OFFICE &
-                                        BUSINESS RELOCATION</span></li>
-                                <li data-aos="flip-up"><img src="assets/img/004-apartments_6_11zon.png" alt="offers of company"><span
-                                        class="offer-heading">APARTMENT
-                                        BUILDING AND PRIVATE HOME MOVES</span></li>
-                                <li data-aos="flip-up"><img src="assets/img/002-insurance-agent_3_11zon.png" alt="offers of company"><span
-                                        class="offer-heading">INSURANCE AND
-                                        SERVICE CONTRACTS</span></li>
-                            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- company services ends -->
+
+  <!-- about company parts starts -->
+  <section class="about-good-men-moving">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="img-good-men-moving">
+            <div class="abou-img-left">
+              <img loading="lazy" data-src="assets/img/lifting_3_11zon.webp" alt="3 men" data-aos="fade-right">
+              <img loading="lazy" data-src="assets/img/packing-moving-box_20_11zon.webp" alt="3 men" data-aos="fade-right">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="about-gmm-info">
+            <span class="good-men-moving">About Good Men Moving</span>
+            <h2 class="good-men-h2" data-aos="fade-left">We're Your Moving Partner</h2>
+            <p class="good-man-moving-p" data-aos="fade-left">Good Men Moving Company is a well-established and
+              reputable moving company based in Edmonton, Canada. With a proud history spanning over 25 years, we have
+              consistently delivered top-notch moving services to the local community. As a family-owned business, we
+              prioritize personalized care and attention to detail, ensuring that each customer's unique moving needs
+              are met with professionalism and reliability.<br> Our enduring commitment to excellence means you can
+              trust us
+              to provide a seamless and stress-free moving experience, making your transition as smooth as possible.
+              Whether you're relocating locally or long-distance, Good Men Moving Company is here to assist you with
+              integrity and dedication.
+            </p>
+            <div class="about-icon" data-aos="fade-left">
+              <div class="about-box">
+                <i class="fa-solid fa-users"></i>
+                <h3>Local Moves</h3>
+              </div>
+              <div class="about-box">
+                <i class="fa-solid fa-truck"></i>
+                <h3>Office Moves</h3>
+              </div>
+            </div>
+            <ul data-aos="fade-up">
+              <li>Bringing solutions to moving problems</li>
+              <li>Packing and unpacking</li>
+              <li>No minimum charge & affordable rates</li>
+              <li>Professional Edmonton Movers</li>
+              <li>Cross-Town Moving, Long Distance Moving</li>
+            </ul>
+            <div class="btn-about-gmm" data-aos="fade-up">
+              <button class="about-btn">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- abouts company ends -->
+
+  <!-- choosen part starts -->
+  <section class="choosen-part">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-items-center d-flex">
+          <div class="choose-up-left" data-aos="fade-right">
+            <span class="good-men-moving">Why Good Men Moving</span>
+            <h2 class="good-men-h2 ">The Top Choice for Your Service Needs</h2>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="choose-up-right">
+            <p class="good-man-moving-p" data-aos="fade-left">Our dedication to excellence goes beyond merely
+              transporting your belongings. We ensure that your experience is stress-free by offering additional
+              services such as packing, unpacking, and storage solutions. Our friendly and efficient staff is always
+              ready to assist you throughout your moving journey, providing peace of mind during this important
+              transition.
+              <br>
+              At Good Men Moving Company, we take pride in being a local, family-owned business that understands the
+              needs of our community intimately. We've built our reputation on trust and reliability, making us the top
+              choice for anyone seeking exceptional service and a smooth, worry-free moving experience. Your
+              satisfaction is our priority, and we're here to make your move as seamless and enjoyable as possible.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="choose-3-boxes">
+        <div class="row">
+          <div class="col-md-3">
+            <img height="70px" width="70px" class="flip-container"
+             loading="lazy" data-src="assets/img/003-discount-label-interface-commercial-symbol-with-percentage-sign_5_11zon.png"
+              alt="discount tag">
+            <h3>DISCOUNTED PACKING SUPPLIES</h3>
+            <p class="good-man-moving-p" data-aos="fade-up">We are thrilled to introduce an exciting new offering that
+              will make your
+              moving and loading experiences
+              even more convenient and cost-effective our range of Discounted Packing Supplies.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <img height="70px" width="70px" class="flip-container" loading="lazy" data-src="assets/img/002-insurance-agent_3_11zon.png" alt="insurance people">
+            <h3>INSURANCE AND SERVICE CONTRACTS</h3>
+            <p class="good-man-moving-p" data-aos="fade-up">We prioritize the security of your belongings, which is why
+              we offer
+              comprehensive Insurance and Service
+              Contracts to provide you with peace of mind during the moving process.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <img height="70px" width="70px" class="flip-container" loading="lazy" data-src="assets/img/007-placeholder-with-check-mark_7_11zon.png" alt="">
+            <h3>CROSS-TOWN MOVING</h3>
+            <p class="good-man-moving-p" data-aos="fade-up">Our commitment to excellence and customer satisfaction
+              remains unwavering as we
+              introduce our specialized
+              services for Cross-Town Moving and Long-Distance Moving.</p>
+          </div>
+          <div class="col-md-3">
+            <div class="call-us-now" data-aos="fade-left">
+              <h4>Call Us Now!</h4>
+              <a aria-label="call this number" href="tel:780-937-6666"><i class="fa-solid fa-phone"></i> 780-937-6666</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- choosen parts ends -->
+
+  <!-- goodmen our services starts  -->
+  <section class="goodmen-our-services">
+    <span class="good-men-moving" data-aos="fade-down">Good Men Moving</span>
+    <h4 data-aos="fade-down">Our Services</h4>
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-4">
+          <div class="our-services-boxes" data-aos="fade-up">
+            <img loading="lazy" data-src="assets/img/residential_moving_21_11zon_2_11zon.webp" alt="residential moving">
+            <h5>Local Moves</h5>
+            <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
+              nec.</p>
+            <a aria-label="about service page" href="services-details-page.php">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="our-services-boxes" data-aos="fade-up">
+            <img loading="lazy" data-src="assets/img/blue-moving-truck_12_11zon.webp" alt="truck carrying loads">
+            <h5>Long Distance Moves</h5>
+            <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
+              nec.</p>
+            <a aria-label="learn more about it" href="service-two.php">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="our-services-boxes" data-aos="fade-up">
+            <img loading="lazy" data-src="assets/img/corporate_14_11zon.jpg" alt="office building">
+            <h5>Offices Moves</h5>
+            <p class="good-man-moving-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
+              nec.</p>
+            <a aria-label="learn more about it" href="service-three.php">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="our-services-btn mt-3" data-aos="fade-up">
+        <button><a aria-label="view more about it" href="services-page.php">View More <i class="fa-solid fa-arrow-right"></i></a></button>
+      </div>
+    </div>
+  </section>
+  <!-- goodmen our services ends  -->
+
+  <!-- testimonials starts -->
+  <section class="good-men-testimonials">
+    <div class="container">
+      <div class="review-box">
+        <span class="good-men-moving">TESTIMONIAL</span>
+        <h5>Our Reviews</h5>
+      </div>
+      <div class="review-slider">
+        <!-- <link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css"> -->
+
+
+        <div id="google-reviews"></div>
+        <div class="review-btn">
+          <div class="view-review review">
+            <a aria-label="all about google review" target="_blank"
+              href="https://www.google.com/search?q=good+men+moving+edmonton&oq=good+men&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAuGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgYIBRBFGEEyBggGEEUYPDIGCAcQRRg80gEIMjc1MWowajmoAgCwAgA&sourceid=chrome&ie=UTF-8&bshm=rime/1#lrd=0x53a018aa91681491:0x7af3ec43da2754c6,1,,,,">View
+              All Google Reviews <i class="fa-solid fa-circle-chevron-right"></i></a>
+          </div>
+          <div class="write-review review">
+            <a aria-label="write a google review" target="_blank"
+              href="https://www.google.com/search?q=good+men+moving+edmonton&oq=good+men&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAuGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgYIBRBFGEEyBggGEEUYPDIGCAcQRRg80gEIMjc1MWowajmoAgCwAgA&sourceid=chrome&ie=UTF-8&bshm=rime/1#lrd=0x53a018aa91681491:0x7af3ec43da2754c6,3,,,,">Write
+              A Reviews <i class="fa-solid fa-circle-chevron-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- testimonials ends -->
+  <!-- ===========contact us form============ -->
+  <section class="contact-form">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-left">
+            <div class="container-form">
+              <h5 class="contact-h">Contact Form</h5>
+              <div class="form-container">
+                <form id="moveForm">
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="class-form">
+                          <label for="firstName">First Name:</label>
+                          <input placeholder="First Name" type="text" id="firstName" name="firstName" required>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="gmm-offers-ul">
-                            <ul>
-                                <li data-aos="flip-up"><img src="assets/img/009-delivery-package-opened_9_11zon.png"
-                                        alt="offers of company"><span class="offer-heading">PACKING AND
-                                        UNPACKING</span></li>
-                                <li data-aos="flip-up"><img src="assets/img/001-strategy_2_11zon.png" alt="offers of company"><span
-                                        class="offer-heading">MOVE PLANNING
-                                        AND EXECUTION</span></li>
-                                <li data-aos="flip-up"><img src="assets/img/007-placeholder-with-check-mark_7_11zon.png"
-                                        alt="offers of company"><span class="offer-heading">CROSS-TOWN
-                                        MOVING, LONG DISTANCE MOVING</span></li>
-                                <li data-aos="flip-up"><img src="assets/img/003-discount-label-interface-commercial-symbol-with-percentage-sign_5_11zon.png"
-                                        alt="offers of company"><span class="offer-heading">DISCOUNTED
-                                        PACKING SUPPLIES</span></li>
-                                <li data-aos="flip-up"><img src="assets/img/001-pc-computer-with-monitor_1_11zon.png"
-                                        alt="offers of company"><span class="offer-heading">CORRUGATED
-                                        MOVING BOXES FOR ELECTRONICS AND VALUABLES</span></li>
-                            </ul>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="class-form">
+                          <label for="lastName">Last Name:</label>
+                          <input placeholder="Last Name" type="text" id="lastName" name="lastName" required>
                         </div>
+                      </div>
                     </div>
-                </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="class-form">
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <div class="class-form">
+                            <label for="phoneNumber">Phone Number:</label>
+                            <input placeholder="Your Number" type="tel" pattern="^\d{10}$" id="phoneNumber"
+                              name="phoneNumber" placeholder="" required>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <div class="class-form">
+                            <label for="subject">Subject:</label>
+                            <input type="name" class="form-control" id="subject" name="subject" placeholder="Subject"
+                              required>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <div class="class-form">
+                            <label for="message">Message:</label>
+                            <textarea name="message" id="message" class="form-control" placeholder="Your Message"
+                              rows="5"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button type="submit">Submit <i class="fa-regular fa-paper-plane"></i></button>
+                </form>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-
-    <!-- ========our serviceshtml starts -->
-    <section class="home-services">
-        <div class="container">
-            <h3>OUR <span>SERVICES</span></h3>
-            <div class="owl-carousel owl-theme" data-aos="fade-down">
-                <div class="item service-owl-img">
-                    <img class="serv-image" src="assets/img/residential_moving_21_11zon.jpg" alt="services of company">
-                    <h4>Local Moves</h4>
-                    <div class="middle-text">
-                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-                </div>
-                <div class="item service-owl-img">
-                    <img class="serv-image" src="assets/img/uship-investment-tracker_26_11zon.jpg"
-                        alt="services of company">
-                    <h4>Long Distance Moves</h4>
-                    <div class="middle-text">
-                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-                </div>
-                <div class="item service-owl-img">
-                    <img class="serv-image" src="assets/img/corporate_14_11zon.jpg" alt="services of company">
-                    <h4>Office Moves</h4>
-                    <div class="middle-text">
-                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-                </div>
-                <div class="item service-owl-img">
-                    <img class="serv-image" src="assets/img/img4_16_11zon.jpg" alt="services of company">
-                    <h4>Commercial Moves</h4>
-                    <div class="middle-text">
-                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-                </div>
-                <div class="item service-owl-img">
-                    <img class="serv-image" src="assets/img/slider/sv8_3_11zon.jpg" alt="services of company">
-                    <h4>Assembly and Disassembly of any size or type</h4>
-                    <div class="middle-text">
-                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-                </div>
-                <div class="item service-owl-img">
-                    <img class="serv-image" src="assets/img/img3_15_11zon.jpg" alt="services of company">
-                    <h4>Wide variety of boxes and packing Equipment</h4>
-                    <div class="middle-text">
-                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-                </div>
-                <div class="item service-owl-img">
-                    <img class="serv-image" src="assets/img/packing-moving-box_20_11zon.jpg" alt="services of company">
-                    <h4>Packing and unpacking</h4>
-                    <div class="middle-text">
-                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-                </div>
-                <div class="item service-owl-img">
-                    <img class="serv-image" src="assets/img/sv2_23_11zon.jpg" alt="services of company">
-                    <h4>Available storage Facilities</h4>
-                    <div class="middle-text">
-                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-                </div>
+        <div class="col-md-6">
+          <div class="form-right">
+            <div class="our-info-form">
+              <span>Appointment</span>
+              <h5 class="contact-h" data-aos="fade-left">Make An Appointment</h5>
+              <p class="good-man-moving-p" data-aos="fade-left">Fill in the form below to send us a message or to ask
+                about any queries you
+                might have.</p>
             </div>
+            <div class="details-form" data-aos="flip-up">
+              <i class="fa-regular fa-comments"></i>
+              <p>
+                <b>Customer Service</b><a aria-label="call us" href="tel:780-937-6666">780-937-6666</a>
+              </p>
+            </div>
+            <div class="details-form" data-aos="flip-up">
+              <i class="fa-solid fa-map-location-dot"></i>
+              <p>
+                <b>Our Address</b><a aria-label="our location" href="#">6825 106 St, Edmonton, AB T6H 2W1</a>
+              </p>
+            </div>
+            <div class="details-form" data-aos="flip-up">
+              <i class="fa-regular fa-clock"></i>
+              <p>
+                <b>Opening Hours</b><a aria-label="time we consumed" href="#">24 hours 7 days a Week</a>
+              </p>
+            </div>
+          </div>
         </div>
-    </section>
-
-    <!-- ==== call us tody hrml part starts ====== -->
-    <section class="callus-main">
-        <div class="call-us-box">
-            <div class="container">
-                <h5 data-aos="fade-down">Call Today To See How We Can Make Moving Easy!</h5>
-                <p>We Are Open 24/7 - Call or Text - <a href="tel:780-937-6666">780-937-6666</a> </p>
-                <div class="call-us-btn">
-                    <a data-aos="fade-right" class="call-now" href="tel:780-937-6666"> CALL US NOW</a>
-                    <a data-aos="fade-left" class="text-us" href="#"> TEXT US</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- testimonials starts -->
-    <section class="good-men-testimonials">
-        <div class="container">
-            <div class="review-box">
-                <span class="good-men-moving">TESTIMONIAL</span>
-                <h5>Our Reviews</h5>
-            </div>
-            <div class="review-slider">
-                <!-- <link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css"> -->
-
-
-                <div id="google-reviews"></div>
-                <div class="review-btn">
-                    <div class="view-review review">
-                        <a target="_blank"
-                            href="https://www.google.com/search?q=good+men+moving+edmonton&oq=good+men&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAuGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgYIBRBFGEEyBggGEEUYPDIGCAcQRRg80gEIMjc1MWowajmoAgCwAgA&sourceid=chrome&ie=UTF-8&bshm=rime/1#lrd=0x53a018aa91681491:0x7af3ec43da2754c6,1,,,,">View
-                            All Google Reviews <i class="fa-solid fa-circle-chevron-right"></i></a>
-                    </div>
-                    <div class="write-review review">
-                        <a target="_blank"
-                            href="https://www.google.com/search?q=good+men+moving+edmonton&oq=good+men&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAuGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgYIBRBFGEEyBggGEEUYPDIGCAcQRRg80gEIMjc1MWowajmoAgCwAgA&sourceid=chrome&ie=UTF-8&bshm=rime/1#lrd=0x53a018aa91681491:0x7af3ec43da2754c6,3,,,,">Write
-                            A Reviews <i class="fa-solid fa-circle-chevron-right"></i></a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- testimonials ends -->
-    <!-- ---------------------------footer starts--------------------- -->
-    <?php
-    include('inc/footer.php');
-    include('inc/js.php')
-        ?>
+      </div>
+    </div>
+  </section>
+  <!-- ======================= -->
+  <!-- ---------------------------footer starts--------------------- -->
+  <?php
+  include('inc/footer.php');
+  include('inc/js.php')
+    ?>
+    <script>const navItems = document.querySelectorAll('.navbar-nav  > li a');
+        if (navItems.length >= 1) {
+            navItems[0].classList.add("active");
+        }</script>
 </body>
 
 </html>

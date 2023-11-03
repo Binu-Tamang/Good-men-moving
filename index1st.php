@@ -9,8 +9,8 @@
 
 
     <!-- favicon link -->
-    <link rel="icon" type="images/png" href="">
-    <title>Navigation Bar</title>
+    <link rel="icon" type="image/png" href="assets/img/logo-Stab_19_11zon.png">
+    <title>Home</title>
 </head>
 
 <body>
@@ -32,9 +32,9 @@
                                 with honesty and integrity. A local family owned and operated moving company serving
                                 Edmonton, ST Albert and Sherwood Park.</p>
                             <div class="banner-btn">
-                                <a aria-label="read more about us" class="banner-read-more" href="about-us.php">Read More <i
+                                <a class="banner-read-more" href="about-us.php">Read More <i
                                         class="fa-solid fa-angle-right"></i></a>
-                                <a aria-label="about our quotes section" class="banner-quote-a" href="quotes.php">Get A Qoute</a>
+                                <a class="banner-quote-a" href="quotes.php">Get A Qoute</a>
                             </div>
                         </div>
                     </div>
@@ -47,9 +47,9 @@
                                 budget, with honesty
                                 and integrity. A local family owned and operated business.</p>
                             <div class="banner-btn">
-                                <a aria-label="about us section" class="banner-read-more" href="about-us.php">Read More <i
+                                <a class="banner-read-more" href="about-us.php">Read More <i
                                         class="fa-solid fa-angle-right"></i></a>
-                                <a aria-label="about the get a quote" class="banner-quote-a" href="quotes.php">Get A Qoute</a>
+                                <a class="banner-quote-a" href="quotes.php">Get A Qoute</a>
                             </div>
                         </div>
                     </div>
@@ -60,9 +60,9 @@
                             <strong>Good Men Moving</strong>
                             <p class="banner-p">We are voted one of the best moving company in Edmonton</p>
                             <div class="banner-btn">
-                                <a aria-label="read more about it" class="banner-read-more" href="about-us.php">Read More <i
+                                <a class="banner-read-more" href="about-us.php">Read More <i
                                         class="fa-solid fa-angle-right"></i></a>
-                                <a aria-label="read more about quotes" class="banner-quote-a" href="quotes.php">Get A Qoute</a>
+                                <a class="banner-quote-a" href="quotes.php">Get A Qoute</a>
                             </div>
                         </div>
                     </div>
@@ -75,9 +75,9 @@
                                 with honesty and integrity. A local family owned and operated moving company serving
                                 Edmonton, ST Albert and Sherwood Park.</p>
                             <div class="banner-btn">
-                                <a aria-label="read more about us" class="banner-read-more" href="about-us.php">Read More <i
+                                <a class="banner-read-more" href="about-us.php">Read More <i
                                         class="fa-solid fa-angle-right"></i></a>
-                                <a aria-label="read more about quote" class="banner-quote-a" href="quotes.php">Get A Qoute</a>
+                                <a class="banner-quote-a" href="quotes.php">Get A Qoute</a>
                             </div>
                         </div>
                     </div>
@@ -90,9 +90,9 @@
                                 with honesty and integrity. A local family owned and operated business.
                             </p>
                             <div class="banner-btn">
-                                <a aria-label="read more about us" class="banner-read-more" href="about-us.php">Read More <i
+                                <a class="banner-read-more" href="about-us.php">Read More <i
                                         class="fa-solid fa-angle-right"></i></a>
-                                <a aria-label="get a quote" class="banner-quote-a" href="quotes.php">Get A Qoute</a>
+                                <a class="banner-quote-a" href="quotes.php">Get A Qoute</a>
                             </div>
                         </div>
                     </div>
@@ -216,7 +216,7 @@
                     <img class="serv-image" src="assets/img/residential_moving_21_11zon.jpg" alt="services of company">
                     <h4>Local Moves</h4>
                     <div class="middle-text">
-                        <a aria-label="read more about us" href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
+                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
                 <div class="item service-owl-img">
@@ -224,49 +224,49 @@
                         alt="services of company">
                     <h4>Long Distance Moves</h4>
                     <div class="middle-text">
-                        <a aria-label="read more about us" href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
+                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
                 <div class="item service-owl-img">
                     <img class="serv-image" src="assets/img/corporate_14_11zon.jpg" alt="services of company">
                     <h4>Office Moves</h4>
                     <div class="middle-text">
-                        <a aria-label="read more about us" href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
+                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
                 <div class="item service-owl-img">
                     <img class="serv-image" src="assets/img/img4_16_11zon.jpg" alt="services of company">
                     <h4>Commercial Moves</h4>
                     <div class="middle-text">
-                        <a aria-label="read more about us" href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
+                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
                 <div class="item service-owl-img">
                     <img class="serv-image" src="assets/img/slider/sv8_3_11zon.jpg" alt="services of company">
                     <h4>Assembly and Disassembly of any size or type</h4>
                     <div class="middle-text">
-                        <a aria-label="read more about us" href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
+                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
                 <div class="item service-owl-img">
                     <img class="serv-image" src="assets/img/img3_15_11zon.jpg" alt="services of company">
                     <h4>Wide variety of boxes and packing Equipment</h4>
                     <div class="middle-text">
-                        <a aria-label="read more about us" href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
+                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
                 <div class="item service-owl-img">
                     <img class="serv-image" src="assets/img/packing-moving-box_20_11zon.jpg" alt="services of company">
                     <h4>Packing and unpacking</h4>
                     <div class="middle-text">
-                        <a aria-label="read more about us" href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
+                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
                 <div class="item service-owl-img">
                     <img class="serv-image" src="assets/img/sv2_23_11zon.jpg" alt="services of company">
                     <h4>Available storage Facilities</h4>
                     <div class="middle-text">
-                        <a aria-label="read more about us" href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
+                        <a href="#" class="serv-text">Read More <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -278,10 +278,10 @@
         <div class="call-us-box">
             <div class="container">
                 <h5 data-aos="fade-down">Call Today To See How We Can Make Moving Easy!</h5>
-                <p>We Are Open 24/7 - Call or Text - <a aria-label="call us now" href="tel:780-937-6666">780-937-6666</a> </p>
+                <p>We Are Open 24/7 - Call or Text - <a href="tel:780-937-6666">780-937-6666</a> </p>
                 <div class="call-us-btn">
-                    <a aria-label="callus now" data-aos="fade-right" class="call-now" href="tel:780-937-6666"> CALL US NOW</a>
-                    <a aria-label="message us now" data-aos="fade-left" class="text-us" href="#"> TEXT US</a>
+                    <a data-aos="fade-right" class="call-now" href="tel:780-937-6666"> CALL US NOW</a>
+                    <a data-aos="fade-left" class="text-us" href="#"> TEXT US</a>
                 </div>
             </div>
         </div>
@@ -301,12 +301,12 @@
                 <div id="google-reviews"></div>
                 <div class="review-btn">
                     <div class="view-review review">
-                        <a aria-label="about goole review" target="_blank"
+                        <a target="_blank"
                             href="https://www.google.com/search?q=good+men+moving+edmonton&oq=good+men&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAuGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgYIBRBFGEEyBggGEEUYPDIGCAcQRRg80gEIMjc1MWowajmoAgCwAgA&sourceid=chrome&ie=UTF-8&bshm=rime/1#lrd=0x53a018aa91681491:0x7af3ec43da2754c6,1,,,,">View
                             All Google Reviews <i class="fa-solid fa-circle-chevron-right"></i></a>
                     </div>
                     <div class="write-review review">
-                        <a aria-label="write a review" target="_blank"
+                        <a target="_blank"
                             href="https://www.google.com/search?q=good+men+moving+edmonton&oq=good+men&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAuGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgYIBRBFGEEyBggGEEUYPDIGCAcQRRg80gEIMjc1MWowajmoAgCwAgA&sourceid=chrome&ie=UTF-8&bshm=rime/1#lrd=0x53a018aa91681491:0x7af3ec43da2754c6,3,,,,">Write
                             A Reviews <i class="fa-solid fa-circle-chevron-right"></i></a>
                     </div>
